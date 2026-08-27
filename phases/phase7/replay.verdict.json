@@ -1,0 +1,29 @@
+{
+  "attack": "replay_divergence",
+  "premise": "identical input must yield identical decision AND identical seal, regardless of repetition, interleaving, or ordering",
+  "tests": [
+    {
+      "test": "pure_replay_x20",
+      "passed": true,
+      "detail": "decisions={'Observe'} seals={'0x48eafa58d66f2efc'}"
+    },
+    {
+      "test": "interleaved_replay",
+      "passed": true,
+      "detail": "A-seals={'0x48eafa58d66f2efc'} want {0x48eafa58d66f2efc}"
+    },
+    {
+      "test": "no_seal_collision",
+      "passed": true,
+      "detail": "seals=0x48eafa58d66f2efc/0xc9dbca883313d255/0x64dc85cd23e2d63c"
+    },
+    {
+      "test": "key_reorder_same_seal",
+      "passed": true,
+      "detail": "reordered -> Observe/0x48eafa58d66f2efc vs ref Observe/0x48eafa58d66f2efc"
+    }
+  ],
+  "verdict": "REPLAY_DETERMINISTIC_ZERO_DIVERGENCE",
+  "reference_decision": "Observe",
+  "reference_seal": "0x48eafa58d66f2efc"
+}

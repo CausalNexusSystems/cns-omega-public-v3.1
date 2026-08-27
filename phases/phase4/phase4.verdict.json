@@ -1,0 +1,13 @@
+{
+  "baseline_root": "5802a326116039e2da29e208b2abdc89c69eb11afc8073f9f78148bb06a5c9fe",
+  "tampered_root": "db8c2a954ba61719bba241ae1e4d8cd8ba349a9d74aa95e9205a9a629cc65caf",
+  "sealed_root": "5802a326116039e2da29e208b2abdc89c69eb11afc8073f9f78148bb06a5c9fe",
+  "tamper_performed": true,
+  "tamper_detected": true,
+  "reproducible_vs_original": true,
+  "tampered_files": [
+    "data/audit.json"
+  ],
+  "target_run": "runs/CNS_SOVEREIGN_KERNEL_RUN_20260827T010520Z",
+  "verdict": "PHASE4_PASS"
+}

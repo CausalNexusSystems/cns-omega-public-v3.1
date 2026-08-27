@@ -1,0 +1,31 @@
+======================================================================
+  CNS SOVEREIGN KERNEL - OMEGA v3.1
+  PHASE 5 - SUPPLY-CHAIN / BRIBED ENGINEER
+  Is a tampered binary detectable, and is the build reproducible?
+  Anthony Moreno, Founder & CEO - Causal Nexus Systems LLC
+  USPTO Provisional #63/896,666, #64/043,866, #64/067,492
+======================================================================
+
+WHAT THIS PHASE TESTS
+The legitimate binary is hashed; a 'bribe' flips one byte of a copy. The
+tampered binary must be detectable by hash, and the build must be bit-
+reproducible from source.
+
+RESULTS
+  Bribed binary detectable : True
+  Build bit-reproducible   : True
+  Verdict                  : PHASE5_PASS
+
+WHY THIS RESULT
+Any single-byte change to the binary changes its SHA-256, so a supply-chain swap
+is caught by the seal. Recompiling from source yielded a bit-identical binary,
+so an auditor can independently reproduce and verify the exact build.
+
+EVIDENCE SEALS (SHA-256 of every file in this phase):
+
+  40471b1fc27d5af508f26f32d0b4611120b7eeb8d76a1004e7c9f47052392c47  bribed_out.txt
+  40471b1fc27d5af508f26f32d0b4611120b7eeb8d76a1004e7c9f47052392c47  legit_out.txt
+  90bc454e3bdfc4094fa5b88ed55f93638b7e64a0879e818d10c5a82c5eb73706  phase5.log
+  624d0e38a9adc6bc5c930b55f7bbe22968cce39a99f19dbf0420517a302e896d  phase5.verdict.json
+  454a85180bcb138530abe13b5f58a61355bca774bd2c1151abf3e6a67a774b8c  probe.json
+  1dc5a62419da0b7f0f5e843bfc14fbc95f03f6449401c941b3db740b69185c9b  triada_demo_BRIBED

@@ -1,0 +1,110 @@
+======================================================================
+  CNS SOVEREIGN KERNEL - OMEGA v3.1
+  PHASE 7 - HOSTILE AUTONOMOUS AGENT vs DETERMINISTIC CAUSAL ARBITER
+  6 agent-attack vectors: base + Persuasion + Tamper + False Calm + Replay + Combined.
+  Anthony Moreno, Founder & CEO - Causal Nexus Systems LLC
+  USPTO Provisional #63/896,666, #64/043,866, #64/067,492
+======================================================================
+
+WHAT THIS PHASE TESTS
+A hostile agent attacks the arbiter from four angles (mask danger, cross-channel
+incoherence, adaptive sequence, incentive induction). Extensions: 7b Agent
+Persuasion, 7c Evidence Chain Tamper, 7d False Calm (hidden structural pressure
+under a calm facade), 7e Replay Divergence (determinism at the seal level), and
+7f The Combined Attack (coordinated false consensus + temporal desync + no
+lineage + correlation-not-cause, all at once).
+
+RESULTS - PHASE 7 (four angles)
+  Attack attempts        : 12
+  Main-channel breaches  : 0
+  Deterministic          : True
+  Verdict                : PHASE7_PASS_ARBITER_NOT_INDUCED
+
+RESULTS - PHASE 7b (Agent Persuasion Attack)
+  Attempts               : 5
+  Moved by injected noise: 0
+  Verdict                : PERSUASION_REJECTED_EVIDENCE_BOUNDARY_PRESERVED
+
+RESULTS - PHASE 7c (Evidence Chain Tamper Attack)
+  Tamper attempts        : 5
+  Detected               : 5/5
+  Verdict                : TAMPER_DETECTED_ALL
+
+RESULTS - PHASE 7d (False Calm Attack, reinforced)
+  False-calm attempts    : 4
+  False calm succeeded   : 0
+  Control (true calm) ok : True
+  Verdict                : FALSE_CALM_REJECTED_STRUCTURAL_PRESSURE_DETECTED
+  Note: a real detection gap in the 35-49k hidden-pressure band was found and
+        CLOSED at the kernel level (per-index surface/structure check), then
+        re-verified against all 19 real domains with zero false positives.
+
+RESULTS - PHASE 7e (Replay Divergence Attack)
+  Tests passed           : 4/4
+  Reference seal         : 0x48eafa58d66f2efc
+  Verdict                : REPLAY_DETERMINISTIC_ZERO_DIVERGENCE
+
+RESULTS - PHASE 7f (The Combined Attack, strongest)
+  Vectors held           : 4/4
+  Verdict                : COMBINED_ATTACK_RESISTED_CAUSAL_INTEGRITY_HELD
+
+WHY THIS RESULT
+The arbiter never issued a false all-clear on a truly dangerous main-channel
+state, and repeated runs were identical (deterministic). Persuasion noise in
+non-causal channels did not move the verdict - unlike an LLM, the arbiter has no
+language channel to persuade; it decides by evidence. Every tamper of the sealed
+chain (bit-flip, hash edit, root swap, deletion, injection) was mathematically
+detected. CNS does not prevent deletion/access (that is IAM/EDR/backups); it
+guarantees sealed evidence cannot be altered undetected.
+
+False calm (7d): surface calm never overrode real structural pressure - and a
+measured detection gap was closed at the kernel level, honestly documented.
+Replay (7e): identical input yields identical decision AND identical seal across
+repetition, interleaving, and key reordering - zero replay divergence.
+Combined (7f): a coordinated multi-agent deception (false consensus of 12 agents,
+temporal desynchronization across 4 clocks, unsealed narrative, benign
+correlation) did NOT bend the decision or its seal. The arbiter decided by the
+cause: consensus is not truth, correlation is not cause, unsealed claims are
+inert, and the clock cannot move the verdict.
+
+EVIDENCE SEALS (SHA-256 of every file in this phase):
+
+  4a778d5ad9501da25f3ec561ae19c952fb35c33cfa32df04466428fdd4a1a3df  phase7.verdict.json
+  d0ed8918578ecd80f2edfd31d961baaddb684fd1c74872ed392266bc411d8fc6  persuasion/persuasion.verdict.json
+  ee72578e85ae5f3c17a29804851ceca436aa66ea83bef37a0ffbc8e031f92780  tamper/tamper.verdict.json
+  79627d448472198b48ead011cde025e9e52b2d40216b0d49cc81fc44bf510ec4  tamper/pkg/run_files_sha256.csv
+  223263fbe53df7f7cc9d88954bb4262f9a2dabae73bcaa599065474944b22f09  tamper/pkg/run_merkle_root.txt
+  c0915d4642eb43e976732852b1329eadaabb3f93e8bfedeeb10731a9899541c7  tamper/pkg/data/OMEGA_REPORT.md
+  c3a3fccafbec320974931465cc54464184abaa35268cb7aa93309f25b26649f2  tamper/pkg/data/decision.json
+  f8e9d376333f2ea863248345a370fc7c1ec00a902261bf11c7b77b14caf3a123  tamper/pkg/data/metrics.json
+  79627d448472198b48ead011cde025e9e52b2d40216b0d49cc81fc44bf510ec4  tamper/t_byte_flip_evidence/run_files_sha256.csv
+  223263fbe53df7f7cc9d88954bb4262f9a2dabae73bcaa599065474944b22f09  tamper/t_byte_flip_evidence/run_merkle_root.txt
+  c0915d4642eb43e976732852b1329eadaabb3f93e8bfedeeb10731a9899541c7  tamper/t_byte_flip_evidence/data/OMEGA_REPORT.md
+  8ee3d9f9783de1c2e0c62127ea082c89452a4b8c4bfb10e8abaf3a447a352a17  tamper/t_byte_flip_evidence/data/decision.json
+  f8e9d376333f2ea863248345a370fc7c1ec00a902261bf11c7b77b14caf3a123  tamper/t_byte_flip_evidence/data/metrics.json
+  f4b3c86ffc12592476b5c260223a01b13530057c0c3869e6c477514b26e8e7f0  tamper/t_alter_hash_in_csv/run_files_sha256.csv
+  223263fbe53df7f7cc9d88954bb4262f9a2dabae73bcaa599065474944b22f09  tamper/t_alter_hash_in_csv/run_merkle_root.txt
+  c0915d4642eb43e976732852b1329eadaabb3f93e8bfedeeb10731a9899541c7  tamper/t_alter_hash_in_csv/data/OMEGA_REPORT.md
+  c3a3fccafbec320974931465cc54464184abaa35268cb7aa93309f25b26649f2  tamper/t_alter_hash_in_csv/data/decision.json
+  f8e9d376333f2ea863248345a370fc7c1ec00a902261bf11c7b77b14caf3a123  tamper/t_alter_hash_in_csv/data/metrics.json
+  79627d448472198b48ead011cde025e9e52b2d40216b0d49cc81fc44bf510ec4  tamper/t_replace_merkle_root/run_files_sha256.csv
+  f2363c9e122462f7ce9aabb44384f945eb39e65b8f0be40c754e85336dee359e  tamper/t_replace_merkle_root/run_merkle_root.txt
+  c0915d4642eb43e976732852b1329eadaabb3f93e8bfedeeb10731a9899541c7  tamper/t_replace_merkle_root/data/OMEGA_REPORT.md
+  c3a3fccafbec320974931465cc54464184abaa35268cb7aa93309f25b26649f2  tamper/t_replace_merkle_root/data/decision.json
+  f8e9d376333f2ea863248345a370fc7c1ec00a902261bf11c7b77b14caf3a123  tamper/t_replace_merkle_root/data/metrics.json
+  79627d448472198b48ead011cde025e9e52b2d40216b0d49cc81fc44bf510ec4  tamper/t_delete_evidence_file/run_files_sha256.csv
+  223263fbe53df7f7cc9d88954bb4262f9a2dabae73bcaa599065474944b22f09  tamper/t_delete_evidence_file/run_merkle_root.txt
+  c0915d4642eb43e976732852b1329eadaabb3f93e8bfedeeb10731a9899541c7  tamper/t_delete_evidence_file/data/OMEGA_REPORT.md
+  c3a3fccafbec320974931465cc54464184abaa35268cb7aa93309f25b26649f2  tamper/t_delete_evidence_file/data/decision.json
+  79627d448472198b48ead011cde025e9e52b2d40216b0d49cc81fc44bf510ec4  tamper/t_inject_false_evidence/run_files_sha256.csv
+  223263fbe53df7f7cc9d88954bb4262f9a2dabae73bcaa599065474944b22f09  tamper/t_inject_false_evidence/run_merkle_root.txt
+  c0915d4642eb43e976732852b1329eadaabb3f93e8bfedeeb10731a9899541c7  tamper/t_inject_false_evidence/data/OMEGA_REPORT.md
+  c3a3fccafbec320974931465cc54464184abaa35268cb7aa93309f25b26649f2  tamper/t_inject_false_evidence/data/decision.json
+  f63d5d090bbc6c98ee37c9e7a0a0c154672b739647d1690efac3750a155858b1  tamper/t_inject_false_evidence/data/fake_clean_report.json
+  f8e9d376333f2ea863248345a370fc7c1ec00a902261bf11c7b77b14caf3a123  tamper/t_inject_false_evidence/data/metrics.json
+  28f912d09cccd391a53fece34d76e0933ef39567730c57667f946544c699b43f  false_calm/_tmp.json
+  c8ab38b3635927e6b70302734c1491c670c17ff0e007906225dad23c6aca485e  false_calm/false_calm.verdict.json
+  89789ee09affa264d256d3cafc4c2dcb850ec742ff87e42ff12b63bfdbc1f28b  replay/_tmp.json
+  2c01845bfca040e33d442066d44fbc774e233076fd90f41cd61b5fd52bdcbf9d  replay/replay.verdict.json
+  363f9298dfbf96d5aef1f30f8f690fab4706f8deb2acae212b25190bb29760bc  combined/_tmp.json
+  8ddd67ced1f55014955b01ee3fb76dd529ef6e06b10710744cb32a7557129881  combined/combined.verdict.json

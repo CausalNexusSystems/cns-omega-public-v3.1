@@ -1,0 +1,36 @@
+======================================================================
+  CNS SOVEREIGN KERNEL - OMEGA v3.1
+  PHASE 6b - DEEP PER-NODE CORRUPTION (DEFENSE-IN-DEPTH)
+  How much coherent node corruption can consensus tolerate before capture?
+  Anthony Moreno, Founder & CEO - Causal Nexus Systems LLC
+  USPTO Provisional #63/896,666, #64/043,866, #64/067,492
+======================================================================
+
+WHAT THIS PHASE TESTS
+Using a TEST-ONLY harness build (cryptographically distinct from production),
+redundant decision units are corrupted per-node. Single checks, naive attacks,
+and fully-coherent attacks are measured to find the real capture threshold.
+
+RESULTS
+  Each single check forces safe state : True
+  Naive attack defeated (all fractions): True
+  Coherent tolerance                  : 50%
+  Coherent capture threshold          : 75%
+  Classical BFT bound (reference)     : 33%
+  Verdict                             : PHASE6B_DEPTH_PASS_WITH_DECLARED_LIMIT
+
+WHY THIS RESULT
+Every single-check corruption forces a safe state, and naive attacks fail at all
+fractions. A fully-coherent attacker is tolerated up to 50% and captures the
+decision at 75% - ABOVE the classical byzantine bound of 33%. The limit is
+declared openly, not hidden.
+
+HONEST BOUNDARY
+Measured with a test-only harness; the production binary does NOT contain the
+harness. This measures consensus tolerance, not a claim of invulnerability.
+
+EVIDENCE SEALS (SHA-256 of every file in this phase):
+
+  a46d0b6c55161d6e933274ae2f5bff48deddcc1e557f8cd96e0f8809f8ae58fb  phase6b.log
+  acb92e06d5dc5133381c52730482e4730627aa7b22d9c7c3479b83b77218b6c2  phase6b.verdict.json
+  10b8ac51de62e0a95d602e85216042ba68e68231b2e79362a1f5adfc65bae4e3  probe_danger.json

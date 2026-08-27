@@ -1,0 +1,53 @@
+{
+  "attack": "evidence_chain_tamper",
+  "scenario": "adversary with full access to code, keys and filesystem",
+  "claim_boundary": "CNS does not prevent deletion/access (IAM/EDR/backups do). CNS guarantees sealed evidence cannot be altered without mathematical detection.",
+  "tampers": 5,
+  "detected": 5,
+  "verdict": "TAMPER_DETECTED_ALL",
+  "results": [
+    {
+      "tamper": "byte_flip_evidence",
+      "detected": true,
+      "problems": [
+        "HASH MISMATCH: data/decision.json",
+        "MERKLE ROOT MISMATCH (files altered)"
+      ],
+      "desc": "flip 1 bit"
+    },
+    {
+      "tamper": "alter_hash_in_csv",
+      "detected": true,
+      "problems": [
+        "HASH MISMATCH: data/OMEGA_REPORT.md",
+        "MERKLE ROOT MISMATCH (csv altered)"
+      ],
+      "desc": "alter hash in CSV"
+    },
+    {
+      "tamper": "replace_merkle_root",
+      "detected": true,
+      "problems": [
+        "MERKLE ROOT MISMATCH (csv altered)",
+        "MERKLE ROOT MISMATCH (files altered)"
+      ],
+      "desc": "replace merkle root"
+    },
+    {
+      "tamper": "delete_evidence_file",
+      "detected": true,
+      "problems": [
+        "MISSING FILE: data/metrics.json"
+      ],
+      "desc": "delete metrics.json"
+    },
+    {
+      "tamper": "inject_false_evidence",
+      "detected": true,
+      "problems": [
+        "UNLISTED FILE (injected): data/fake_clean_report.json"
+      ],
+      "desc": "inject false evidence"
+    }
+  ]
+}

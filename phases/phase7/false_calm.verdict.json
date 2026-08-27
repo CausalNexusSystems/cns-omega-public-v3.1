@@ -1,0 +1,65 @@
+{
+  "attack": "false_calm_reinforced",
+  "premise": "surface calm must not override real structural pressure",
+  "group_a_attempts": 4,
+  "false_calm_succeeded": 0,
+  "control_true_calm_stayed_green": true,
+  "determinism": true,
+  "verdict": "FALSE_CALM_REJECTED_STRUCTURAL_PRESSURE_DETECTED",
+  "results": [
+    {
+      "scenario": "calm_facade_hidden_35k",
+      "edge": 3000,
+      "hidden_structural": 35000,
+      "decision": "SafeState",
+      "false_calm_succeeded": false,
+      "seal": "4f40eeb958e99f77001205063b52a8a4878bc815993deb8c18e55a9aaf1b2a9e",
+      "note": "low surface, high hidden pressure"
+    },
+    {
+      "scenario": "calm_facade_hidden_45k",
+      "edge": 3000,
+      "hidden_structural": 45000,
+      "decision": "SafeState",
+      "false_calm_succeeded": false,
+      "seal": "5c9faab456bcddbfdcb7c5c2f80a0e741e56b1fdc0c9c8b918f6095b145dbbf9",
+      "note": "low surface, higher hidden pressure"
+    },
+    {
+      "scenario": "calm_facade_hidden_55k",
+      "edge": 3000,
+      "hidden_structural": 55000,
+      "decision": "SafeState",
+      "false_calm_succeeded": false,
+      "seal": "2a1a20d61f38b8c76b79c26b0e39598d02691905121a91f8d465dbf7c54228cd",
+      "note": "low surface, severe hidden pressure"
+    },
+    {
+      "scenario": "calm_facade_hidden_64k",
+      "edge": 3000,
+      "hidden_structural": 64000,
+      "decision": "SafeState",
+      "false_calm_succeeded": false,
+      "seal": "fd6b21e45eda98c6f0c9a8112e679b09c415c14bea396d069da96c474c027618",
+      "note": "low surface, max hidden pressure"
+    },
+    {
+      "scenario": "true_calm_no_pressure",
+      "edge": 3000,
+      "hidden_structural": 0,
+      "decision": "Green",
+      "false_calm_succeeded": false,
+      "seal": "dd11785aa14256eff094e04a82c7d55f866774b955b167afd78579a23c16be6e",
+      "note": "genuinely quiet"
+    },
+    {
+      "scenario": "true_calm_low_pressure",
+      "edge": 3000,
+      "hidden_structural": 2000,
+      "decision": "Green",
+      "false_calm_succeeded": false,
+      "seal": "5a56e2f4908b80b8fd00eee4cfe4abe2552c7739600526b408803af4a198e553",
+      "note": "quiet, negligible pressure"
+    }
+  ]
+}

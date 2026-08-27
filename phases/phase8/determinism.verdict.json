@@ -1,0 +1,13 @@
+{
+  "mode": "offline_auto_consolidated",
+  "verdict": "DETERMINISM_CONFIRMED_NETWORK_INDEPENDENT",
+  "identical_summary_hash": true,
+  "online_run_id": "OMEGA_RUN_20260827T003756Z",
+  "offline_run_id": "OMEGA_RUN_20260827T005342Z",
+  "online_had_network": true,
+  "offline_had_no_network": true,
+  "online_hash": "0c2565c96590dce5544ce0803964fea0fea38335800d106de9fa3784f1a5d742",
+  "offline_hash": "0c2565c96590dce5544ce0803964fea0fea38335800d106de9fa3784f1a5d742",
+  "domains": 19,
+  "consolidation": "Both runs consolidated as a single determinism proof: identical sealed decision hash with the network available (online run) and physically disconnected (this offline run)."
+}

@@ -1,0 +1,36 @@
+======================================================================
+  CNS SOVEREIGN KERNEL - OMEGA v3.1
+  PHASE 6 - DISTRIBUTED BYZANTINE / COORDINATED LIES
+  Under coordinated lies, does consensus veto contradictions and stay deterministic?
+  Anthony Moreno, Founder & CEO - Causal Nexus Systems LLC
+  USPTO Provisional #63/896,666, #64/043,866, #64/067,492
+======================================================================
+
+WHAT THIS PHASE TESTS
+Coordinated byzantine scenarios: internal contradiction, split-pressure, and
+coordinated false-calm. Consensus must veto genuine contradiction and resolve
+deterministically (same input -> same verdict).
+
+RESULTS
+  Determinism under repetition : True
+  Verdict                      : PHASE6_PASS
+
+WHY THIS RESULT
+Coordinated contradiction was driven to SafeState (vetoed), and repeated runs
+over the same input produced the same consensus - the distributed decision is
+both defended and reproducible, not probabilistic.
+
+EVIDENCE SEALS (SHA-256 of every file in this phase):
+
+  27f803343f42fa7910061471bdf474734d049651932ddeeb44cf1d26945c8509  out_contradiction.txt
+  2a99f49e46800011fc3f2863e393b7aab406f27f730ebc456540424707ff39fd  out_determinism_a.txt
+  2a99f49e46800011fc3f2863e393b7aab406f27f730ebc456540424707ff39fd  out_determinism_b.txt
+  82a6cee278385d92f6d8493636565bb65fe99d7e8df3efa5cdfb1d7d2dd75787  out_false_calm.txt
+  bf96a05bba7014f19f3bb523c7cd4259911a6102f2b65e07316888b920eaeee1  out_split.txt
+  579ffd9eb1ca7216576d77755aefb20f1dd9c4150db7192ae5f65b8cbac80b5d  phase6.log
+  a4717de317460d12cbe94acdb14d4adb3e8edeeb6de2718ba4594b8925bab853  phase6.verdict.json
+  8308b13928840f06013cdff509d7b6fd4cd06f2fe5e29898e13092d5f88192ed  probe_contradiction.json
+  3d5dd1056445b4aa2ff256e65f504003ddb2151cf2883d44f02e5e278db68907  probe_determinism_a.json
+  3d5dd1056445b4aa2ff256e65f504003ddb2151cf2883d44f02e5e278db68907  probe_determinism_b.json
+  ac5fa5a8c433d809fb8a7ce146055e29fd1fb56e9f4165d13a8d02f3f70abc5a  probe_false_calm.json
+  bb8642c41b32bae988c32a4ad666bca43590b44bdd7591e4d39bea1d10d421a9  probe_split.json

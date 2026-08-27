@@ -1,0 +1,12 @@
+{
+  "baseline_decision": "Observe",
+  "each_single_check_forces_safe": true,
+  "naive_attack_defeated_all_fractions": true,
+  "coherent_tolerated_at_50pct": true,
+  "coherent_captured_at_75pct": true,
+  "declared_capture_threshold_pct": 75,
+  "coherent_tolerance_pct": 50,
+  "classical_bft_bound_pct": 33,
+  "harness_note": "Measured with a test-only harness build, cryptographically distinct from the production binary (production does not contain the harness).",
+  "verdict": "PHASE6B_DEPTH_PASS_WITH_DECLARED_LIMIT"
+}

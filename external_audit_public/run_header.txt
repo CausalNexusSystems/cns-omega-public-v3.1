@@ -1,0 +1,23 @@
+====================================================================
+Causal Nexus Systems LLC
+Run ID: OMEGA_RUN_20260827T005342Z
+Title: CNS Sovereign Kernel Triad Run
+Subtitle: Deterministic Causal Decision with Sealed Evidence - K24.1 + Iron Guardian V3 + SQS/DEEL
+Anthony Moreno
+Founder & CEO
+USPTO Provisional #63/896,666, #64/043,866 & #64/067,492
+Location: Orlando, FL
+Execution mode: deterministic, local, no-cloud
+Kernel/runtime: CNS K24.1-RS deterministic causal kernel
+Active modules: K24.1-RS, Iron Guardian V3, SQS/DEEL (3 of 3 - Sovereign Kernel Triad)
+Input origin: public external telemetry snapshot (synthetic=false)
+Replay determinism: required and verified
+Evidence status: sealed (SHA-256 + Merkle root)
+Claim boundary: see below
+====================================================================
+
+CLAIM BOUNDARY
+This console does not fabricate telemetry. The Sovereign Kernel Triad issues a deterministic
+decision (K24.1), enforces protection over that decision (Iron Guardian V3), and produces a
+cryptographic seal over the resulting evidence roots (SQS/DEEL). No classified telemetry, live
+military ISR, bank internal data, or private critical infrastructure telemetry is claimed.

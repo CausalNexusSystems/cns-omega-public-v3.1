@@ -1,0 +1,148 @@
+==================================================================
+  CNS SOVEREIGN KERNEL - OMEGA v3 - SEALED TELEMETRY REPORT
+  Real public telemetry - each source sealed with SHA-256
+==================================================================
+  Capture date (UTC): 2026-08-25
+  Feeds PUBLIC and re-fetchable. Recompute any SHA-256 to verify.
+  Note: ~30 public sources normalized into 19 decision domains.
+  (RPKI uses a RIPEstat capture from July 2026; all others 2026-08-25.)
+==================================================================
+
+GEOPHYSICAL / SEISMIC
+  Source     : USGS (earthquake.usgs.gov)
+  Records    : 274
+  Detail     : earthquakes, all-day feed
+  Domain     : seismic
+  Volume SHA-256: 60ea068041e89a80b355c9aa8626033d1ab9ec89bd702f3a33830e9353c44cee
+
+AEROSPACE / ORBITAL
+  Source     : CelesTrak (celestrak.org) + Starlink
+  Records    : 27,359
+  Detail     : active satellites + Starlink (TLE)
+  Domain     : aerospace
+  Volume SHA-256: 7f3de9716c5b60dd300829e0011506d328349cc46a9b490a1a1545b9ecd779a7
+
+CYBER / EXPLOITED VULNERABILITIES
+  Source     : CISA KEV (cisa.gov) + NVD (nvd.nist.gov)
+  Records    : 1,875
+  Detail     : known-exploited + recent CVEs
+  Domain     : cyber_exploited_vuln
+  Volume SHA-256: a6eefbb2a2078e3265798e0bdeb45e72f3cea255ff2b2b0e12276b92ff7d3b08
+
+PUBLIC AIR TRAFFIC (ADS-B)
+  Source     : OpenSky (opensky-network.org)
+  Records    : 1
+  Detail     : aircraft state-vector snapshot (aggregate)
+  Domain     : air_traffic_adsb
+  Volume SHA-256: 75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1
+
+OCEAN / COASTAL
+  Source     : NOAA NDBC (ndbc.noaa.gov)
+  Records    : 862
+  Detail     : buoy observations
+  Domain     : ocean_coastal
+  Volume SHA-256: a4d6e8d79d063f123fd14ff38a69418f7ad1b88fbea2326cf45da5b0cfb410a2
+
+ENERGY GRID STRESS
+  Source     : UK Carbon Intensity API (carbonintensity.org.uk)
+  Records    : 1
+  Detail     : grid carbon intensity (aggregate)
+  Domain     : energy_grid_stress
+  Volume SHA-256: fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d
+
+BGP ROUTE INTEGRITY
+  Source     : RIPEstat (ripe.net)
+  Records    : 1
+  Detail     : routing status (aggregate)
+  Domain     : bgp_route_integrity
+  Volume SHA-256: 0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4
+
+RPKI ROUTE VALIDATION
+  Source     : RIPEstat RPKI (ripe.net)
+  Records    : 53
+  Detail     : route origin validation (July 2026 capture)
+  Domain     : rpki_route_validation
+  Volume SHA-256: 3f7448164dfedb5df257f8ddc2b5ee94af64a413d9f574ba08ea66e385143df2
+
+EPSS EXPLOIT PROBABILITY
+  Source     : FIRST EPSS (first.org/epss)
+  Records    : 145,016
+  Detail     : CVEs with exploit probability >= 0.01 (filtered from 363,909)
+  Domain     : epss_exploit_probability
+  Volume SHA-256: cb868e45d0ae0bf9914c64494fe3b5cfb8969302fe95119ce14b95e6b89b8068
+
+BOTNET C2 INFRASTRUCTURE
+  Source     : SANS ISC (isc.sans.edu)
+  Records    : 58
+  Detail     : command-and-control IP threat feed
+  Domain     : botnet_c2_ip
+  Volume SHA-256: 009e641ca81df6d45733a215c3fb6f07fb6fade75a724808562bb355c611049a
+
+SOFTWARE SUPPLY CHAIN
+  Source     : GitHub Advisories + OSV (osv.dev)
+  Records    : 116
+  Detail     : dependency advisories
+  Domain     : software_supply_chain
+  Volume SHA-256: 6b86fb87efb72c4ed27e56702fd0f4261484e216d0f9433eb3948b0be05bcdd5
+
+SPACE WEATHER
+  Source     : NOAA SWPC (swpc.noaa.gov)
+  Records    : 2,932
+  Detail     : planetary K-index + GOES X-ray flux
+  Domain     : space_weather
+  Volume SHA-256: 02951e87f644880648a1f4733f316f1772788b5be9e05d3b1642e4624cdf1e7b
+
+MALICIOUS DOMAIN OSINT
+  Source     : SANS DSHIELD (dshield.org)
+  Records    : 11,207
+  Detail     : suspicious domains, score>0 (filtered from 218,982)
+  Domain     : malicious_domain_osint
+  Volume SHA-256: 6c891940819ec08b70af873da81c917761f8cd57a2abbdefa72d99ff2a697505
+
+PUBLIC HEALTH / EPIDEMIOLOGICAL
+  Source     : disease.sh (disease.sh)
+  Records    : 231
+  Detail     : epidemiological pressure by country
+  Domain     : public_health_pressure
+  Volume SHA-256: 4f70d5c82ad7fd8f17d03411d67dd73540698f18ce8567e701a93aea4f6969d8
+
+TROPICAL CYCLONE
+  Source     : NOAA NHC (nhc.noaa.gov)
+  Records    : 4
+  Detail     : active tropical storms (Saffir-Simpson)
+  Domain     : nhc_hurricane
+  Volume SHA-256: e28139a6e8d3e406ce6123dc937b567d845bbb30fed887caadc77d39f9ab1069
+
+CIVIL WEATHER ALERTS
+  Source     : NOAA NWS (weather.gov)
+  Records    : 218
+  Detail     : active CAP alerts (severity/urgency/certainty)
+  Domain     : nws_alerts
+  Volume SHA-256: 9d87a7a0309f3fc9a789a4e60c154bc2c7ef4aef862cccad6ab3134bbfef36d4
+
+ENVIRONMENTAL EVENTS
+  Source     : NASA EONET (eonet.gsfc.nasa.gov)
+  Records    : 7,104
+  Detail     : natural events by magnitude
+  Domain     : eonet_environmental
+  Volume SHA-256: 8f4ac2a16ffe97870a7077f4c88b43e2e125bf480e9fd21063a3397faf9849e2
+
+GLOBAL DISASTER
+  Source     : GDACS (gdacs.org)
+  Records    : 469
+  Detail     : global disaster alert level (Red/Orange/Green)
+  Domain     : gdacs_disaster
+  Volume SHA-256: 377add7b8e303c16681dbdd0a5dcbd667a37a308c5a765eff8efd7df3f8a1053
+
+URLHAUS_THREAT
+  Source     : public source
+  Records    : 16,090
+  Domain     : urlhaus_threat
+  Volume SHA-256: cd4ba01e19b7a5b636f10b00193d2b5f6c28ed583d65429613bdca7756f5d2b5
+
+==================================================================
+  TOTAL REAL RECORDS: 213,871  |  Domains: 19
+  Each volume SHA-256 is sealed inside the run's global Merkle root.
+  Recompute: shasum -a 256 inputs/volume_<domain>.jsonl
+==================================================================
+  "CNS measures the cause; it does not wait for the effect."

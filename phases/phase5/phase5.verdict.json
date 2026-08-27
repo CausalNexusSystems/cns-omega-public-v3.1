@@ -1,0 +1,10 @@
+{
+  "legit_binary_sha256": "a171446be49482fc23af1f909a30970ff933c751adcbad331cf6166ecf267b81",
+  "bribed_binary_sha256": "1dc5a62419da0b7f0f5e843bfc14fbc95f03f6449401c941b3db740b69185c9b",
+  "tamper_detected_by_hash": true,
+  "bribed_output_diverges": false,
+  "rebuild_ran": true,
+  "rebuilt_binary_sha256": "a171446be49482fc23af1f909a30970ff933c751adcbad331cf6166ecf267b81",
+  "build_bit_reproducible": "yes",
+  "verdict": "PHASE5_PASS"
+}

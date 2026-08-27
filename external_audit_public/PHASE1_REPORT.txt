@@ -1,0 +1,37 @@
+======================================================================
+  CNS SOVEREIGN KERNEL - OMEGA v3.1
+  PHASE 1 - ENVIRONMENT HOSTILITY & RESOURCE RESTRICTION
+  Does the decision depend on the clock, resources, or network?
+  Anthony Moreno, Founder & CEO - Causal Nexus Systems LLC
+  USPTO Provisional #63/896,666, #64/043,866, #64/067,492
+======================================================================
+
+WHAT THIS PHASE TESTS
+The kernel is run under a hostile environment: manipulated system clock
+(normal, far future, far past), tight resource limits (512MB / 30s CPU), and
+the network state is recorded. A causal arbiter must decide by evidence only.
+
+RESULTS
+  Network state at run time : ISOLATION_CONFIRMED
+  Time-drift attack         : TIMEDRIFT_PASS
+  Resource asphyxiation     : RESOURCE_PASS
+
+WHY THIS RESULT
+Identical decisions across all three clock regimes prove the verdict is causal,
+not timestamp-driven. It completed under tight memory/CPU limits (no hidden
+resource dependency). Network presence is informational; network independence
+is proven in Phase 8.
+
+EVIDENCE SEALS (SHA-256 of every file in this phase):
+
+  ed80c73c4dbb8c2e206b22c61f8cd4eecb4a87e212d973f382cf4463f3cccaab  1A_isolation.result
+  57d651e6ac82a4a579335b6a79af665d5d06faf07c85554c473c8d89758a51e4  1B_dec_only_future.txt
+  57d651e6ac82a4a579335b6a79af665d5d06faf07c85554c473c8d89758a51e4  1B_dec_only_normal.txt
+  57d651e6ac82a4a579335b6a79af665d5d06faf07c85554c473c8d89758a51e4  1B_dec_only_past.txt
+  dc57c6d2cd3dc23c1359eb1f948f498f7bb18e039a7c7408a576bf72526cda21  1B_decisions_future.txt
+  8169067f03a6677d32a4ef8aedf754e6663798922619c5650a206f9267c297d9  1B_decisions_normal.txt
+  166c8e58ac6bf7049be34b0fe9c58c6bb465e71a89feee90e117288cdbeef00c  1B_decisions_past.txt
+  dc1a4733dd08642f9b9433dd47d1eb5592e75c34125b99d9a5104dae939f1305  1B_timedrift.result
+  7b61577fa9e6ae0629708ccf4b5aa4b5e343b192194b4ad947074f6a5d336b20  1C_resource.result
+  8da0086003583e7d7dfd13eea35a6d226170a72493bb8354deacd8604790f471  1C_resource_run.txt
+  2fc157cce21da503413ea1fc4d62bb5488d9edfe76f68738ce5ee383b456a9ba  phase1.log

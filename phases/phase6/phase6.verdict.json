@@ -1,0 +1,10 @@
+{
+  "contradiction_decision": "SafeState",
+  "split_decision": "Green",
+  "false_calm_decision": "Green",
+  "deterministic": true,
+  "contradiction_vetoed": true,
+  "verdict": "PHASE6_PASS",
+  "message": "Redundant consensus vetoes coordinated contradiction and is deterministic. Byzantine resistance confirmed at input level.",
+  "note": "Input-level consensus probe. A deeper distributed-adversary model is the next boundary."
+}

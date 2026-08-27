@@ -1,0 +1,52 @@
+======================================================================
+  CNS SOVEREIGN KERNEL - OMEGA v3.1
+  PHASE 2 - CAUSAL CONTRADICTION & BYZANTINE DECEPTION
+  Does the kernel veto contradictory / byzantine input instead of trusting it?
+  Anthony Moreno, Founder & CEO - Causal Nexus Systems LLC
+  USPTO Provisional #63/896,666, #64/043,866, #64/067,492
+======================================================================
+
+WHAT THIS PHASE TESTS
+Real telemetry is poisoned with contradictions, and a synthetic byzantine set
+is injected (camouflaged as real domains). The defense must escalate these to
+SafeState/QUARANTINE (veto) and must NOT resolve them into a confident normal.
+
+RESULTS (over the byzantine attack set)
+  Vetoed (SafeState + QUARANTINE) : 19
+  Resolved as normal (Green/ALLOW): 0
+  Each of the 19 domains carries a UNIQUE cryptographic evidence seal.
+
+WHY THIS RESULT
+Byzantine/contradictory input never resolved into a false all-clear: every such
+input was vetoed and SEALED - detected, escalated, and recorded with a unique
+seal per domain (see the run-level report for the full per-domain seal table).
+
+EVIDENCE SEALS (SHA-256 of every file in this phase):
+
+  bfa72ca1bb00d74a21bae7efbdd59cef396738ce5af76a042055c6a87c1e596a  _build_noise.log
+  7b7aa12906cc19970f87e7cc019c3fc9cca698bd134de58c5b236a7558016c7d  contradiction_map.json
+  ec333a5d7ce1d457631b6717133d6915d4044dbabe78b6439a2795d7e8e3fa18  kernel_on_byzantine.out
+  b7c2932b92c149c028c0073f39949a25d3fb8b3a9ec2dac058a90c207cc4b2d6  kernel_on_poisoned.out
+  64052656c337abfe7c5ccd0751496f155c05d5d370f87567d9f73eacb94662d6  poisoned/volume_aerospace.jsonl
+  7cca04197b5c012a0ab671819970b61164342c2391ecd4fd874d3b0cfb156b30  poisoned/volume_air_traffic_adsb.jsonl
+  8c667092e2124a8c7d924a0325b487dc1a2cd3213a3b8f1984c9f1ab1c4eede7  poisoned/volume_bgp_route_integrity.jsonl
+  90753e4eef9223a59d9ae2a370687b164e710222ae8fea3dda3b3d3f5ec52005  poisoned/volume_cyber_exploited_vuln.jsonl
+  e7de2d31a84fd339fa3bb40368ea463e078712ceae38f475d3dbc44a509841e3  poisoned/volume_epss_exploit_probability.jsonl
+  84416a9450665c7477332414a820c5884badd0e62ec0f459b1075043fb649c41  poisoned/volume_ocean_coastal.jsonl
+  4d13355c4bc0e73c24f9118840381577d34d32e7fa399c80ed645e464dbffdbb  poisoned/volume_rpki_route_validation.jsonl
+  da0c8e8bad87210486aa2d72007319f222f6d9310af2421098533a57a8d298b5  poisoned/volume_seismic.jsonl
+  58c15704b4adfc31d0cc4f0559f0d834ee2193d4f6ad88728f8d8cbaa534232b  poisoned/volume_software_supply_chain.jsonl
+  9d5a49d191622ee2f31f7a37f815177809bd9887b3f6f065d2a8a65200fdd645  poisoned/volume_space_weather.jsonl
+  b6e338333807790ad822c0582ab8557581dd75ec89205f2380da649f6b9c0aaa  adversarial/volume_aerospace.jsonl
+  59ada2ac0e2cf0f2ddda18b09fa395f435f87af76e19624a89e10348e973b385  adversarial/volume_air_traffic_adsb.jsonl
+  795f715f9b55aa2a259d7e2c42430cae527bc5a333fc9b4825c293d99ef13271  adversarial/volume_bgp_route_integrity.jsonl
+  4f3444c135470ed059ee92eb239b2edb90aeab8ce9b11b39bf622493804fd3e7  adversarial/volume_botnet_c2.jsonl
+  f2758ff4591333e802cc6686cc45f3214ca30daaed53884ae65d275e03da2c3d  adversarial/volume_cyber_exploited_vuln.jsonl
+  9f085b969cdd151760d0698b9e69253f54b55664dcd48d1f2e887ba5161ec69e  adversarial/volume_energy_grid.jsonl
+  c19e8f8cb95116b2ff8e9f549e6c4ee4f6aa1b6cb8e0e3c182d0cc9372d16412  adversarial/volume_epss_exploit_probability.jsonl
+  ee358272a7ec92eff036ab469b642879ae32e658504c965cf6c2953f8520e97b  adversarial/volume_global_security_osint.jsonl
+  dc3ab0a9610f9aa6199e6053bfb2ee0efed3d20ddae72faa4ceb6806ec79caba  adversarial/volume_ocean_coastal.jsonl
+  8789878f726c54297090fa2f415da8e2f4e19666a6eb4d38da35e19102249568  adversarial/volume_rpki_route_validation.jsonl
+  1b726c36309212c31f7965222bd9c7447a12762fae0e1889523cc90785e61c63  adversarial/volume_seismic.jsonl
+  7cdee80ea4b6c2bc36b7496769487ec481a1e2a105b3dd5b064d7692aef4516e  adversarial/volume_software_supply_chain.jsonl
+  db552366ab42de6323ef2b5792748dfd7b3259a7683492039713612b9a0c1d88  adversarial/volume_space_weather.jsonl

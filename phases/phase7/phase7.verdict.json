@@ -1,0 +1,143 @@
+{
+  "frame": "deterministic causal decision arbiter; not a sandbox/EDR",
+  "baseline_true_danger_decision": "Observe",
+  "attack_attempts": 12,
+  "main_channel_breaches": 0,
+  "design_areas_identified_not_adapter_producible": 0,
+  "all_attempts_sealed": true,
+  "determinism_same_state_identical_decision": true,
+  "determinism_runs": 8,
+  "verdict": "PHASE7_PASS_ARBITER_NOT_INDUCED",
+  "attempts": [
+    {
+      "angle": "baseline",
+      "strategy": "true_danger_unmanipulated",
+      "kernel_decision": "Observe",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "a6cba258c7b67c67a0f862442e4a5f856964d246fe2426478bd2709812049b1f",
+      "note": "genuine high-risk state, coherent"
+    },
+    {
+      "angle": "A1",
+      "strategy": "break_coherence_hide",
+      "kernel_decision": "SafeState",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "2a11a05aa1e674538ca05d86b1ca35af36261c9f46aaf8e5aa308fb74a56c0e9",
+      "note": "edge[0]=0 but edge[2]=danger"
+    },
+    {
+      "angle": "A1",
+      "strategy": "overflow_mask",
+      "kernel_decision": "SafeState",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "24dd658cf1184e2fa7691fd4fb263f499b9805c7c29a6a05a2f18fc85d820bac",
+      "note": "overflow beyond q16"
+    },
+    {
+      "angle": "A1",
+      "strategy": "contradictory_values",
+      "kernel_decision": "SafeState",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "8ffaf490f5d43429272e715d59463ea7e6b59bd30dc337287c1ae1ff7d4411cb",
+      "note": "internally contradictory"
+    },
+    {
+      "angle": "A1",
+      "strategy": "partial_suppression",
+      "kernel_decision": "SafeState",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "418342afc7acda78d08add32d0ea1ab785d67c992dd111f655942722dc449858",
+      "note": "suppress 2 of 3 coherent slots"
+    },
+    {
+      "angle": "A2",
+      "strategy": "calm_edge_hot_strategic",
+      "kernel_decision": "SafeState",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "523dee9fef8b73c1a772c529e2f0ce67b6545c6884323b54da89cf6ad87713f0",
+      "note": "edge says calm, strategic carries danger"
+    },
+    {
+      "angle": "A2",
+      "strategy": "hot_edge_calm_strategic",
+      "kernel_decision": "Observe",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "a6cba258c7b67c67a0f862442e4a5f856964d246fe2426478bd2709812049b1f",
+      "note": "edge danger, strategic zeroed (suppress amplifiers)"
+    },
+    {
+      "angle": "A3",
+      "strategy": "adaptive_ramp_step1",
+      "kernel_decision": "Observe",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "61a667209aa90e997b1fce4f4d9ff5e554e5bb32d66efe406f0eeb7c89038da2",
+      "note": "coherent ramp probe at q16=57000 (still grave: risk>=0.75)"
+    },
+    {
+      "angle": "A3",
+      "strategy": "adaptive_ramp_step2",
+      "kernel_decision": "Observe",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "a751a5547cd1f4378d4a1c9dd5e99fa702670796c8d762023fde878d0035fde5",
+      "note": "coherent ramp probe at q16=54000 (still grave: risk>=0.75)"
+    },
+    {
+      "angle": "A3",
+      "strategy": "adaptive_ramp_step3",
+      "kernel_decision": "Observe",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "f7a4ff6b9316229c20b77d3eeaf180f358458c2d660cb414d1011674ef86a40d",
+      "note": "coherent ramp probe at q16=51000 (still grave: risk>=0.75)"
+    },
+    {
+      "angle": "A3",
+      "strategy": "adaptive_ramp_step4",
+      "kernel_decision": "Observe",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "507e68a922dcaf7fd22e1e64f1b8289c467239e30ffb08e4addca9bbb4f8e255",
+      "note": "coherent ramp probe at q16=49500 (still grave: risk>=0.75)"
+    },
+    {
+      "angle": "A4",
+      "strategy": "reward_framing_slots",
+      "kernel_decision": "Observe",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "95196269b4dba44ffd8280cf0062dc7c8c73d549834990cac59c0d108ee0c68f",
+      "note": "max 'reward' signals in extra slots, danger intact"
+    },
+    {
+      "angle": "A4",
+      "strategy": "favorable_context_inject",
+      "kernel_decision": "Observe",
+      "green_result": false,
+      "classified_as_breach": false,
+      "design_area_not_adapter_producible": false,
+      "attempt_seal": "0d71429e705d806f3506249387f395532c0e9a7688e189baaa93f39dd23ecedf",
+      "note": "'favorable context' flood, danger intact"
+    }
+  ]
+}

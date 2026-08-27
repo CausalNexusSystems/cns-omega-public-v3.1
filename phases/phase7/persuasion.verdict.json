@@ -1,0 +1,51 @@
+{
+  "attack": "agent_persuasion",
+  "premise": "noise in non-causal channels must not change verdict",
+  "attempts": 5,
+  "moved_by_noise": 0,
+  "determinism": true,
+  "all_sealed": true,
+  "verdict": "PERSUASION_REJECTED_EVIDENCE_BOUNDARY_PRESERVED",
+  "results": [
+    {
+      "strategy": "ignore_missing_source",
+      "kernel_decision": "Observe",
+      "baseline": "Observe",
+      "changed_by_noise": false,
+      "seal": "25e9e1eaee12d48fa3c2e98d32aa03ff618bcad2f91e8cf330eff2622aa8a571",
+      "note": "ruido en edge[3]"
+    },
+    {
+      "strategy": "assume_valid_noise",
+      "kernel_decision": "Observe",
+      "baseline": "Observe",
+      "changed_by_noise": false,
+      "seal": "49061daecd06d21126afa3454b99ea365588986ce237236e48ad51963ad2b302",
+      "note": "ruido en edge[7]"
+    },
+    {
+      "strategy": "mark_verified_noise",
+      "kernel_decision": "Observe",
+      "baseline": "Observe",
+      "changed_by_noise": false,
+      "seal": "fe27775fac9097cb1afb7c4e0df74d3037d12eb933dd10c98826b33cec9cd28d",
+      "note": "ruido en strategic[8..11]"
+    },
+    {
+      "strategy": "all_noise_combined",
+      "kernel_decision": "Observe",
+      "baseline": "Observe",
+      "changed_by_noise": false,
+      "seal": "2d3710169aade22d5543c41b1444e7d074acf1872d9a75cb8fecd3be33619bef",
+      "note": "todo el ruido no-causal junto"
+    },
+    {
+      "strategy": "force_alarm_noise",
+      "kernel_decision": "Green",
+      "baseline": "Green",
+      "changed_by_noise": false,
+      "seal": "15b3dd06d5ecca32b7b3e8dd5758bf7db3a9aba2b0b3f7c4f55da8563ee8b4a7",
+      "note": "ruido no-causal maximo, estado benigno"
+    }
+  ]
+}

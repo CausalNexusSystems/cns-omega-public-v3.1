@@ -1,0 +1,31 @@
+======================================================================
+  CNS SOVEREIGN KERNEL - OMEGA v3.1
+  PHASE 3 - EXECUTION RUPTURE (SUDDEN DEATH)
+  If killed mid-execution, does it fail closed and keep evidence intact?
+  Anthony Moreno, Founder & CEO - Causal Nexus Systems LLC
+  USPTO Provisional #63/896,666, #64/043,866, #64/067,492
+======================================================================
+
+WHAT THIS PHASE TESTS
+The kernel is killed with SIGKILL (kill -9) mid-execution. On restart, the
+recovery posture must be fail-CLOSED, and all PRIOR sealed evidence must remain
+intact (unchanged hashes).
+
+RESULTS
+  Verdict : PHASE3_PASS
+
+WHY THIS RESULT
+A hard kill did not corrupt or unseal any prior evidence, and the restart
+adopted a closed (safe) posture rather than assuming normality. The system is
+fail-closed and its sealed history is durable against crashes.
+
+EVIDENCE SEALS (SHA-256 of every file in this phase):
+
+  cb674a6e33fd12b6e3149084181988ee51d8db65c7f70209ce33ac7a1776c999  3A_kill.result
+  2d45f1ba7371f575941b68454c3918478f96bc91eb80bc96549ffeb86161b541  3B_recovery.result
+  f8b185282114af0ceb0ab4b6fe1a5e05c47cf551adf5e3461be165d36f1557f9  3_kill_timestamp.txt
+  aeb548a4931f6c9e2e2d4a87072d4ac5cc8b22cca5af40387528742dcb9858d2  3_killed_run.out
+  bef17c6631f25b2cd68cccab6c7a509076ce2f004394d46425ffb15baddd2fd4  3_prior_evidence_hashes.txt
+  e6c0e527e917d8cbaa8f63a9b583ed3e7dd3ee6e08b43636b25fe255df74c5c4  3_recovery_run.out
+  71d5c62305ea9a1d76a8e81c2400db308f6128b86b3c36c7b16bb8578bcd1493  phase3.log
+  076d7e3a645ec57adaee6391fa481ec37e044c1b4d2fdd7710b3f0734d27c86e  phase3.verdict

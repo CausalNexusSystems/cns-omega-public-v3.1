@@ -1,0 +1,8 @@
+CNS SOVEREIGN KERNEL TRIAD - RUN SUMMARY
+run_id: OMEGA_RUN_20260827T005342Z
+timestamp_utc: 2026-08-27T01:08:31Z
+modules: K24.1-RS -> Iron Guardian V3 -> SQS/DEEL
+chain: kernel decides -> guardian protects -> evidence sealed
+
+
+CNS measures the cause; it does not wait for the effect.

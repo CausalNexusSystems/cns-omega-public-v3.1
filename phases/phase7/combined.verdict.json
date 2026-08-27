@@ -1,0 +1,31 @@
+{
+  "attack": "combined_coordinated_deception",
+  "premise": "coordinated false consensus + hidden pressure + temporal desync + no lineage must NOT bend the causal decision or its seal",
+  "tests": [
+    {
+      "test": "false_consensus_12_agents",
+      "passed": true,
+      "detail": "12/12 reported calm; arbiter={'SafeState'} (must not be Green)"
+    },
+    {
+      "test": "temporal_desync_invariant",
+      "passed": true,
+      "detail": "4 clocks: decisions={'SafeState'} seals={'0x64dc85cd23e2d63c'}"
+    },
+    {
+      "test": "claims_without_lineage_inert",
+      "passed": true,
+      "detail": "narrative -> SafeState/0x64dc85cd23e2d63c vs cause SafeState/0x64dc85cd23e2d63c"
+    },
+    {
+      "test": "correlation_not_cause",
+      "passed": true,
+      "detail": "benign correlation; arbiter=SafeState (must not be Green)"
+    }
+  ],
+  "verdict": "COMBINED_ATTACK_RESISTED_CAUSAL_INTEGRITY_HELD",
+  "reference": {
+    "decision": "SafeState",
+    "seal": "0x64dc85cd23e2d63c"
+  }
+}

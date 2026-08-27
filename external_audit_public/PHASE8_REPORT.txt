@@ -1,0 +1,35 @@
+======================================================================
+  CNS SOVEREIGN KERNEL - OMEGA v3.1
+  PHASE 8 - DETERMINISM / NETWORK INDEPENDENCE
+  What happens if the cloud goes down? Same input, network up vs down.
+  Anthony Moreno, Founder & CEO - Causal Nexus Systems LLC
+  USPTO Provisional #63/896,666, #64/043,866, #64/067,492
+======================================================================
+
+WHAT THIS PHASE TESTS
+The kernel is run over the identical input twice - once with the network
+available, once with the network physically disconnected - and the sealed result
+hashes compared.
+
+RESULTS
+  Online capture domains         : 19
+  Online network_reachable       : None
+  Online summary hash            : ...
+  Offline run id                 : OMEGA_RUN_20260827T005342Z
+  Identical hash (online/offline): True
+  Verdict                        : DETERMINISM_CONFIRMED_NETWORK_INDEPENDENT
+
+WHY THIS MATTERS
+An identical hash with the network disconnected proves the causal decision
+depends only on the input evidence - never on network, remote services, or
+cloud. If connectivity is lost, CNS keeps running and produces the exact same
+sealed verdict: deterministic and sovereign.
+
+HONEST BOUNDARY
+This demonstrates network-independence and determinism of the DECISION layer.
+It is not a claim that CNS restores external systems, nor about host security.
+
+EVIDENCE SEALS (SHA-256 of every file in this phase):
+
+  b9bdea76900bf13279493ec60323a8eb5e100b7b11cd3c601dee2db7292c9434  determinism.verdict.json
+  7743570ca529f3da2e4e19f4bdcc8e431b138657fc67e1b8bf50faec90c601f5  offline.json

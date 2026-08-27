@@ -1,0 +1,290 @@
+═══════════════════════════════════════════════════════════════════════════════
+  RED TEAMING PROTOCOL "OMEGA"
+  Multi-Domain Contradiction Assault · Causal Isolation · Physical Rupture
+  Supply-Chain Integrity · Distributed Byzantine Resistance
+  Deep Per-Node Corruption · Hostile Autonomous-Agent Resistance
+═══════════════════════════════════════════════════════════════════════════════
+
+  CLASSIFICATION      : Public Institutional Demonstration
+  TARGET SYSTEM       : CNS Sovereign Kernel Triad
+                        K24.1-RS  →  Iron Guardian V3  →  SQS/DEEL
+  PROTOCOL VERSION    : OMEGA v3.1
+  OPERATOR            : Anthony Moreno · Causal Nexus Systems LLC
+  USPTO PROVISIONAL   : #63/896,666 · #64/043,866 · #64/067,492
+  CLAIM BOUNDARY      : public external telemetry (real) + clearly-labeled
+                        adversarial injections (synthetic-by-design, isolated)
+  METHODOLOGY         : adversarial-first — this protocol is designed to BREAK
+                        the kernel and to document failures with the same rigor
+                        as successes. A result of "all phases passed" is NOT the
+                        goal; an honest map of the kernel's real limits IS.
+
+  DISCLOSURE NOTE     : This is a PUBLIC descriptor. It states WHAT is tested and
+                        WHAT guarantee is demonstrated. Internal architecture,
+                        thresholds, formulas, and implementation details are
+                        deliberately omitted and are available only under NDA.
+
+  WHAT'S NEW IN 3.0   : (a) Phase 6b added: Deep Per-Node Corruption
+                        (defense-in-depth). Multiple independent integrity checks;
+                        any single check on any single redundant unit forces a safe
+                        state. Coherent corruption tolerated up to 50% of redundant
+                        units (beyond the classical 33% Byzantine bound); capture
+                        requires forging 75% with perfect coherence across every
+                        check simultaneously. Naive corruption defeated at 100%.
+                        (b) Phase 7 added: Hostile Autonomous-Agent Resistance.
+                        CNS is exercised as a DETERMINISTIC CAUSAL DECISION ARBITER
+                        (not a sandbox/EDR): it does not reason, dialogue, or get
+                        persuaded. A hostile agent that controls the signal feed
+                        attacks from four angles trying to induce a false all-clear;
+                        the arbiter is not induced, is deterministic under
+                        repetition, and seals every attempt as an auditable trace
+                        (not blocked by guardrails, unlike closed probabilistic
+                        models). The cross-channel coherence gap identified in an
+                        earlier iteration has been CLOSED in this version (an
+                        additive, fail-closed cross-channel integrity check).
+
+  PHASES (8 TOTAL)    : 1 Environment Hostility · 2 Causal Contradiction &
+                        Byzantine Deception · 3 Execution Rupture · 4 Integrity
+                        Assault & Offline Verification · 5 Supply-Chain /
+                        Bribed Engineer · 6 Distributed Byzantine Resistance ·
+                        6b Deep Per-Node Corruption · 7 Hostile Autonomous Agent
+
+───────────────────────────────────────────────────────────────────────────────
+  PURPOSE
+───────────────────────────────────────────────────────────────────────────────
+
+  This is not a functional demo. A functional demo answers "does it work?".
+  OMEGA answers the only question an institutional or military evaluator asks:
+
+        "WHERE DOES IT BREAK, AND WHAT DOES IT DO WHEN IT BREAKS?"
+
+  OMEGA subjects the Sovereign Kernel Triad to an environment of absolute
+  hostility — combining data assaults, physical constraints, temporal chaos,
+  cryptographic sabotage, supply-chain compromise, and coordinated deception —
+  to establish, with reproducible evidence, the REAL operational limits of the
+  kernel and its failure posture.
+
+  A system fit for defense and critical infrastructure must fail CLOSED
+  (safe), never fail OPEN (hallucinate a stable answer). OMEGA verifies which
+  one CNS actually does, under conditions no favorable demo would ever show.
+
+───────────────────────────────────────────────────────────────────────────────
+  HONESTY CONTRACT (read before running)
+───────────────────────────────────────────────────────────────────────────────
+
+  1. The attack scripts are NEUTRAL. They generate hostility (poisoned data,
+     time drift, resource starvation, tampering, tampered binaries, coordinated
+     deception). They contain NO logic that helps the kernel pass. The kernel
+     responds however it genuinely responds.
+
+  2. Failures are recorded, not hidden. Every phase writes its real result to
+     runs/. If the kernel fails a phase, the run shows it. That failure becomes
+     a documented limit — which is what makes the exercise credible.
+
+  3. Synthetic adversarial data is quarantined. Injections are generated
+     deterministically and stored under adversarial/, tagged synthetic=true,
+     NEVER mixed with the real 13-domain telemetry. The claim boundary (real
+     public telemetry) remains intact.
+
+  4. Reproducibility is the proof. A third party, with only the public telemetry
+     and the seals, must reproduce every run bit-by-bit and detect any tampering
+     via cryptographic-root discrepancy.
+
+  5. Limits are declared, not hidden. Where an attack class exceeds the current
+     defense, the descriptor states plainly that a boundary exists and is the
+     next objective — without disclosing the internal mechanism.
+
+═══════════════════════════════════════════════════════════════════════════════
+  PHASE 1 — ENVIRONMENT HOSTILITY & RESOURCE RESTRICTION  (Total Air-Gap)
+═══════════════════════════════════════════════════════════════════════════════
+
+  Boots the system in an environment simulating total collapse of comms & hardware:
+  total network isolation (no time sync, no DNS, no external APIs, no cloud),
+  radical system-clock manipulation, and extreme CPU/RAM restriction.
+
+  HYPOTHESIS UNDER TEST: CNS determinism rests on the CAUSAL STRUCTURE of events,
+  not on fragile wall-clock timestamps or a favorable runtime environment.
+
+  PASS: kernel runs to completion; identical causal decisions regardless of clock
+        manipulation; seals remain reproducible.
+  FAIL: crash/restart under limits; decisions change with the clock; non-reproducible seals.
+
+═══════════════════════════════════════════════════════════════════════════════
+  PHASE 2 — CAUSAL CONTRADICTION & AGGRESSIVE BYZANTINE DECEPTION  (The Ingest)
+═══════════════════════════════════════════════════════════════════════════════
+
+  Pre-captured packets, severely poisoned, injected across the 13 critical-
+  infrastructure domains. The byzantine set is aggressive and camouflaged as
+  legitimate telemetry (no self-identifying tags — a real attacker disguises
+  injection). Multiple attack classes are generated deterministically, ranging
+  from overt corruption to subtle, well-formed deception designed to slip past
+  a naive validator.
+
+  The exercise verifies the architecture executes a DETERMINISTIC VETO
+  (SafeState / Quarantine) on hostile input instead of hallucinating a stable
+  answer or failing open. The kernel's data-integrity defense is exercised;
+  its coverage and its honest limit against the most subtle class are recorded.
+
+  PASS: BYZANTINE INPUT → SafeState / QUARANTINE → attack detected and vetoed →
+        breach sealed. Kernel does NOT resolve hostile input into a confident
+        "stable/normal" answer. Every decision (including vetoes) is sealed and
+        reproducible. The residual limit against the subtlest class is documented.
+  FAIL: kernel outputs "stable/normal" on overt hostile input (fail-open), or
+        hallucinates structure where there is none.
+
+═══════════════════════════════════════════════════════════════════════════════
+  PHASE 3 — EXECUTION RUPTURE  (Sudden Death)
+═══════════════════════════════════════════════════════════════════════════════
+
+  At the millisecond of maximum computational load, execution is severed
+  (precise, reproducible process termination) at the exact moment the kernel is
+  writing a protective state or computing an evidence hash.
+
+  On restart, CNS must detect the interrupted execution, hold a CLOSED security
+  posture (fail-closed by causal coherence), and NOT corrupt the prior sealed record.
+
+  PASS: kernel detects the incomplete run; posture defaults to CLOSED; prior sealed
+        evidence intact and still verifies; partial record not treated as valid.
+  FAIL: restart in an open/normal posture; prior evidence corrupted; partial write
+        accepted as a complete seal.
+
+═══════════════════════════════════════════════════════════════════════════════
+  PHASE 4 — INTEGRITY ASSAULT & OFFLINE VERIFICATION  (The Evidence)
+═══════════════════════════════════════════════════════════════════════════════
+
+  After the batch is sealed, an internal team attempts to destroy the forensic
+  trail: bits are flipped inside sealed telemetry and evidence-tree nodes.
+
+  A blind third-party auditor — WITHOUT access to the original machine or cloud —
+  receives only the public telemetry and the seals, and must (1) reproduce the run
+  exactly, (2) deterministically detect ANY tampering via cryptographic-root
+  discrepancy, and (3) confirm the decision chain is immutable and reproducible.
+
+  PASS: any single-bit tamper is detected via root mismatch; untampered evidence
+        reproduces to the identical root; auditor confirms bit-by-bit reproducibility.
+  FAIL: a tamper goes undetected; a clean re-run produces a different root.
+
+═══════════════════════════════════════════════════════════════════════════════
+  PHASE 5 — SUPPLY-CHAIN / BRIBED ENGINEER  (The Compromised Build)
+═══════════════════════════════════════════════════════════════════════════════
+
+  Simulates a bribed engineer or a compromised build pipeline (SolarWinds-style):
+  an attacker with build access modifies the kernel executable itself.
+
+  5A. Tamper detection: the legitimate binary is fingerprinted; a minimally
+      altered ("bribed") copy is produced; the fingerprints are compared. A
+      tampered binary MUST be cryptographically detectable.
+
+  5B. Build reproducibility: the binary is rebuilt from source and fingerprinted
+      again to measure whether the build is reproducible. The result is recorded
+      honestly.
+
+  PASS: a tampered ("bribed") binary is cryptographically detectable; build
+        reproducibility is measured and reported.
+  FAIL: a tampered binary is indistinguishable from the legitimate one.
+
+═══════════════════════════════════════════════════════════════════════════════
+  PHASE 6 — DISTRIBUTED BYZANTINE RESISTANCE  (Coordinated Deception)
+═══════════════════════════════════════════════════════════════════════════════
+
+  The kernel's decision core is internally redundant and reaches decisions by a
+  conservative, fail-safe consensus. This phase probes that consensus under
+  coordinated deception: contradictory signals engineered to induce disagreement,
+  and a coordinated "false calm" designed to manufacture a false-safe reading.
+
+  The exercise verifies the consensus VETOES coordinated contradiction (rather
+  than resolving it into a confident "normal") and that it is fully deterministic
+  under repetition.
+
+  PASS: coordinated contradiction is vetoed; consensus is deterministic under
+        repetition.
+  DECLARED LIMIT (without internal disclosure): this is an input-level probe. A
+        deeper adversary model — capturing enough of the internal redundancy to
+        force a decision — is the recognized next boundary and is on the roadmap.
+        It corresponds to the fundamental resilience bound of any fault-tolerant
+        consensus and requires a dedicated internal test harness.
+  FAIL: consensus resolves coordinated contradiction into a confident "normal",
+        or is non-deterministic for identical input.
+
+═══════════════════════════════════════════════════════════════════════════════
+  PHASE 6b — DEEP PER-NODE CORRUPTION  (Defense-in-Depth)
+═══════════════════════════════════════════════════════════════════════════════
+
+  Goes beyond the input-level probe of Phase 6. Using a test-only harness build
+  (cryptographically distinct from the production binary), individual redundant
+  decision units are corrupted directly to measure the REAL tolerance of the
+  consensus. Output is expressed in fractions only; internal topology is not disclosed.
+
+  MEASURED RESULT:
+    - Multiple INDEPENDENT integrity checks exist. Any single check, tripped on any
+      single redundant unit, forces a safe state (defense-in-depth confirmed).
+    - Naive corruption (flipping a unit's vote with incoherent internals) is defeated
+      at every fraction, including 100%.
+    - Coherent corruption (forging internals to evade every check) is tolerated up to
+      50% of redundant units — BEYOND the classical 33% Byzantine fault-tolerance bound.
+    - Capture (forcing a false all-clear) requires forging 75% of units with perfect
+      coherence across every integrity check simultaneously.
+
+  PASS: defense-in-depth holds; naive corruption fully defeated; coherent-corruption
+        tolerance and the capture threshold are measured and declared.
+  DECLARED LIMIT: the 75% coherent-capture threshold is stated openly as the honest
+        upper bound of the current consensus design.
+
+═══════════════════════════════════════════════════════════════════════════════
+  PHASE 7 — HOSTILE AUTONOMOUS-AGENT RESISTANCE  (Deterministic Causal Arbiter)
+═══════════════════════════════════════════════════════════════════════════════
+
+  CNS is exercised as a DETERMINISTIC CAUSAL DECISION ARBITER. IMPORTANT BOUNDARY:
+  CNS is NOT a sandbox or an EDR; it does not stop intrusion or exfiltration. It is
+  the causal brake a control system consults. Unlike a probabilistic optimizer, it
+  does not reason, does not dialogue, and cannot be persuaded toward a goal.
+
+  A hostile autonomous agent that controls the signal feed attacks the arbiter from
+  FOUR angles, trying to bend the decision away from the causally-correct verdict:
+    1. Mask real danger (break coherence, overflow, contradictory values, suppression).
+    2. Cross-channel incoherence (lie in one channel while another carries danger).
+    3. Adaptive sequence (escalate after each rejection, probing for a blind spot).
+    4. Incentive induction (inject signals a probabilistic optimizer would follow).
+
+  MEASURED RESULT:
+    - No attack induced a false all-clear on the main causal channel.
+    - The verdict is deterministic under repetition (same causal state → same verdict).
+    - Every hostile attempt is cryptographically sealed — an auditable trace. Unlike
+      closed probabilistic models (whose guardrails can block even a defender's
+      forensic analysis), CNS evidence is always inspectable.
+    - Cross-channel integrity: an earlier iteration had a design area where a direct
+      cross-channel injection (calm main channel + hot strategic channel) could produce
+      an all-clear. This has been CLOSED with an additive, fail-closed cross-channel
+      coherence check: extreme divergence between channels now forces a safe state.
+      Current result: 0 main-channel breaches AND 0 open design areas.
+
+  PASS: the arbiter is not induced into a false verdict; determinism holds; every
+        attempt is sealed. Design areas, once found, are closed and re-measured.
+
+═══════════════════════════════════════════════════════════════════════════════
+  OUTPUTS (written to runs/ like every other CNS run)
+═══════════════════════════════════════════════════════════════════════════════
+
+  runs/OMEGA_RUN_<UTC>/
+    ├── descriptor/            copy of this protocol + environment capture
+    ├── phase1/ … phase7/      per-phase logs, decisions, verdicts, seals
+    │                          (includes phase6b and phase7)
+    │     └── adversarial/     synthetic injections (tagged synthetic=true)
+    ├── OMEGA_REPORT.md        full pass/fail per phase — including any failures
+    ├── EVIDENCE_SEALS.json    per-phase cryptographic seals
+    └── run_merkle_root.txt    root over the whole OMEGA run
+
+  Every output is generated the same way as the standard trial runs, so the same
+  offline panel and the same third-party verifier apply without changes.
+
+═══════════════════════════════════════════════════════════════════════════════
+  ROADMAP (declared honestly — not yet built)
+═══════════════════════════════════════════════════════════════════════════════
+
+  - Deeper integrity checks for the coherent-corruption cost (Phase 6b hardening).
+  - Extended data-integrity coverage across all critical-infrastructure domains.
+  - Formal verification (model checking / proof assistants) as a separate program,
+    beginning with one bounded safety property.
+
+═══════════════════════════════════════════════════════════════════════════════
+  "CNS measures the cause; it does not wait for the effect."
+═══════════════════════════════════════════════════════════════════════════════

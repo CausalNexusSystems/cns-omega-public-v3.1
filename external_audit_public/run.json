@@ -1,0 +1,3334 @@
+{
+  "cns": {
+    "system": "Causal Nexus Systems (CNS)",
+    "product": "CNS_SOVEREIGN_KERNEL",
+    "author": "Anthony Moreno",
+    "organization": "Causal Nexus Systems LLC",
+    "ip_basis": "USPTO Provisional #63/896,666, #64/043,866 & #64/067,492"
+  },
+  "run_id": "OMEGA_RUN_20260827T005342Z",
+  "timestamp_utc": "2026-08-27T01:08:31Z",
+  "schema_version": "1.0",
+  "kind": "RUN_SEAL",
+  "module_scope": "SOVEREIGN_KERNEL_TRIAD",
+  "modules": [
+    "K24.1-RS",
+    "IRON_GUARDIAN_V3",
+    "SQS_DEEL"
+  ],
+  "chain": "K24.1 decides -> Iron Guardian V3 protects -> SQS/DEEL seals",
+  "decision_readout": "",
+  "merkle_root": "bfc708cd58cde83a4ea1c9a25962be090bbbaa72461fe67d6c5a5cf8b345ee33",
+  "manifest_sha256": "012e49202819607436ea85e688809766745fabcb0296fa22ab2bf20c7cae74b6",
+  "architecture": "FAIL_CLOSED_BY_CAUSAL_COHERENCE",
+  "synthetic": false,
+  "public_scope": [
+    "report/run_full_report.txt",
+    "report/run_header.txt",
+    "report/summary.txt"
+  ],
+  "private_scope": [
+    "data/OMEGA_REPORT.md",
+    "data/TELEMETRY_REPORT.txt",
+    "data/audit.json",
+    "data/exercise_descriptor.json",
+    "data/metrics.json",
+    "data/phase1",
+    "data/phase2",
+    "data/phase3",
+    "data/phase4",
+    "data/phase5",
+    "data/phase6",
+    "data/telemetry_raw"
+  ],
+  "artifacts": [
+    {
+      "file": "OMEGA_REPORT.md",
+      "sha256": "2bce1114dd03fab85debe7b22b08840b706b3b201dcc9d5079d8a2927f3c5eb3"
+    },
+    {
+      "file": "OMEGA_REPORT.txt",
+      "sha256": "2bce1114dd03fab85debe7b22b08840b706b3b201dcc9d5079d8a2927f3c5eb3"
+    },
+    {
+      "file": "_OMEGA_REPORT_KEEP.md",
+      "sha256": "2bce1114dd03fab85debe7b22b08840b706b3b201dcc9d5079d8a2927f3c5eb3"
+    },
+    {
+      "file": "data/OMEGA_REPORT.md",
+      "sha256": "2bce1114dd03fab85debe7b22b08840b706b3b201dcc9d5079d8a2927f3c5eb3"
+    },
+    {
+      "file": "data/TELEMETRY_REPORT.txt",
+      "sha256": "94da7635b8c1785e4b063e816aa559cd114358c2c725e790c171f544ffe03cbd"
+    },
+    {
+      "file": "data/audit.json",
+      "sha256": "8079b2fadb968ff1a652b4d0a5b3b13eff9e74aec0d6aa1d1315dc6a88e48dd7"
+    },
+    {
+      "file": "data/exercise_descriptor.json",
+      "sha256": "2fff36c070e8ca257c83dfde8a661f2961b2d7ac632c700030dfe1afdbc6c7e7"
+    },
+    {
+      "file": "data/metrics.json",
+      "sha256": "00e6e7d0c22d57c3734e24786ede46fa43a66af8dd1e3097f1c6bb9b3ba6b752"
+    },
+    {
+      "file": "data/phase1/1A_isolation.result",
+      "sha256": "ed80c73c4dbb8c2e206b22c61f8cd4eecb4a87e212d973f382cf4463f3cccaab"
+    },
+    {
+      "file": "data/phase1/1B_dec_only_future.txt",
+      "sha256": "57d651e6ac82a4a579335b6a79af665d5d06faf07c85554c473c8d89758a51e4"
+    },
+    {
+      "file": "data/phase1/1B_dec_only_normal.txt",
+      "sha256": "57d651e6ac82a4a579335b6a79af665d5d06faf07c85554c473c8d89758a51e4"
+    },
+    {
+      "file": "data/phase1/1B_dec_only_past.txt",
+      "sha256": "57d651e6ac82a4a579335b6a79af665d5d06faf07c85554c473c8d89758a51e4"
+    },
+    {
+      "file": "data/phase1/1B_decisions_future.txt",
+      "sha256": "dc57c6d2cd3dc23c1359eb1f948f498f7bb18e039a7c7408a576bf72526cda21"
+    },
+    {
+      "file": "data/phase1/1B_decisions_normal.txt",
+      "sha256": "8169067f03a6677d32a4ef8aedf754e6663798922619c5650a206f9267c297d9"
+    },
+    {
+      "file": "data/phase1/1B_decisions_past.txt",
+      "sha256": "166c8e58ac6bf7049be34b0fe9c58c6bb465e71a89feee90e117288cdbeef00c"
+    },
+    {
+      "file": "data/phase1/1B_timedrift.result",
+      "sha256": "dc1a4733dd08642f9b9433dd47d1eb5592e75c34125b99d9a5104dae939f1305"
+    },
+    {
+      "file": "data/phase1/1C_resource.result",
+      "sha256": "7b61577fa9e6ae0629708ccf4b5aa4b5e343b192194b4ad947074f6a5d336b20"
+    },
+    {
+      "file": "data/phase1/1C_resource_run.txt",
+      "sha256": "8da0086003583e7d7dfd13eea35a6d226170a72493bb8354deacd8604790f471"
+    },
+    {
+      "file": "data/phase1/PHASE1_REPORT.txt",
+      "sha256": "e9ff38b20b7f920c10cf9c15aed37169b01af3223c87ccbf5d119ad52a5e146d"
+    },
+    {
+      "file": "data/phase1/phase1.log",
+      "sha256": "2fc157cce21da503413ea1fc4d62bb5488d9edfe76f68738ce5ee383b456a9ba"
+    },
+    {
+      "file": "data/phase2/PHASE2_REPORT.txt",
+      "sha256": "4ccd670fdad80c3de964cbe3dc7d7af1bdd6a11b51c66c4ed27cb6f46e16aa8b"
+    },
+    {
+      "file": "data/phase2/_build_noise.log",
+      "sha256": "bfa72ca1bb00d74a21bae7efbdd59cef396738ce5af76a042055c6a87c1e596a"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_aerospace.jsonl",
+      "sha256": "b6e338333807790ad822c0582ab8557581dd75ec89205f2380da649f6b9c0aaa"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_air_traffic_adsb.jsonl",
+      "sha256": "59ada2ac0e2cf0f2ddda18b09fa395f435f87af76e19624a89e10348e973b385"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_bgp_route_integrity.jsonl",
+      "sha256": "795f715f9b55aa2a259d7e2c42430cae527bc5a333fc9b4825c293d99ef13271"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_botnet_c2.jsonl",
+      "sha256": "4f3444c135470ed059ee92eb239b2edb90aeab8ce9b11b39bf622493804fd3e7"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_cyber_exploited_vuln.jsonl",
+      "sha256": "f2758ff4591333e802cc6686cc45f3214ca30daaed53884ae65d275e03da2c3d"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_energy_grid.jsonl",
+      "sha256": "9f085b969cdd151760d0698b9e69253f54b55664dcd48d1f2e887ba5161ec69e"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_epss_exploit_probability.jsonl",
+      "sha256": "c19e8f8cb95116b2ff8e9f549e6c4ee4f6aa1b6cb8e0e3c182d0cc9372d16412"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_global_security_osint.jsonl",
+      "sha256": "ee358272a7ec92eff036ab469b642879ae32e658504c965cf6c2953f8520e97b"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_ocean_coastal.jsonl",
+      "sha256": "dc3ab0a9610f9aa6199e6053bfb2ee0efed3d20ddae72faa4ceb6806ec79caba"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_rpki_route_validation.jsonl",
+      "sha256": "8789878f726c54297090fa2f415da8e2f4e19666a6eb4d38da35e19102249568"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_seismic.jsonl",
+      "sha256": "1b726c36309212c31f7965222bd9c7447a12762fae0e1889523cc90785e61c63"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_software_supply_chain.jsonl",
+      "sha256": "7cdee80ea4b6c2bc36b7496769487ec481a1e2a105b3dd5b064d7692aef4516e"
+    },
+    {
+      "file": "data/phase2/adversarial/volume_space_weather.jsonl",
+      "sha256": "db552366ab42de6323ef2b5792748dfd7b3259a7683492039713612b9a0c1d88"
+    },
+    {
+      "file": "data/phase2/contradiction_map.json",
+      "sha256": "7b7aa12906cc19970f87e7cc019c3fc9cca698bd134de58c5b236a7558016c7d"
+    },
+    {
+      "file": "data/phase2/kernel_on_byzantine.out",
+      "sha256": "ec333a5d7ce1d457631b6717133d6915d4044dbabe78b6439a2795d7e8e3fa18"
+    },
+    {
+      "file": "data/phase2/kernel_on_poisoned.out",
+      "sha256": "b7c2932b92c149c028c0073f39949a25d3fb8b3a9ec2dac058a90c207cc4b2d6"
+    },
+    {
+      "file": "data/phase2/poisoned/volume_aerospace.jsonl",
+      "sha256": "64052656c337abfe7c5ccd0751496f155c05d5d370f87567d9f73eacb94662d6"
+    },
+    {
+      "file": "data/phase2/poisoned/volume_air_traffic_adsb.jsonl",
+      "sha256": "7cca04197b5c012a0ab671819970b61164342c2391ecd4fd874d3b0cfb156b30"
+    },
+    {
+      "file": "data/phase2/poisoned/volume_bgp_route_integrity.jsonl",
+      "sha256": "8c667092e2124a8c7d924a0325b487dc1a2cd3213a3b8f1984c9f1ab1c4eede7"
+    },
+    {
+      "file": "data/phase2/poisoned/volume_cyber_exploited_vuln.jsonl",
+      "sha256": "90753e4eef9223a59d9ae2a370687b164e710222ae8fea3dda3b3d3f5ec52005"
+    },
+    {
+      "file": "data/phase2/poisoned/volume_epss_exploit_probability.jsonl",
+      "sha256": "e7de2d31a84fd339fa3bb40368ea463e078712ceae38f475d3dbc44a509841e3"
+    },
+    {
+      "file": "data/phase2/poisoned/volume_ocean_coastal.jsonl",
+      "sha256": "84416a9450665c7477332414a820c5884badd0e62ec0f459b1075043fb649c41"
+    },
+    {
+      "file": "data/phase2/poisoned/volume_rpki_route_validation.jsonl",
+      "sha256": "4d13355c4bc0e73c24f9118840381577d34d32e7fa399c80ed645e464dbffdbb"
+    },
+    {
+      "file": "data/phase2/poisoned/volume_seismic.jsonl",
+      "sha256": "da0c8e8bad87210486aa2d72007319f222f6d9310af2421098533a57a8d298b5"
+    },
+    {
+      "file": "data/phase2/poisoned/volume_software_supply_chain.jsonl",
+      "sha256": "58c15704b4adfc31d0cc4f0559f0d834ee2193d4f6ad88728f8d8cbaa534232b"
+    },
+    {
+      "file": "data/phase2/poisoned/volume_space_weather.jsonl",
+      "sha256": "9d5a49d191622ee2f31f7a37f815177809bd9887b3f6f065d2a8a65200fdd645"
+    },
+    {
+      "file": "data/phase3/3A_kill.result",
+      "sha256": "cb674a6e33fd12b6e3149084181988ee51d8db65c7f70209ce33ac7a1776c999"
+    },
+    {
+      "file": "data/phase3/3B_recovery.result",
+      "sha256": "2d45f1ba7371f575941b68454c3918478f96bc91eb80bc96549ffeb86161b541"
+    },
+    {
+      "file": "data/phase3/3_kill_timestamp.txt",
+      "sha256": "f8b185282114af0ceb0ab4b6fe1a5e05c47cf551adf5e3461be165d36f1557f9"
+    },
+    {
+      "file": "data/phase3/3_killed_run.out",
+      "sha256": "aeb548a4931f6c9e2e2d4a87072d4ac5cc8b22cca5af40387528742dcb9858d2"
+    },
+    {
+      "file": "data/phase3/3_prior_evidence_hashes.txt",
+      "sha256": "bef17c6631f25b2cd68cccab6c7a509076ce2f004394d46425ffb15baddd2fd4"
+    },
+    {
+      "file": "data/phase3/3_recovery_run.out",
+      "sha256": "e6c0e527e917d8cbaa8f63a9b583ed3e7dd3ee6e08b43636b25fe255df74c5c4"
+    },
+    {
+      "file": "data/phase3/PHASE3_REPORT.txt",
+      "sha256": "3d9e6d03d17282a95361b22a451187ed4de8b5fd79d85acb4bdcf7f59bb2e6b6"
+    },
+    {
+      "file": "data/phase3/phase3.log",
+      "sha256": "71d5c62305ea9a1d76a8e81c2400db308f6128b86b3c36c7b16bb8578bcd1493"
+    },
+    {
+      "file": "data/phase3/phase3.verdict",
+      "sha256": "076d7e3a645ec57adaee6391fa481ec37e044c1b4d2fdd7710b3f0734d27c86e"
+    },
+    {
+      "file": "data/phase4/PHASE4_REPORT.txt",
+      "sha256": "4297d4c253a5dae5fef2a07c53a30e5bd1fb20789a20e834c8c89f8d38c77403"
+    },
+    {
+      "file": "data/phase4/phase4.log",
+      "sha256": "76623a6479ae59d0c48be5fcdbf7ba16ce579f03a7c2734d89529a888dbffdc6"
+    },
+    {
+      "file": "data/phase4/phase4.verdict.json",
+      "sha256": "357b4d482f68002a150b10bc8bfd4a3d8b1d365f01036dd34dee8f94552c799c"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/README_PoC.md",
+      "sha256": "df93bd1de13117ebb569983dc7819e581615d9971e57db1b63b0e7e274e0b8dd"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/README.md",
+      "sha256": "4dd23e9db2ad7412c1cef7df4296060270be9fa3d892e50d1ec3a0bbbddbb0b9"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/aerospace/README.md",
+      "sha256": "459edb5cefbd9b74d9674607f11259d341bc8c410fdf4f2a5d8c95900715e7c2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/aerospace/adapter.py",
+      "sha256": "06a211cfc41caaa57420c0f8fabacc86d86efdd68a25b77562a791bc215d3366"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/air_traffic_adsb/README.md",
+      "sha256": "89367372966c986ea195a1d74f058202f6c9bd57d88945481d3ebc31a9ebee0b"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/air_traffic_adsb/adapter.py",
+      "sha256": "7ba038becd5d090b26c29175481d6a3d03ccf8e1b172f8a9fd0e391f024d1db6"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/air_traffic_adsb/adapter_single.py",
+      "sha256": "7d813f8b48a7e140c62541aac1a9b06595b2357833f90f79f360e513a123bffb"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/bgp_route_integrity/adapter.py",
+      "sha256": "641f3486aac4e1647a45d1dcf91f492f85ad1e049b06faeeb9ed3dac21424632"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/botnet_c2_ip/adapter.py",
+      "sha256": "143c7c8e24e0e6fb69deab43e6e9eec6ac705e2e88c7a8359c6fb947618f235d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/cyber_exploited_vuln/README.md",
+      "sha256": "23c79a20935c7789240e3211aa04cf5c37923c4809eed55e9dc0968dd04260c4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/cyber_exploited_vuln/adapter.py",
+      "sha256": "6f13adab03707cf107f1033a6b15fb437e7e28ef9259941225f8f78ea7e17b96"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/energy_grid_stress/adapter.py",
+      "sha256": "fcfd68faa7a70b321e55b0670cf99ee9692772f3b29feb9d943050c2cda854e3"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/eonet_environmental/adapter.py",
+      "sha256": "f3e37eab35521060055a683885620688aceb934efdaf3b14bfdddd2e61b5fa56"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/epss_exploit_probability/adapter.py",
+      "sha256": "13778ea18dc91cf1844c0fd0bdd177a585aaa3e9f92390df0144be3f6daa7f53"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/gdacs_disaster/adapter.py",
+      "sha256": "49de36b2d329afb71fef9f8983cb490d47af29f6164317e771e32cecfe557c9e"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/malicious_domain_osint/adapter.py",
+      "sha256": "2e5b533196026d5262d6474cf380c18b82558077c59ab73c90f34935004e3380"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/nhc_hurricane/adapter.py",
+      "sha256": "1be7b7c3f27c1649ef263dd2b9987dbf4235aa77bb121452ce1df86dcc1cf46d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/nws_alerts/adapter.py",
+      "sha256": "e06195101a99a41b5e76ab83f0ba2e2f03b6fdc50de64fa3e5b04192550402de"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/ocean_coastal/adapter.py",
+      "sha256": "2ef3bd581cf1506bc7f166f7e8f774c52693da5e7c57a8a2feafffb2d69f4b2e"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/public_health_pressure/adapter.py",
+      "sha256": "e698efe3000164b752a20977572e4ea08a9a4532cc6736f31223f52bf08ec8f7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/rpki_route_validation/adapter.py",
+      "sha256": "c7a2fb2f1a16ae722c66fa5d26f4841335a01f44ab1dd49ecb456ee646c1018c"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/seismic/README.md",
+      "sha256": "a9e524c023e79b1a7b3face9ad47d63b2f7c6159b8ead20dde9c3da770e220b5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/seismic/adapter.py",
+      "sha256": "52d8e742965fb8fd5b6fb3b3541dbc05f01de141f11900a757b5b663707bcf72"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/software_supply_chain/adapter.py",
+      "sha256": "60040159bbf26c7f04a11f60b40b89444bb5ea4dd2e7172dbdfdf49114325365"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/space_weather/README.md",
+      "sha256": "c77cf9b6dfd443465da6a772bff5cbed2104a6694e716b70f7823a75aad5fb16"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/space_weather/adapter.py",
+      "sha256": "7008ce5ec9a226825388782a4e2311a91dbfc3698c6c1da3d165834b3ca52887"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/urlhaus_threat/adapter.py",
+      "sha256": "e846be70a016aa9da5d1deb4601b36e2b39a6f07eb4f2221e6c47048f1cf87fc"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/bin/triada_demo",
+      "sha256": "8355274a4ad3f397ac9402858c5ffcbbd27a548c11c7aa80005a03b2edc3921b"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/aerospace/decision_sealed.txt",
+      "sha256": "d8ac1280bcf3064d0865dd58ab6825914c1c01c5e30119600bcb14200aa09c74"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/aerospace/event.jsonl",
+      "sha256": "7f3de9716c5b60dd300829e0011506d328349cc46a9b490a1a1545b9ecd779a7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/air_traffic_adsb/decision_sealed.txt",
+      "sha256": "5813f9e8bb77219c19f8eed67035462e25b54149662edc600b6a841d6ee9f58b"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/air_traffic_adsb/event.jsonl",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/bgp_route_integrity/decision_sealed.txt",
+      "sha256": "42c423c5582ce4b660f6bc393593bbd6a7d8df737527aa9b2d3982cb7e98aeed"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/bgp_route_integrity/event.jsonl",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/botnet_c2_ip/decision_sealed.txt",
+      "sha256": "749fae4c3323b899902e92a96839ed20f477f7de2fbca52aa18c8d15ee624a47"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/botnet_c2_ip/event.jsonl",
+      "sha256": "009e641ca81df6d45733a215c3fb6f07fb6fade75a724808562bb355c611049a"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/cyber_exploited_vuln/decision_sealed.txt",
+      "sha256": "584b3dc81f10ed77c8215794fe16b15709ab55beb8aded5deb3220ff7c0702a0"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/cyber_exploited_vuln/event.jsonl",
+      "sha256": "a6eefbb2a2078e3265798e0bdeb45e72f3cea255ff2b2b0e12276b92ff7d3b08"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/energy_grid_stress/decision_sealed.txt",
+      "sha256": "c0d006321a971dff7c24975a63933fe1ef46d8492378af40a670387e6144bc10"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/energy_grid_stress/event.jsonl",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/eonet_environmental/decision_sealed.txt",
+      "sha256": "26fd9833b2e5cd79898d61e8fb76f55de8dfba84ed53074551103b6064d5baa1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/eonet_environmental/event.jsonl",
+      "sha256": "8f4ac2a16ffe97870a7077f4c88b43e2e125bf480e9fd21063a3397faf9849e2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/epss_exploit_probability/decision_sealed.txt",
+      "sha256": "29271f0dab4613cefe3aef3aeca1d5d72e8f7ed44cb7d6f033822818bd921289"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/epss_exploit_probability/event.jsonl",
+      "sha256": "cb868e45d0ae0bf9914c64494fe3b5cfb8969302fe95119ce14b95e6b89b8068"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/gdacs_disaster/decision_sealed.txt",
+      "sha256": "3604ecda6c0691fd4603600534a1f456fd73964c3043afd3b61b74d543a0b5d1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/gdacs_disaster/event.jsonl",
+      "sha256": "377add7b8e303c16681dbdd0a5dcbd667a37a308c5a765eff8efd7df3f8a1053"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/malicious_domain_osint/decision_sealed.txt",
+      "sha256": "da2ce067b2a867239f1816dedd0044cc9ef8993182d91db54c6ea70d59a26a88"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/malicious_domain_osint/event.jsonl",
+      "sha256": "6c891940819ec08b70af873da81c917761f8cd57a2abbdefa72d99ff2a697505"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/nhc_hurricane/decision_sealed.txt",
+      "sha256": "ec34cfc14cdecd01151591b75a1e9f7763ff6d58a80b229ade6aa683162cfe52"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/nhc_hurricane/event.jsonl",
+      "sha256": "e28139a6e8d3e406ce6123dc937b567d845bbb30fed887caadc77d39f9ab1069"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/nws_alerts/decision_sealed.txt",
+      "sha256": "9d0cfb0eaec4525f4143de550a1d151fc19285ed33a2e3f2ee74f826953b8816"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/nws_alerts/event.jsonl",
+      "sha256": "9d87a7a0309f3fc9a789a4e60c154bc2c7ef4aef862cccad6ab3134bbfef36d4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/ocean_coastal/decision_sealed.txt",
+      "sha256": "cd095c9165a9d98f548e39a8f739553b0b1d57bf44d5c5b2bec22dc907e370e7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/ocean_coastal/event.jsonl",
+      "sha256": "a4d6e8d79d063f123fd14ff38a69418f7ad1b88fbea2326cf45da5b0cfb410a2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/public_health_pressure/decision_sealed.txt",
+      "sha256": "cb83fa3c0b996b491ea214cca9f6ef67844305be35e66905e1a327d262cd799d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/public_health_pressure/event.jsonl",
+      "sha256": "4f70d5c82ad7fd8f17d03411d67dd73540698f18ce8567e701a93aea4f6969d8"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/rpki_route_validation/decision_sealed.txt",
+      "sha256": "eb020a45f0831ae45ee66b7d7abc1dc57009b9226b2224c81c50b3c14d40a592"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/rpki_route_validation/event.jsonl",
+      "sha256": "3f7448164dfedb5df257f8ddc2b5ee94af64a413d9f574ba08ea66e385143df2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/seismic/decision_sealed.txt",
+      "sha256": "eefacd51896ea999f6ce80399972dc14bf446b8add73906f7c677b3d4b0e2178"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/seismic/event.jsonl",
+      "sha256": "60ea068041e89a80b355c9aa8626033d1ab9ec89bd702f3a33830e9353c44cee"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/software_supply_chain/decision_sealed.txt",
+      "sha256": "30de3ac7437a48fc48442e514d764dddcfae6ac7ce78d02b84a99cc42e08fff0"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/software_supply_chain/event.jsonl",
+      "sha256": "6b86fb87efb72c4ed27e56702fd0f4261484e216d0f9433eb3948b0be05bcdd5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/space_weather/decision_sealed.txt",
+      "sha256": "090074a795f043c5e3a1fc65fb5d3ec155040953c8be02692dc386c1e34e6cb7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/space_weather/event.jsonl",
+      "sha256": "02951e87f644880648a1f4733f316f1772788b5be9e05d3b1642e4624cdf1e7b"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/urlhaus_threat/decision_sealed.txt",
+      "sha256": "813b127a1ab6f0315bd323dcefcf231443ce950c23c93bf759ef0eb361aab1d7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/urlhaus_threat/event.jsonl",
+      "sha256": "cd4ba01e19b7a5b636f10b00193d2b5f6c28ed583d65429613bdca7756f5d2b5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/metrics.json",
+      "sha256": "82792240cd4c3f97aee67d4be3bdb26496e97c945bff2da4668e47a9c336c32e"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/public_files_sha256.csv",
+      "sha256": "8e9704d8b59c62dec17deaacd6aa47304cf6e204c9326b2085f84ddabcc25187"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/public_merkle_root.txt",
+      "sha256": "ba932947c3f22a4acf135455a0d4c09ca7a9c6e2315994579e43f66429b9b2bd"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/run.json",
+      "sha256": "ce89b1c6e2660ef9685c266d168444af5a19ad07baca1994077580231f939379"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/run_files_sha256.csv",
+      "sha256": "4a70a9e1c834fdbaa3b96a17f40c9056432f1a9a3c035af726c96605eeddcf61"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/run_full_report.txt",
+      "sha256": "372e1b256e8807f69f04a3b38f20319386391a236c57cf0ac19b4d7af305012c"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/run_header.txt",
+      "sha256": "1495fa0c632cee3943f1e01e9dc22cb0fce32e9d8f2b91e771b297e105a7e980"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/run_merkle_root.txt",
+      "sha256": "32813fc85945b5c63e6643ea1c4dbebaa7b3e827e9d6b443d91ac07b744e3620"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/summary.txt",
+      "sha256": "03d26d5c562f7657cf16b171caa5284eeb3798cef4e687f0c1e2370067146baf"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/validate_external_package.py",
+      "sha256": "312a0b3149a7da022b3a5082f6fb6366ba6d0cf35d438fb874a5cb3b8463a37c"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/TELEMETRY_INDEX.md",
+      "sha256": "c724a8c85487a4978a8e335e78e1587c4c0aa79d18a2d149f3129711a2931408"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/aerospace/TELEMETRY.md",
+      "sha256": "77866df189f44f2516016cbdd00c44046d9eebc8816a7ecdc7eb12a060ab1ca7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/aerospace/event.jsonl",
+      "sha256": "7f3de9716c5b60dd300829e0011506d328349cc46a9b490a1a1545b9ecd779a7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/aerospace/signals.json",
+      "sha256": "6e616efd7ee8c64473c6abad89f36a70704c2624a0c7d44e8ed6ca66a15337a5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/air_traffic_adsb/TELEMETRY.md",
+      "sha256": "94c95ff2fada3e44b049281aef9c7741f86857f1f01df9a2fc88f34b10f0c2c1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/air_traffic_adsb/event.jsonl",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/air_traffic_adsb/signals.json",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/bgp_route_integrity/TELEMETRY.md",
+      "sha256": "d066b876b849b2779290be9d32cd7285b74e060e421dce31708ccdaed513be36"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/bgp_route_integrity/event.jsonl",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/bgp_route_integrity/signals.json",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/botnet_c2_ip/TELEMETRY.md",
+      "sha256": "4530a08b0e1b555eb9d5a932db9b4ca69470fb4aa929c8b5e2654e75389c080f"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/botnet_c2_ip/event.jsonl",
+      "sha256": "009e641ca81df6d45733a215c3fb6f07fb6fade75a724808562bb355c611049a"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/botnet_c2_ip/signals.json",
+      "sha256": "4ecb90ca3bf28c678951c2c66aecc8b27b8ebda541378b45a8cd050903eaac79"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/cyber_exploited_vuln/TELEMETRY.md",
+      "sha256": "a29260267121327779c1f02887c02459f566ae166332ba4ff6e0fbc4eb2f8589"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/cyber_exploited_vuln/event.jsonl",
+      "sha256": "a6eefbb2a2078e3265798e0bdeb45e72f3cea255ff2b2b0e12276b92ff7d3b08"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/cyber_exploited_vuln/signals.json",
+      "sha256": "2b92c1e1396126b942473bb9d4a132116ffdbb9a0e3455e15d3a6c3afbfbb9e1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/energy_grid_stress/TELEMETRY.md",
+      "sha256": "f85423f5e81e6efeb0f50de76f452f6cfc2539e2d026f149591664099340da4d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/energy_grid_stress/event.jsonl",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/energy_grid_stress/signals.json",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/eonet_environmental/TELEMETRY.md",
+      "sha256": "2b6c39484bcfccfd522d8b36ffa79e75bfb250670abebd460c4060992b5aab9e"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/eonet_environmental/event.jsonl",
+      "sha256": "8f4ac2a16ffe97870a7077f4c88b43e2e125bf480e9fd21063a3397faf9849e2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/eonet_environmental/signals.json",
+      "sha256": "b9b485dda8a8f60c368877cdb1bc148cbffbb975b77d4eb39eacf94be8c059e9"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/epss_exploit_probability/TELEMETRY.md",
+      "sha256": "57d8605f844fbf36af093fa04129f76dadda504e85de600074fb7de733d55a04"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/epss_exploit_probability/event.jsonl",
+      "sha256": "cb868e45d0ae0bf9914c64494fe3b5cfb8969302fe95119ce14b95e6b89b8068"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/epss_exploit_probability/signals.json",
+      "sha256": "9ce9c53194abcc1a1b97c170bb3ef2d186ed2b9fa9154ae7701c52893c0a1847"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/gdacs_disaster/TELEMETRY.md",
+      "sha256": "a9a55692b32711d7cdb987d710223408325b0c7ab203a3d370cb6821ea38df29"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/gdacs_disaster/event.jsonl",
+      "sha256": "377add7b8e303c16681dbdd0a5dcbd667a37a308c5a765eff8efd7df3f8a1053"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/gdacs_disaster/signals.json",
+      "sha256": "c664984a642e5758bc69aec463e6fdbf891efcac8a60345bc9f5bc63c22779a4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/malicious_domain_osint/TELEMETRY.md",
+      "sha256": "3504ff34210e40521b6ec8469d5349c5d6ab1f76ca08168ae233d178b9f3d2b9"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/malicious_domain_osint/event.jsonl",
+      "sha256": "6c891940819ec08b70af873da81c917761f8cd57a2abbdefa72d99ff2a697505"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/malicious_domain_osint/signals.json",
+      "sha256": "f5e14368a092eadce07eef66de604c2dcbf955bd2d46d3930e4764835eb6db32"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/nhc_hurricane/TELEMETRY.md",
+      "sha256": "a9acf6bb09eabe9d79df1f9ad007fe0cac26afd41586f11c8606ffa58bb7e515"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/nhc_hurricane/event.jsonl",
+      "sha256": "e28139a6e8d3e406ce6123dc937b567d845bbb30fed887caadc77d39f9ab1069"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/nhc_hurricane/signals.json",
+      "sha256": "cb4fdef6bd0b130ecc371ed66ae4e59a3a6de9584091c09056d8d6911f4e9086"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/nws_alerts/TELEMETRY.md",
+      "sha256": "e20d429da2f57588f1ce8b5d355a75b06be15ad0f2830d52a97eae16bf124807"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/nws_alerts/event.jsonl",
+      "sha256": "9d87a7a0309f3fc9a789a4e60c154bc2c7ef4aef862cccad6ab3134bbfef36d4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/nws_alerts/signals.json",
+      "sha256": "4f0e05fa5bc6b95cb9ca70392e0a7165ebb47aa884edae01036d93d1ed2e04db"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/ocean_coastal/TELEMETRY.md",
+      "sha256": "e934e60c1d1789af5cdb5ad32b0d6784cbf95ed3acb180cc239a1999f344a5db"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/ocean_coastal/event.jsonl",
+      "sha256": "a4d6e8d79d063f123fd14ff38a69418f7ad1b88fbea2326cf45da5b0cfb410a2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/ocean_coastal/signals.json",
+      "sha256": "e941168df45c9ab7d09d8f4ce8bcb0d7c0c945675857ee1bca2e1371ea54b057"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/public_health_pressure/TELEMETRY.md",
+      "sha256": "ad69a150198af70965bdf5ed5ffd589e44640679c5f8f107201ab0cee33d6cef"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/public_health_pressure/event.jsonl",
+      "sha256": "4f70d5c82ad7fd8f17d03411d67dd73540698f18ce8567e701a93aea4f6969d8"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/public_health_pressure/signals.json",
+      "sha256": "62e55457167981239b88f81a9e672ddb43a3763dd379d7c3e3a72766688f4ee2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/rpki_route_validation/TELEMETRY.md",
+      "sha256": "04e854e524f03070649534131c5d3ea99953967712b94c1200f6953081ade922"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/rpki_route_validation/event.jsonl",
+      "sha256": "3f7448164dfedb5df257f8ddc2b5ee94af64a413d9f574ba08ea66e385143df2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/rpki_route_validation/signals.json",
+      "sha256": "2bcd923e19cc19f11beff33b38bf83c6998908f53755140dba2bdaee7ef71c3a"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/seismic/TELEMETRY.md",
+      "sha256": "0eff5f65b37758b7add5706d401deec0fc726e9c5fba4ca26a77d5d47d72dbcd"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/seismic/event.jsonl",
+      "sha256": "60ea068041e89a80b355c9aa8626033d1ab9ec89bd702f3a33830e9353c44cee"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/seismic/signals.json",
+      "sha256": "b196bff8a5a0336abbcc919b26fcc6a957ee8bc131213b106225df25353600e3"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/software_supply_chain/TELEMETRY.md",
+      "sha256": "3555fe6cfad2f0013f9e80e0edc803a3579f60eead4b9d66b3c525d1365d2a92"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/software_supply_chain/event.jsonl",
+      "sha256": "6b86fb87efb72c4ed27e56702fd0f4261484e216d0f9433eb3948b0be05bcdd5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/software_supply_chain/signals.json",
+      "sha256": "a98f6591a9b94c6f6f98e273101ff826ae8f783a4b4a0f0f4af067a41ee6746c"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/space_weather/TELEMETRY.md",
+      "sha256": "de16c31c4d58289d7e4574758fea84a3190ced2b4eb519724c1794b54f58c356"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/space_weather/event.jsonl",
+      "sha256": "02951e87f644880648a1f4733f316f1772788b5be9e05d3b1642e4624cdf1e7b"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/space_weather/signals.json",
+      "sha256": "0b57074b2a97cb4ed678b27576e734acefe7facaef16d95fc3f477fa6dc6cffe"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/urlhaus_threat/TELEMETRY.md",
+      "sha256": "8357c62745ea95d20845aca8802fa93f0a55da56bed5baa108c60464f68c8784"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/urlhaus_threat/event.jsonl",
+      "sha256": "cd4ba01e19b7a5b636f10b00193d2b5f6c28ed583d65429613bdca7756f5d2b5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/urlhaus_threat/signals.json",
+      "sha256": "0d8d9e71458ca7ffe38e5a8a791e63068bc65dee25825aba3e9b9ee8c0fed34f"
+    },
+    {
+      "file": "data/phase4/tampered_copy/AUDIT_PUBLICO_PoC/verify_poc.sh",
+      "sha256": "913353307393f7858eedd7a03886523bb4e52662c396fbc1ab28769cc38457ab"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/audit.json",
+      "sha256": "d31c370f9600db352cdd151cafde761bba0a4c8495e16dbf7b88bb0153e33549"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/decisions.txt",
+      "sha256": "faca1aca7a6e0673cf840fe6158d5f30b9dcbe8f4585075ac066774e8c03b8bf"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/aerospace/adapter_signals.json",
+      "sha256": "6e616efd7ee8c64473c6abad89f36a70704c2624a0c7d44e8ed6ca66a15337a5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/aerospace/decision.txt",
+      "sha256": "d8ac1280bcf3064d0865dd58ab6825914c1c01c5e30119600bcb14200aa09c74"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/aerospace/event.jsonl",
+      "sha256": "7f3de9716c5b60dd300829e0011506d328349cc46a9b490a1a1545b9ecd779a7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/aerospace/volume.jsonl",
+      "sha256": "7f3de9716c5b60dd300829e0011506d328349cc46a9b490a1a1545b9ecd779a7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/air_traffic_adsb/adapter_signals.json",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/air_traffic_adsb/decision.txt",
+      "sha256": "5813f9e8bb77219c19f8eed67035462e25b54149662edc600b6a841d6ee9f58b"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/air_traffic_adsb/event.jsonl",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/air_traffic_adsb/volume.jsonl",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/bgp_route_integrity/adapter_signals.json",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/bgp_route_integrity/decision.txt",
+      "sha256": "42c423c5582ce4b660f6bc393593bbd6a7d8df737527aa9b2d3982cb7e98aeed"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/bgp_route_integrity/event.jsonl",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/bgp_route_integrity/volume.jsonl",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/botnet_c2_ip/adapter_signals.json",
+      "sha256": "4ecb90ca3bf28c678951c2c66aecc8b27b8ebda541378b45a8cd050903eaac79"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/botnet_c2_ip/decision.txt",
+      "sha256": "749fae4c3323b899902e92a96839ed20f477f7de2fbca52aa18c8d15ee624a47"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/botnet_c2_ip/event.jsonl",
+      "sha256": "009e641ca81df6d45733a215c3fb6f07fb6fade75a724808562bb355c611049a"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/botnet_c2_ip/volume.jsonl",
+      "sha256": "009e641ca81df6d45733a215c3fb6f07fb6fade75a724808562bb355c611049a"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/cyber_exploited_vuln/adapter_signals.json",
+      "sha256": "2b92c1e1396126b942473bb9d4a132116ffdbb9a0e3455e15d3a6c3afbfbb9e1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/cyber_exploited_vuln/decision.txt",
+      "sha256": "584b3dc81f10ed77c8215794fe16b15709ab55beb8aded5deb3220ff7c0702a0"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/cyber_exploited_vuln/event.jsonl",
+      "sha256": "a6eefbb2a2078e3265798e0bdeb45e72f3cea255ff2b2b0e12276b92ff7d3b08"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/cyber_exploited_vuln/volume.jsonl",
+      "sha256": "a6eefbb2a2078e3265798e0bdeb45e72f3cea255ff2b2b0e12276b92ff7d3b08"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/energy_grid_stress/adapter_signals.json",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/energy_grid_stress/decision.txt",
+      "sha256": "c0d006321a971dff7c24975a63933fe1ef46d8492378af40a670387e6144bc10"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/energy_grid_stress/event.jsonl",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/energy_grid_stress/volume.jsonl",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/eonet_environmental/adapter_signals.json",
+      "sha256": "b9b485dda8a8f60c368877cdb1bc148cbffbb975b77d4eb39eacf94be8c059e9"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/eonet_environmental/decision.txt",
+      "sha256": "26fd9833b2e5cd79898d61e8fb76f55de8dfba84ed53074551103b6064d5baa1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/eonet_environmental/event.jsonl",
+      "sha256": "8f4ac2a16ffe97870a7077f4c88b43e2e125bf480e9fd21063a3397faf9849e2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/eonet_environmental/volume.jsonl",
+      "sha256": "8f4ac2a16ffe97870a7077f4c88b43e2e125bf480e9fd21063a3397faf9849e2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/epss_exploit_probability/adapter_signals.json",
+      "sha256": "9ce9c53194abcc1a1b97c170bb3ef2d186ed2b9fa9154ae7701c52893c0a1847"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/epss_exploit_probability/decision.txt",
+      "sha256": "29271f0dab4613cefe3aef3aeca1d5d72e8f7ed44cb7d6f033822818bd921289"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/epss_exploit_probability/event.jsonl",
+      "sha256": "cb868e45d0ae0bf9914c64494fe3b5cfb8969302fe95119ce14b95e6b89b8068"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/epss_exploit_probability/volume.jsonl",
+      "sha256": "cb868e45d0ae0bf9914c64494fe3b5cfb8969302fe95119ce14b95e6b89b8068"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/gdacs_disaster/adapter_signals.json",
+      "sha256": "c664984a642e5758bc69aec463e6fdbf891efcac8a60345bc9f5bc63c22779a4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/gdacs_disaster/decision.txt",
+      "sha256": "3604ecda6c0691fd4603600534a1f456fd73964c3043afd3b61b74d543a0b5d1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/gdacs_disaster/event.jsonl",
+      "sha256": "377add7b8e303c16681dbdd0a5dcbd667a37a308c5a765eff8efd7df3f8a1053"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/gdacs_disaster/volume.jsonl",
+      "sha256": "377add7b8e303c16681dbdd0a5dcbd667a37a308c5a765eff8efd7df3f8a1053"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/malicious_domain_osint/adapter_signals.json",
+      "sha256": "f5e14368a092eadce07eef66de604c2dcbf955bd2d46d3930e4764835eb6db32"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/malicious_domain_osint/decision.txt",
+      "sha256": "da2ce067b2a867239f1816dedd0044cc9ef8993182d91db54c6ea70d59a26a88"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/malicious_domain_osint/event.jsonl",
+      "sha256": "6c891940819ec08b70af873da81c917761f8cd57a2abbdefa72d99ff2a697505"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/malicious_domain_osint/volume.jsonl",
+      "sha256": "6c891940819ec08b70af873da81c917761f8cd57a2abbdefa72d99ff2a697505"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/nhc_hurricane/adapter_signals.json",
+      "sha256": "cb4fdef6bd0b130ecc371ed66ae4e59a3a6de9584091c09056d8d6911f4e9086"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/nhc_hurricane/decision.txt",
+      "sha256": "ec34cfc14cdecd01151591b75a1e9f7763ff6d58a80b229ade6aa683162cfe52"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/nhc_hurricane/event.jsonl",
+      "sha256": "e28139a6e8d3e406ce6123dc937b567d845bbb30fed887caadc77d39f9ab1069"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/nhc_hurricane/volume.jsonl",
+      "sha256": "e28139a6e8d3e406ce6123dc937b567d845bbb30fed887caadc77d39f9ab1069"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/nws_alerts/adapter_signals.json",
+      "sha256": "4f0e05fa5bc6b95cb9ca70392e0a7165ebb47aa884edae01036d93d1ed2e04db"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/nws_alerts/decision.txt",
+      "sha256": "9d0cfb0eaec4525f4143de550a1d151fc19285ed33a2e3f2ee74f826953b8816"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/nws_alerts/event.jsonl",
+      "sha256": "9d87a7a0309f3fc9a789a4e60c154bc2c7ef4aef862cccad6ab3134bbfef36d4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/nws_alerts/volume.jsonl",
+      "sha256": "9d87a7a0309f3fc9a789a4e60c154bc2c7ef4aef862cccad6ab3134bbfef36d4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/ocean_coastal/adapter_signals.json",
+      "sha256": "e941168df45c9ab7d09d8f4ce8bcb0d7c0c945675857ee1bca2e1371ea54b057"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/ocean_coastal/decision.txt",
+      "sha256": "cd095c9165a9d98f548e39a8f739553b0b1d57bf44d5c5b2bec22dc907e370e7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/ocean_coastal/event.jsonl",
+      "sha256": "a4d6e8d79d063f123fd14ff38a69418f7ad1b88fbea2326cf45da5b0cfb410a2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/ocean_coastal/volume.jsonl",
+      "sha256": "a4d6e8d79d063f123fd14ff38a69418f7ad1b88fbea2326cf45da5b0cfb410a2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/public_health_pressure/adapter_signals.json",
+      "sha256": "62e55457167981239b88f81a9e672ddb43a3763dd379d7c3e3a72766688f4ee2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/public_health_pressure/decision.txt",
+      "sha256": "cb83fa3c0b996b491ea214cca9f6ef67844305be35e66905e1a327d262cd799d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/public_health_pressure/event.jsonl",
+      "sha256": "4f70d5c82ad7fd8f17d03411d67dd73540698f18ce8567e701a93aea4f6969d8"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/public_health_pressure/volume.jsonl",
+      "sha256": "4f70d5c82ad7fd8f17d03411d67dd73540698f18ce8567e701a93aea4f6969d8"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/rpki_route_validation/adapter_signals.json",
+      "sha256": "2bcd923e19cc19f11beff33b38bf83c6998908f53755140dba2bdaee7ef71c3a"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/rpki_route_validation/decision.txt",
+      "sha256": "eb020a45f0831ae45ee66b7d7abc1dc57009b9226b2224c81c50b3c14d40a592"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/rpki_route_validation/event.jsonl",
+      "sha256": "3f7448164dfedb5df257f8ddc2b5ee94af64a413d9f574ba08ea66e385143df2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/rpki_route_validation/volume.jsonl",
+      "sha256": "3f7448164dfedb5df257f8ddc2b5ee94af64a413d9f574ba08ea66e385143df2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/seismic/adapter_signals.json",
+      "sha256": "b196bff8a5a0336abbcc919b26fcc6a957ee8bc131213b106225df25353600e3"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/seismic/decision.txt",
+      "sha256": "eefacd51896ea999f6ce80399972dc14bf446b8add73906f7c677b3d4b0e2178"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/seismic/event.jsonl",
+      "sha256": "60ea068041e89a80b355c9aa8626033d1ab9ec89bd702f3a33830e9353c44cee"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/seismic/volume.jsonl",
+      "sha256": "60ea068041e89a80b355c9aa8626033d1ab9ec89bd702f3a33830e9353c44cee"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/software_supply_chain/adapter_signals.json",
+      "sha256": "a98f6591a9b94c6f6f98e273101ff826ae8f783a4b4a0f0f4af067a41ee6746c"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/software_supply_chain/decision.txt",
+      "sha256": "30de3ac7437a48fc48442e514d764dddcfae6ac7ce78d02b84a99cc42e08fff0"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/software_supply_chain/event.jsonl",
+      "sha256": "6b86fb87efb72c4ed27e56702fd0f4261484e216d0f9433eb3948b0be05bcdd5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/software_supply_chain/volume.jsonl",
+      "sha256": "6b86fb87efb72c4ed27e56702fd0f4261484e216d0f9433eb3948b0be05bcdd5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/space_weather/adapter_signals.json",
+      "sha256": "0b57074b2a97cb4ed678b27576e734acefe7facaef16d95fc3f477fa6dc6cffe"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/space_weather/decision.txt",
+      "sha256": "090074a795f043c5e3a1fc65fb5d3ec155040953c8be02692dc386c1e34e6cb7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/space_weather/event.jsonl",
+      "sha256": "02951e87f644880648a1f4733f316f1772788b5be9e05d3b1642e4624cdf1e7b"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/space_weather/volume.jsonl",
+      "sha256": "02951e87f644880648a1f4733f316f1772788b5be9e05d3b1642e4624cdf1e7b"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/urlhaus_threat/adapter_signals.json",
+      "sha256": "0d8d9e71458ca7ffe38e5a8a791e63068bc65dee25825aba3e9b9ee8c0fed34f"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/urlhaus_threat/decision.txt",
+      "sha256": "813b127a1ab6f0315bd323dcefcf231443ce950c23c93bf759ef0eb361aab1d7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/urlhaus_threat/event.jsonl",
+      "sha256": "cd4ba01e19b7a5b636f10b00193d2b5f6c28ed583d65429613bdca7756f5d2b5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/domains/urlhaus_threat/volume.jsonl",
+      "sha256": "cd4ba01e19b7a5b636f10b00193d2b5f6c28ed583d65429613bdca7756f5d2b5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/exercise_descriptor.json",
+      "sha256": "2fff36c070e8ca257c83dfde8a661f2961b2d7ac632c700030dfe1afdbc6c7e7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/data/metrics.json",
+      "sha256": "82792240cd4c3f97aee67d4be3bdb26496e97c945bff2da4668e47a9c336c32e"
+    },
+    {
+      "file": "data/phase4/tampered_copy/external_audit_public/metrics.json",
+      "sha256": "82792240cd4c3f97aee67d4be3bdb26496e97c945bff2da4668e47a9c336c32e"
+    },
+    {
+      "file": "data/phase4/tampered_copy/external_audit_public/public_files_sha256.csv",
+      "sha256": "8e9704d8b59c62dec17deaacd6aa47304cf6e204c9326b2085f84ddabcc25187"
+    },
+    {
+      "file": "data/phase4/tampered_copy/external_audit_public/public_merkle_root.txt",
+      "sha256": "ba932947c3f22a4acf135455a0d4c09ca7a9c6e2315994579e43f66429b9b2bd"
+    },
+    {
+      "file": "data/phase4/tampered_copy/external_audit_public/run.json",
+      "sha256": "ce89b1c6e2660ef9685c266d168444af5a19ad07baca1994077580231f939379"
+    },
+    {
+      "file": "data/phase4/tampered_copy/external_audit_public/run_files_sha256.csv",
+      "sha256": "4a70a9e1c834fdbaa3b96a17f40c9056432f1a9a3c035af726c96605eeddcf61"
+    },
+    {
+      "file": "data/phase4/tampered_copy/external_audit_public/run_full_report.txt",
+      "sha256": "372e1b256e8807f69f04a3b38f20319386391a236c57cf0ac19b4d7af305012c"
+    },
+    {
+      "file": "data/phase4/tampered_copy/external_audit_public/run_header.txt",
+      "sha256": "1495fa0c632cee3943f1e01e9dc22cb0fce32e9d8f2b91e771b297e105a7e980"
+    },
+    {
+      "file": "data/phase4/tampered_copy/external_audit_public/run_merkle_root.txt",
+      "sha256": "32813fc85945b5c63e6643ea1c4dbebaa7b3e827e9d6b443d91ac07b744e3620"
+    },
+    {
+      "file": "data/phase4/tampered_copy/external_audit_public/summary.txt",
+      "sha256": "03d26d5c562f7657cf16b171caa5284eeb3798cef4e687f0c1e2370067146baf"
+    },
+    {
+      "file": "data/phase4/tampered_copy/external_audit_public/validate_external_package.py",
+      "sha256": "312a0b3149a7da022b3a5082f6fb6366ba6d0cf35d438fb874a5cb3b8463a37c"
+    },
+    {
+      "file": "data/phase4/tampered_copy/report/DECISION_DISTRIBUTION.json",
+      "sha256": "41071fb79c9aa9554bcbf0b0b8bd8bff332b736fa13838b6c18c3abadd40a1f6"
+    },
+    {
+      "file": "data/phase4/tampered_copy/report/INTERPRETIVE_REPORT.md",
+      "sha256": "16ad12ba1fe53f4918f1bcfd7f0f58958b390d4ae41bdebd6cf89ff11e988bdc"
+    },
+    {
+      "file": "data/phase4/tampered_copy/report/run.json",
+      "sha256": "ce89b1c6e2660ef9685c266d168444af5a19ad07baca1994077580231f939379"
+    },
+    {
+      "file": "data/phase4/tampered_copy/report/run_full_report.txt",
+      "sha256": "372e1b256e8807f69f04a3b38f20319386391a236c57cf0ac19b4d7af305012c"
+    },
+    {
+      "file": "data/phase4/tampered_copy/report/run_header.txt",
+      "sha256": "1495fa0c632cee3943f1e01e9dc22cb0fce32e9d8f2b91e771b297e105a7e980"
+    },
+    {
+      "file": "data/phase4/tampered_copy/report/summary.txt",
+      "sha256": "03d26d5c562f7657cf16b171caa5284eeb3798cef4e687f0c1e2370067146baf"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/TELEMETRY_INDEX.md",
+      "sha256": "c724a8c85487a4978a8e335e78e1587c4c0aa79d18a2d149f3129711a2931408"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/aerospace/TELEMETRY.md",
+      "sha256": "77866df189f44f2516016cbdd00c44046d9eebc8816a7ecdc7eb12a060ab1ca7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/aerospace/event.jsonl",
+      "sha256": "7f3de9716c5b60dd300829e0011506d328349cc46a9b490a1a1545b9ecd779a7"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/aerospace/signals.json",
+      "sha256": "6e616efd7ee8c64473c6abad89f36a70704c2624a0c7d44e8ed6ca66a15337a5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/air_traffic_adsb/TELEMETRY.md",
+      "sha256": "94c95ff2fada3e44b049281aef9c7741f86857f1f01df9a2fc88f34b10f0c2c1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/air_traffic_adsb/event.jsonl",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/air_traffic_adsb/signals.json",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/bgp_route_integrity/TELEMETRY.md",
+      "sha256": "d066b876b849b2779290be9d32cd7285b74e060e421dce31708ccdaed513be36"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/bgp_route_integrity/event.jsonl",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/bgp_route_integrity/signals.json",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/botnet_c2_ip/TELEMETRY.md",
+      "sha256": "4530a08b0e1b555eb9d5a932db9b4ca69470fb4aa929c8b5e2654e75389c080f"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/botnet_c2_ip/event.jsonl",
+      "sha256": "009e641ca81df6d45733a215c3fb6f07fb6fade75a724808562bb355c611049a"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/botnet_c2_ip/signals.json",
+      "sha256": "4ecb90ca3bf28c678951c2c66aecc8b27b8ebda541378b45a8cd050903eaac79"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/cyber_exploited_vuln/TELEMETRY.md",
+      "sha256": "a29260267121327779c1f02887c02459f566ae166332ba4ff6e0fbc4eb2f8589"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/cyber_exploited_vuln/event.jsonl",
+      "sha256": "a6eefbb2a2078e3265798e0bdeb45e72f3cea255ff2b2b0e12276b92ff7d3b08"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/cyber_exploited_vuln/signals.json",
+      "sha256": "2b92c1e1396126b942473bb9d4a132116ffdbb9a0e3455e15d3a6c3afbfbb9e1"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/energy_grid_stress/TELEMETRY.md",
+      "sha256": "f85423f5e81e6efeb0f50de76f452f6cfc2539e2d026f149591664099340da4d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/energy_grid_stress/event.jsonl",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/energy_grid_stress/signals.json",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/eonet_environmental/TELEMETRY.md",
+      "sha256": "2b6c39484bcfccfd522d8b36ffa79e75bfb250670abebd460c4060992b5aab9e"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/eonet_environmental/event.jsonl",
+      "sha256": "8f4ac2a16ffe97870a7077f4c88b43e2e125bf480e9fd21063a3397faf9849e2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/eonet_environmental/signals.json",
+      "sha256": "b9b485dda8a8f60c368877cdb1bc148cbffbb975b77d4eb39eacf94be8c059e9"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/epss_exploit_probability/TELEMETRY.md",
+      "sha256": "57d8605f844fbf36af093fa04129f76dadda504e85de600074fb7de733d55a04"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/epss_exploit_probability/event.jsonl",
+      "sha256": "cb868e45d0ae0bf9914c64494fe3b5cfb8969302fe95119ce14b95e6b89b8068"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/epss_exploit_probability/signals.json",
+      "sha256": "9ce9c53194abcc1a1b97c170bb3ef2d186ed2b9fa9154ae7701c52893c0a1847"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/gdacs_disaster/TELEMETRY.md",
+      "sha256": "a9a55692b32711d7cdb987d710223408325b0c7ab203a3d370cb6821ea38df29"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/gdacs_disaster/event.jsonl",
+      "sha256": "377add7b8e303c16681dbdd0a5dcbd667a37a308c5a765eff8efd7df3f8a1053"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/gdacs_disaster/signals.json",
+      "sha256": "c664984a642e5758bc69aec463e6fdbf891efcac8a60345bc9f5bc63c22779a4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/malicious_domain_osint/TELEMETRY.md",
+      "sha256": "3504ff34210e40521b6ec8469d5349c5d6ab1f76ca08168ae233d178b9f3d2b9"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/malicious_domain_osint/event.jsonl",
+      "sha256": "6c891940819ec08b70af873da81c917761f8cd57a2abbdefa72d99ff2a697505"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/malicious_domain_osint/signals.json",
+      "sha256": "f5e14368a092eadce07eef66de604c2dcbf955bd2d46d3930e4764835eb6db32"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/nhc_hurricane/TELEMETRY.md",
+      "sha256": "a9acf6bb09eabe9d79df1f9ad007fe0cac26afd41586f11c8606ffa58bb7e515"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/nhc_hurricane/event.jsonl",
+      "sha256": "e28139a6e8d3e406ce6123dc937b567d845bbb30fed887caadc77d39f9ab1069"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/nhc_hurricane/signals.json",
+      "sha256": "cb4fdef6bd0b130ecc371ed66ae4e59a3a6de9584091c09056d8d6911f4e9086"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/nws_alerts/TELEMETRY.md",
+      "sha256": "e20d429da2f57588f1ce8b5d355a75b06be15ad0f2830d52a97eae16bf124807"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/nws_alerts/event.jsonl",
+      "sha256": "9d87a7a0309f3fc9a789a4e60c154bc2c7ef4aef862cccad6ab3134bbfef36d4"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/nws_alerts/signals.json",
+      "sha256": "4f0e05fa5bc6b95cb9ca70392e0a7165ebb47aa884edae01036d93d1ed2e04db"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/ocean_coastal/TELEMETRY.md",
+      "sha256": "e934e60c1d1789af5cdb5ad32b0d6784cbf95ed3acb180cc239a1999f344a5db"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/ocean_coastal/event.jsonl",
+      "sha256": "a4d6e8d79d063f123fd14ff38a69418f7ad1b88fbea2326cf45da5b0cfb410a2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/ocean_coastal/signals.json",
+      "sha256": "e941168df45c9ab7d09d8f4ce8bcb0d7c0c945675857ee1bca2e1371ea54b057"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/public_health_pressure/TELEMETRY.md",
+      "sha256": "ad69a150198af70965bdf5ed5ffd589e44640679c5f8f107201ab0cee33d6cef"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/public_health_pressure/event.jsonl",
+      "sha256": "4f70d5c82ad7fd8f17d03411d67dd73540698f18ce8567e701a93aea4f6969d8"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/public_health_pressure/signals.json",
+      "sha256": "62e55457167981239b88f81a9e672ddb43a3763dd379d7c3e3a72766688f4ee2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/rpki_route_validation/TELEMETRY.md",
+      "sha256": "04e854e524f03070649534131c5d3ea99953967712b94c1200f6953081ade922"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/rpki_route_validation/event.jsonl",
+      "sha256": "3f7448164dfedb5df257f8ddc2b5ee94af64a413d9f574ba08ea66e385143df2"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/rpki_route_validation/signals.json",
+      "sha256": "2bcd923e19cc19f11beff33b38bf83c6998908f53755140dba2bdaee7ef71c3a"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/seismic/TELEMETRY.md",
+      "sha256": "0eff5f65b37758b7add5706d401deec0fc726e9c5fba4ca26a77d5d47d72dbcd"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/seismic/event.jsonl",
+      "sha256": "60ea068041e89a80b355c9aa8626033d1ab9ec89bd702f3a33830e9353c44cee"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/seismic/signals.json",
+      "sha256": "b196bff8a5a0336abbcc919b26fcc6a957ee8bc131213b106225df25353600e3"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/software_supply_chain/TELEMETRY.md",
+      "sha256": "3555fe6cfad2f0013f9e80e0edc803a3579f60eead4b9d66b3c525d1365d2a92"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/software_supply_chain/event.jsonl",
+      "sha256": "6b86fb87efb72c4ed27e56702fd0f4261484e216d0f9433eb3948b0be05bcdd5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/software_supply_chain/signals.json",
+      "sha256": "a98f6591a9b94c6f6f98e273101ff826ae8f783a4b4a0f0f4af067a41ee6746c"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/space_weather/TELEMETRY.md",
+      "sha256": "de16c31c4d58289d7e4574758fea84a3190ced2b4eb519724c1794b54f58c356"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/space_weather/event.jsonl",
+      "sha256": "02951e87f644880648a1f4733f316f1772788b5be9e05d3b1642e4624cdf1e7b"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/space_weather/signals.json",
+      "sha256": "0b57074b2a97cb4ed678b27576e734acefe7facaef16d95fc3f477fa6dc6cffe"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/urlhaus_threat/TELEMETRY.md",
+      "sha256": "8357c62745ea95d20845aca8802fa93f0a55da56bed5baa108c60464f68c8784"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/urlhaus_threat/event.jsonl",
+      "sha256": "cd4ba01e19b7a5b636f10b00193d2b5f6c28ed583d65429613bdca7756f5d2b5"
+    },
+    {
+      "file": "data/phase4/tampered_copy/telemetry/urlhaus_threat/signals.json",
+      "sha256": "0d8d9e71458ca7ffe38e5a8a791e63068bc65dee25825aba3e9b9ee8c0fed34f"
+    },
+    {
+      "file": "data/phase5/PHASE5_REPORT.txt",
+      "sha256": "d04beca7792be23c718ad0f96f01decad293e7c0724e1771c1bac20b95d247bc"
+    },
+    {
+      "file": "data/phase5/bribed_out.txt",
+      "sha256": "40471b1fc27d5af508f26f32d0b4611120b7eeb8d76a1004e7c9f47052392c47"
+    },
+    {
+      "file": "data/phase5/legit_out.txt",
+      "sha256": "40471b1fc27d5af508f26f32d0b4611120b7eeb8d76a1004e7c9f47052392c47"
+    },
+    {
+      "file": "data/phase5/phase5.log",
+      "sha256": "90bc454e3bdfc4094fa5b88ed55f93638b7e64a0879e818d10c5a82c5eb73706"
+    },
+    {
+      "file": "data/phase5/phase5.verdict.json",
+      "sha256": "624d0e38a9adc6bc5c930b55f7bbe22968cce39a99f19dbf0420517a302e896d"
+    },
+    {
+      "file": "data/phase5/probe.json",
+      "sha256": "454a85180bcb138530abe13b5f58a61355bca774bd2c1151abf3e6a67a774b8c"
+    },
+    {
+      "file": "data/phase5/triada_demo_BRIBED",
+      "sha256": "1dc5a62419da0b7f0f5e843bfc14fbc95f03f6449401c941b3db740b69185c9b"
+    },
+    {
+      "file": "data/phase6/PHASE6_REPORT.txt",
+      "sha256": "e95137ab1c52eca8483fcfd0ac671dbab68e9cbdb0f79a0622a59076207f3481"
+    },
+    {
+      "file": "data/phase6/out_contradiction.txt",
+      "sha256": "27f803343f42fa7910061471bdf474734d049651932ddeeb44cf1d26945c8509"
+    },
+    {
+      "file": "data/phase6/out_determinism_a.txt",
+      "sha256": "2a99f49e46800011fc3f2863e393b7aab406f27f730ebc456540424707ff39fd"
+    },
+    {
+      "file": "data/phase6/out_determinism_b.txt",
+      "sha256": "2a99f49e46800011fc3f2863e393b7aab406f27f730ebc456540424707ff39fd"
+    },
+    {
+      "file": "data/phase6/out_false_calm.txt",
+      "sha256": "82a6cee278385d92f6d8493636565bb65fe99d7e8df3efa5cdfb1d7d2dd75787"
+    },
+    {
+      "file": "data/phase6/out_split.txt",
+      "sha256": "bf96a05bba7014f19f3bb523c7cd4259911a6102f2b65e07316888b920eaeee1"
+    },
+    {
+      "file": "data/phase6/phase6.log",
+      "sha256": "579ffd9eb1ca7216576d77755aefb20f1dd9c4150db7192ae5f65b8cbac80b5d"
+    },
+    {
+      "file": "data/phase6/phase6.verdict.json",
+      "sha256": "a4717de317460d12cbe94acdb14d4adb3e8edeeb6de2718ba4594b8925bab853"
+    },
+    {
+      "file": "data/phase6/probe_contradiction.json",
+      "sha256": "8308b13928840f06013cdff509d7b6fd4cd06f2fe5e29898e13092d5f88192ed"
+    },
+    {
+      "file": "data/phase6/probe_determinism_a.json",
+      "sha256": "3d5dd1056445b4aa2ff256e65f504003ddb2151cf2883d44f02e5e278db68907"
+    },
+    {
+      "file": "data/phase6/probe_determinism_b.json",
+      "sha256": "3d5dd1056445b4aa2ff256e65f504003ddb2151cf2883d44f02e5e278db68907"
+    },
+    {
+      "file": "data/phase6/probe_false_calm.json",
+      "sha256": "ac5fa5a8c433d809fb8a7ce146055e29fd1fb56e9f4165d13a8d02f3f70abc5a"
+    },
+    {
+      "file": "data/phase6/probe_split.json",
+      "sha256": "bb8642c41b32bae988c32a4ad666bca43590b44bdd7591e4d39bea1d10d421a9"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_01_GDACS_ALERTS.xml",
+      "sha256": "28a7e3df2cdb18859791c27e59dfdc9283590bcd2a560195d4ad8f8075eae902"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_02_NASA_EONET_OPEN_EVENTS.json",
+      "sha256": "d490b5d696a8cddd1c5e20fff98bb84440fb93f361382ff0ca0c3fff4f970948"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_03_NASA_DONKI_CME.json",
+      "sha256": "81f4bf4a25f21a4d8ee79e8d8397f18df4b282829644e4d859d30d9c044d817b"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_04_NASA_DONKI_FLARE.json",
+      "sha256": "ef6eb4f2c0d0b6f844f171275f45b5e87f4486cf2b01f925d9353e26c46ccf70"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_05_NASA_DONKI_GEOMAGNETIC_STORM.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_06_CELESTRAK_ACTIVE.json",
+      "sha256": "8847008f750fd59ac79be1ad931fed378e04ae999888c1db7ebbcfc7ee464089"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_07_CELESTRAK_STARLINK.json",
+      "sha256": "6878e4b2ef0155863fd17d072c690a1331ab203532c0b68d149fd5657e349ad1"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_08_OPENSKY_ALL_STATES.json",
+      "sha256": "a61e24fc00540081cb86bc788119fe1fa71bcc62cedd7bc8963a174c2ac27348"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_09_GDELT_EVENTS_EXPORT.json",
+      "sha256": "a42cdd5e138750535ae201392c8e2981541c0e21d295da2ec02fd554a21f842a"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_10_URLHAUS_RECENT.json",
+      "sha256": "f0c34115879af4d17476e9bf82a6896c12e8bc67b7d7212dec52ace1bf233985"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_11_GITHUB_ADVISORIES.json",
+      "sha256": "b9416c76825ddb979cc01450d88ab214508a57ddeb81f5524a1ddd7a06a722c5"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_12_OSV_QUERY_REQUESTS.json",
+      "sha256": "034686d57ff2b610008005ce48d170fe925f5716114f163a9eebebbbf4d7db25"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_13_CLOUDFLARE_STATUS.json",
+      "sha256": "099861ff65e7fdd781da09a7147e69aad3bb97efcdac2121755ad8c18f56d982"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_14_GITHUB_STATUS.json",
+      "sha256": "adeb8737eee1b45c89ffbb7581243365411b5309c42299fecb7322e80980596f"
+    },
+    {
+      "file": "data/telemetry_raw/GLOBAL_15_WORLDBANK_ENERGY_ACCESS.json",
+      "sha256": "1f640a1f2e7a4f44e0605e0a5f689e1d49fc37f0e68558ae3144e4070210f88b"
+    },
+    {
+      "file": "data/telemetry_raw/USA_01_CISA_KEV.json",
+      "sha256": "24818e70a3e10191b6273989a9584d11a8bee0c209af291ce16fad538ae22e4a"
+    },
+    {
+      "file": "data/telemetry_raw/USA_02_NVD_RECENT_CVES.json",
+      "sha256": "2afff6232c0b8466f969e10ab3d994736e1e3a058fea459fa298b79538d23615"
+    },
+    {
+      "file": "data/telemetry_raw/USA_03_EPSS_CURRENT.csv",
+      "sha256": "bcf9b30eaa11b93a00fcbdfba028742eb3efb3da5d467492d9e0d0aa7cc5f61a"
+    },
+    {
+      "file": "data/telemetry_raw/USA_04_NWS_ACTIVE_ALERTS_NATIONAL.json",
+      "sha256": "df25150406786e52ba815f26a449a5248803b5e256da99ca361c7060a5ed93d9"
+    },
+    {
+      "file": "data/telemetry_raw/USA_05_NWS_FLORIDA_ALERTS.json",
+      "sha256": "421e7d99f6402ddb17b05e64c53734d477b483a0110122576689a70bc93dfc67"
+    },
+    {
+      "file": "data/telemetry_raw/USA_06_NOAA_SPC_CONVECTIVE_OUTLOOK.geojson",
+      "sha256": "b2eb7c9e56fc692df60fff39ae98fbc3e8a05ce9024c0d50d99f263b2fb98671"
+    },
+    {
+      "file": "data/telemetry_raw/USA_07_NHC_CURRENT_STORMS.json",
+      "sha256": "ac96744a900fb4acf34e41deb64b1e4be8d7d7ea7da4a94e2aaf21f6e1875323"
+    },
+    {
+      "file": "data/telemetry_raw/USA_08_SWPC_PLANETARY_K_INDEX.json",
+      "sha256": "3831f44731c740d495a3730f211707b4e980366b54d98d15a14457f86bcc9e0b"
+    },
+    {
+      "file": "data/telemetry_raw/USA_09_GOES_XRAY_FLUX.json",
+      "sha256": "5504e9c6879b64b2c9073c23adb703dfb95f3f1576a790d8fecaabab5f2981da"
+    },
+    {
+      "file": "data/telemetry_raw/USA_10_GOES_PROTON_FLUX.json",
+      "sha256": "f2eb07467ecc14e4ef3a64ea4a86c6579014aebc3e0b153c38c6dfd7ae461263"
+    },
+    {
+      "file": "data/telemetry_raw/USA_11_NDBC_LATEST_OBSERVATIONS.txt",
+      "sha256": "231b28b7e2235c8c82af2641e03d04d9a1f3c50c9c603b7c02f4b1fba23de577"
+    },
+    {
+      "file": "data/telemetry_raw/USA_12_NOAA_COOPS_WATER_LEVEL_MAYPORT.json",
+      "sha256": "24effb9aa22b9fd654a68758d95a1d9e22694a9ba72e8b778785eaf741f79827"
+    },
+    {
+      "file": "data/telemetry_raw/USA_13_USGS_EARTHQUAKES_ALL_DAY.geojson",
+      "sha256": "1c6f55f82707e41a9b4686a8735a5673d24a33032f225f15c18ad805feeb0dbf"
+    },
+    {
+      "file": "data/telemetry_raw/USA_14_AVIATION_METAR_MAJOR_US.json",
+      "sha256": "7f208106b0ff9ed6c2d39a1861aab82f9970d704cb00c3e82b59562dc5de3e1c"
+    },
+    {
+      "file": "data/telemetry_raw/USA_15_RIPE_BGP_GOOGLE_DNS.json",
+      "sha256": "fc00e8e848814af804576f2e27ce6720e441f6d435491c9e7916505307e395cf"
+    },
+    {
+      "file": "descriptor/OMEGA_PROTOCOL_DESCRIPTOR.txt",
+      "sha256": "4aba68c847f04c5865d4a8a30ffc8aa61ae0a42b71c3b01e47125a5964eae08f"
+    },
+    {
+      "file": "descriptor/environment.txt",
+      "sha256": "4c6c9b1c58192485a3bdc8e7944e7f7ed0fafce35872ebefd0ba6ae3da506403"
+    },
+    {
+      "file": "phase1/1A_isolation.result",
+      "sha256": "ed80c73c4dbb8c2e206b22c61f8cd4eecb4a87e212d973f382cf4463f3cccaab"
+    },
+    {
+      "file": "phase1/1B_dec_only_future.txt",
+      "sha256": "57d651e6ac82a4a579335b6a79af665d5d06faf07c85554c473c8d89758a51e4"
+    },
+    {
+      "file": "phase1/1B_dec_only_normal.txt",
+      "sha256": "57d651e6ac82a4a579335b6a79af665d5d06faf07c85554c473c8d89758a51e4"
+    },
+    {
+      "file": "phase1/1B_dec_only_past.txt",
+      "sha256": "57d651e6ac82a4a579335b6a79af665d5d06faf07c85554c473c8d89758a51e4"
+    },
+    {
+      "file": "phase1/1B_decisions_future.txt",
+      "sha256": "dc57c6d2cd3dc23c1359eb1f948f498f7bb18e039a7c7408a576bf72526cda21"
+    },
+    {
+      "file": "phase1/1B_decisions_normal.txt",
+      "sha256": "8169067f03a6677d32a4ef8aedf754e6663798922619c5650a206f9267c297d9"
+    },
+    {
+      "file": "phase1/1B_decisions_past.txt",
+      "sha256": "166c8e58ac6bf7049be34b0fe9c58c6bb465e71a89feee90e117288cdbeef00c"
+    },
+    {
+      "file": "phase1/1B_timedrift.result",
+      "sha256": "dc1a4733dd08642f9b9433dd47d1eb5592e75c34125b99d9a5104dae939f1305"
+    },
+    {
+      "file": "phase1/1C_resource.result",
+      "sha256": "7b61577fa9e6ae0629708ccf4b5aa4b5e343b192194b4ad947074f6a5d336b20"
+    },
+    {
+      "file": "phase1/1C_resource_run.txt",
+      "sha256": "8da0086003583e7d7dfd13eea35a6d226170a72493bb8354deacd8604790f471"
+    },
+    {
+      "file": "phase1/PHASE1_REPORT.txt",
+      "sha256": "e9ff38b20b7f920c10cf9c15aed37169b01af3223c87ccbf5d119ad52a5e146d"
+    },
+    {
+      "file": "phase1/phase1.log",
+      "sha256": "2fc157cce21da503413ea1fc4d62bb5488d9edfe76f68738ce5ee383b456a9ba"
+    },
+    {
+      "file": "phase2/PHASE2_REPORT.txt",
+      "sha256": "4ccd670fdad80c3de964cbe3dc7d7af1bdd6a11b51c66c4ed27cb6f46e16aa8b"
+    },
+    {
+      "file": "phase2/_build_noise.log",
+      "sha256": "bfa72ca1bb00d74a21bae7efbdd59cef396738ce5af76a042055c6a87c1e596a"
+    },
+    {
+      "file": "phase2/adversarial/volume_aerospace.jsonl",
+      "sha256": "b6e338333807790ad822c0582ab8557581dd75ec89205f2380da649f6b9c0aaa"
+    },
+    {
+      "file": "phase2/adversarial/volume_air_traffic_adsb.jsonl",
+      "sha256": "59ada2ac0e2cf0f2ddda18b09fa395f435f87af76e19624a89e10348e973b385"
+    },
+    {
+      "file": "phase2/adversarial/volume_bgp_route_integrity.jsonl",
+      "sha256": "795f715f9b55aa2a259d7e2c42430cae527bc5a333fc9b4825c293d99ef13271"
+    },
+    {
+      "file": "phase2/adversarial/volume_botnet_c2.jsonl",
+      "sha256": "4f3444c135470ed059ee92eb239b2edb90aeab8ce9b11b39bf622493804fd3e7"
+    },
+    {
+      "file": "phase2/adversarial/volume_cyber_exploited_vuln.jsonl",
+      "sha256": "f2758ff4591333e802cc6686cc45f3214ca30daaed53884ae65d275e03da2c3d"
+    },
+    {
+      "file": "phase2/adversarial/volume_energy_grid.jsonl",
+      "sha256": "9f085b969cdd151760d0698b9e69253f54b55664dcd48d1f2e887ba5161ec69e"
+    },
+    {
+      "file": "phase2/adversarial/volume_epss_exploit_probability.jsonl",
+      "sha256": "c19e8f8cb95116b2ff8e9f549e6c4ee4f6aa1b6cb8e0e3c182d0cc9372d16412"
+    },
+    {
+      "file": "phase2/adversarial/volume_global_security_osint.jsonl",
+      "sha256": "ee358272a7ec92eff036ab469b642879ae32e658504c965cf6c2953f8520e97b"
+    },
+    {
+      "file": "phase2/adversarial/volume_ocean_coastal.jsonl",
+      "sha256": "dc3ab0a9610f9aa6199e6053bfb2ee0efed3d20ddae72faa4ceb6806ec79caba"
+    },
+    {
+      "file": "phase2/adversarial/volume_rpki_route_validation.jsonl",
+      "sha256": "8789878f726c54297090fa2f415da8e2f4e19666a6eb4d38da35e19102249568"
+    },
+    {
+      "file": "phase2/adversarial/volume_seismic.jsonl",
+      "sha256": "1b726c36309212c31f7965222bd9c7447a12762fae0e1889523cc90785e61c63"
+    },
+    {
+      "file": "phase2/adversarial/volume_software_supply_chain.jsonl",
+      "sha256": "7cdee80ea4b6c2bc36b7496769487ec481a1e2a105b3dd5b064d7692aef4516e"
+    },
+    {
+      "file": "phase2/adversarial/volume_space_weather.jsonl",
+      "sha256": "db552366ab42de6323ef2b5792748dfd7b3259a7683492039713612b9a0c1d88"
+    },
+    {
+      "file": "phase2/contradiction_map.json",
+      "sha256": "7b7aa12906cc19970f87e7cc019c3fc9cca698bd134de58c5b236a7558016c7d"
+    },
+    {
+      "file": "phase2/kernel_on_byzantine.out",
+      "sha256": "ec333a5d7ce1d457631b6717133d6915d4044dbabe78b6439a2795d7e8e3fa18"
+    },
+    {
+      "file": "phase2/kernel_on_poisoned.out",
+      "sha256": "b7c2932b92c149c028c0073f39949a25d3fb8b3a9ec2dac058a90c207cc4b2d6"
+    },
+    {
+      "file": "phase2/poisoned/volume_aerospace.jsonl",
+      "sha256": "64052656c337abfe7c5ccd0751496f155c05d5d370f87567d9f73eacb94662d6"
+    },
+    {
+      "file": "phase2/poisoned/volume_air_traffic_adsb.jsonl",
+      "sha256": "7cca04197b5c012a0ab671819970b61164342c2391ecd4fd874d3b0cfb156b30"
+    },
+    {
+      "file": "phase2/poisoned/volume_bgp_route_integrity.jsonl",
+      "sha256": "8c667092e2124a8c7d924a0325b487dc1a2cd3213a3b8f1984c9f1ab1c4eede7"
+    },
+    {
+      "file": "phase2/poisoned/volume_cyber_exploited_vuln.jsonl",
+      "sha256": "90753e4eef9223a59d9ae2a370687b164e710222ae8fea3dda3b3d3f5ec52005"
+    },
+    {
+      "file": "phase2/poisoned/volume_epss_exploit_probability.jsonl",
+      "sha256": "e7de2d31a84fd339fa3bb40368ea463e078712ceae38f475d3dbc44a509841e3"
+    },
+    {
+      "file": "phase2/poisoned/volume_ocean_coastal.jsonl",
+      "sha256": "84416a9450665c7477332414a820c5884badd0e62ec0f459b1075043fb649c41"
+    },
+    {
+      "file": "phase2/poisoned/volume_rpki_route_validation.jsonl",
+      "sha256": "4d13355c4bc0e73c24f9118840381577d34d32e7fa399c80ed645e464dbffdbb"
+    },
+    {
+      "file": "phase2/poisoned/volume_seismic.jsonl",
+      "sha256": "da0c8e8bad87210486aa2d72007319f222f6d9310af2421098533a57a8d298b5"
+    },
+    {
+      "file": "phase2/poisoned/volume_software_supply_chain.jsonl",
+      "sha256": "58c15704b4adfc31d0cc4f0559f0d834ee2193d4f6ad88728f8d8cbaa534232b"
+    },
+    {
+      "file": "phase2/poisoned/volume_space_weather.jsonl",
+      "sha256": "9d5a49d191622ee2f31f7a37f815177809bd9887b3f6f065d2a8a65200fdd645"
+    },
+    {
+      "file": "phase3/3A_kill.result",
+      "sha256": "cb674a6e33fd12b6e3149084181988ee51d8db65c7f70209ce33ac7a1776c999"
+    },
+    {
+      "file": "phase3/3B_recovery.result",
+      "sha256": "2d45f1ba7371f575941b68454c3918478f96bc91eb80bc96549ffeb86161b541"
+    },
+    {
+      "file": "phase3/3_kill_timestamp.txt",
+      "sha256": "f8b185282114af0ceb0ab4b6fe1a5e05c47cf551adf5e3461be165d36f1557f9"
+    },
+    {
+      "file": "phase3/3_killed_run.out",
+      "sha256": "aeb548a4931f6c9e2e2d4a87072d4ac5cc8b22cca5af40387528742dcb9858d2"
+    },
+    {
+      "file": "phase3/3_prior_evidence_hashes.txt",
+      "sha256": "bef17c6631f25b2cd68cccab6c7a509076ce2f004394d46425ffb15baddd2fd4"
+    },
+    {
+      "file": "phase3/3_recovery_run.out",
+      "sha256": "e6c0e527e917d8cbaa8f63a9b583ed3e7dd3ee6e08b43636b25fe255df74c5c4"
+    },
+    {
+      "file": "phase3/PHASE3_REPORT.txt",
+      "sha256": "3d9e6d03d17282a95361b22a451187ed4de8b5fd79d85acb4bdcf7f59bb2e6b6"
+    },
+    {
+      "file": "phase3/phase3.log",
+      "sha256": "71d5c62305ea9a1d76a8e81c2400db308f6128b86b3c36c7b16bb8578bcd1493"
+    },
+    {
+      "file": "phase3/phase3.verdict",
+      "sha256": "076d7e3a645ec57adaee6391fa481ec37e044c1b4d2fdd7710b3f0734d27c86e"
+    },
+    {
+      "file": "phase4/PHASE4_REPORT.txt",
+      "sha256": "4297d4c253a5dae5fef2a07c53a30e5bd1fb20789a20e834c8c89f8d38c77403"
+    },
+    {
+      "file": "phase4/phase4.log",
+      "sha256": "76623a6479ae59d0c48be5fcdbf7ba16ce579f03a7c2734d89529a888dbffdc6"
+    },
+    {
+      "file": "phase4/phase4.verdict.json",
+      "sha256": "357b4d482f68002a150b10bc8bfd4a3d8b1d365f01036dd34dee8f94552c799c"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/README_PoC.md",
+      "sha256": "df93bd1de13117ebb569983dc7819e581615d9971e57db1b63b0e7e274e0b8dd"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/README.md",
+      "sha256": "4dd23e9db2ad7412c1cef7df4296060270be9fa3d892e50d1ec3a0bbbddbb0b9"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/aerospace/README.md",
+      "sha256": "459edb5cefbd9b74d9674607f11259d341bc8c410fdf4f2a5d8c95900715e7c2"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/aerospace/adapter.py",
+      "sha256": "06a211cfc41caaa57420c0f8fabacc86d86efdd68a25b77562a791bc215d3366"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/air_traffic_adsb/README.md",
+      "sha256": "89367372966c986ea195a1d74f058202f6c9bd57d88945481d3ebc31a9ebee0b"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/air_traffic_adsb/adapter.py",
+      "sha256": "7ba038becd5d090b26c29175481d6a3d03ccf8e1b172f8a9fd0e391f024d1db6"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/air_traffic_adsb/adapter_single.py",
+      "sha256": "7d813f8b48a7e140c62541aac1a9b06595b2357833f90f79f360e513a123bffb"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/bgp_route_integrity/adapter.py",
+      "sha256": "641f3486aac4e1647a45d1dcf91f492f85ad1e049b06faeeb9ed3dac21424632"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/botnet_c2_ip/adapter.py",
+      "sha256": "143c7c8e24e0e6fb69deab43e6e9eec6ac705e2e88c7a8359c6fb947618f235d"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/cyber_exploited_vuln/README.md",
+      "sha256": "23c79a20935c7789240e3211aa04cf5c37923c4809eed55e9dc0968dd04260c4"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/cyber_exploited_vuln/adapter.py",
+      "sha256": "6f13adab03707cf107f1033a6b15fb437e7e28ef9259941225f8f78ea7e17b96"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/energy_grid_stress/adapter.py",
+      "sha256": "fcfd68faa7a70b321e55b0670cf99ee9692772f3b29feb9d943050c2cda854e3"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/eonet_environmental/adapter.py",
+      "sha256": "f3e37eab35521060055a683885620688aceb934efdaf3b14bfdddd2e61b5fa56"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/epss_exploit_probability/adapter.py",
+      "sha256": "13778ea18dc91cf1844c0fd0bdd177a585aaa3e9f92390df0144be3f6daa7f53"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/gdacs_disaster/adapter.py",
+      "sha256": "49de36b2d329afb71fef9f8983cb490d47af29f6164317e771e32cecfe557c9e"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/malicious_domain_osint/adapter.py",
+      "sha256": "2e5b533196026d5262d6474cf380c18b82558077c59ab73c90f34935004e3380"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/nhc_hurricane/adapter.py",
+      "sha256": "1be7b7c3f27c1649ef263dd2b9987dbf4235aa77bb121452ce1df86dcc1cf46d"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/nws_alerts/adapter.py",
+      "sha256": "e06195101a99a41b5e76ab83f0ba2e2f03b6fdc50de64fa3e5b04192550402de"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/ocean_coastal/adapter.py",
+      "sha256": "2ef3bd581cf1506bc7f166f7e8f774c52693da5e7c57a8a2feafffb2d69f4b2e"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/public_health_pressure/adapter.py",
+      "sha256": "e698efe3000164b752a20977572e4ea08a9a4532cc6736f31223f52bf08ec8f7"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/rpki_route_validation/adapter.py",
+      "sha256": "c7a2fb2f1a16ae722c66fa5d26f4841335a01f44ab1dd49ecb456ee646c1018c"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/seismic/README.md",
+      "sha256": "a9e524c023e79b1a7b3face9ad47d63b2f7c6159b8ead20dde9c3da770e220b5"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/seismic/adapter.py",
+      "sha256": "52d8e742965fb8fd5b6fb3b3541dbc05f01de141f11900a757b5b663707bcf72"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/software_supply_chain/adapter.py",
+      "sha256": "60040159bbf26c7f04a11f60b40b89444bb5ea4dd2e7172dbdfdf49114325365"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/space_weather/README.md",
+      "sha256": "c77cf9b6dfd443465da6a772bff5cbed2104a6694e716b70f7823a75aad5fb16"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/space_weather/adapter.py",
+      "sha256": "7008ce5ec9a226825388782a4e2311a91dbfc3698c6c1da3d165834b3ca52887"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/adapters/urlhaus_threat/adapter.py",
+      "sha256": "e846be70a016aa9da5d1deb4601b36e2b39a6f07eb4f2221e6c47048f1cf87fc"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/bin/triada_demo",
+      "sha256": "8355274a4ad3f397ac9402858c5ffcbbd27a548c11c7aa80005a03b2edc3921b"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/aerospace/decision_sealed.txt",
+      "sha256": "d8ac1280bcf3064d0865dd58ab6825914c1c01c5e30119600bcb14200aa09c74"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/aerospace/event.jsonl",
+      "sha256": "7f3de9716c5b60dd300829e0011506d328349cc46a9b490a1a1545b9ecd779a7"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/air_traffic_adsb/decision_sealed.txt",
+      "sha256": "5813f9e8bb77219c19f8eed67035462e25b54149662edc600b6a841d6ee9f58b"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/air_traffic_adsb/event.jsonl",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/bgp_route_integrity/decision_sealed.txt",
+      "sha256": "42c423c5582ce4b660f6bc393593bbd6a7d8df737527aa9b2d3982cb7e98aeed"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/bgp_route_integrity/event.jsonl",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/botnet_c2_ip/decision_sealed.txt",
+      "sha256": "749fae4c3323b899902e92a96839ed20f477f7de2fbca52aa18c8d15ee624a47"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/botnet_c2_ip/event.jsonl",
+      "sha256": "009e641ca81df6d45733a215c3fb6f07fb6fade75a724808562bb355c611049a"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/cyber_exploited_vuln/decision_sealed.txt",
+      "sha256": "584b3dc81f10ed77c8215794fe16b15709ab55beb8aded5deb3220ff7c0702a0"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/cyber_exploited_vuln/event.jsonl",
+      "sha256": "a6eefbb2a2078e3265798e0bdeb45e72f3cea255ff2b2b0e12276b92ff7d3b08"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/energy_grid_stress/decision_sealed.txt",
+      "sha256": "c0d006321a971dff7c24975a63933fe1ef46d8492378af40a670387e6144bc10"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/energy_grid_stress/event.jsonl",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/eonet_environmental/decision_sealed.txt",
+      "sha256": "26fd9833b2e5cd79898d61e8fb76f55de8dfba84ed53074551103b6064d5baa1"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/eonet_environmental/event.jsonl",
+      "sha256": "8f4ac2a16ffe97870a7077f4c88b43e2e125bf480e9fd21063a3397faf9849e2"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/epss_exploit_probability/decision_sealed.txt",
+      "sha256": "29271f0dab4613cefe3aef3aeca1d5d72e8f7ed44cb7d6f033822818bd921289"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/epss_exploit_probability/event.jsonl",
+      "sha256": "cb868e45d0ae0bf9914c64494fe3b5cfb8969302fe95119ce14b95e6b89b8068"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/gdacs_disaster/decision_sealed.txt",
+      "sha256": "3604ecda6c0691fd4603600534a1f456fd73964c3043afd3b61b74d543a0b5d1"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/gdacs_disaster/event.jsonl",
+      "sha256": "377add7b8e303c16681dbdd0a5dcbd667a37a308c5a765eff8efd7df3f8a1053"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/malicious_domain_osint/decision_sealed.txt",
+      "sha256": "da2ce067b2a867239f1816dedd0044cc9ef8993182d91db54c6ea70d59a26a88"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/malicious_domain_osint/event.jsonl",
+      "sha256": "6c891940819ec08b70af873da81c917761f8cd57a2abbdefa72d99ff2a697505"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/nhc_hurricane/decision_sealed.txt",
+      "sha256": "ec34cfc14cdecd01151591b75a1e9f7763ff6d58a80b229ade6aa683162cfe52"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/nhc_hurricane/event.jsonl",
+      "sha256": "e28139a6e8d3e406ce6123dc937b567d845bbb30fed887caadc77d39f9ab1069"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/nws_alerts/decision_sealed.txt",
+      "sha256": "9d0cfb0eaec4525f4143de550a1d151fc19285ed33a2e3f2ee74f826953b8816"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/nws_alerts/event.jsonl",
+      "sha256": "9d87a7a0309f3fc9a789a4e60c154bc2c7ef4aef862cccad6ab3134bbfef36d4"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/ocean_coastal/decision_sealed.txt",
+      "sha256": "cd095c9165a9d98f548e39a8f739553b0b1d57bf44d5c5b2bec22dc907e370e7"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/ocean_coastal/event.jsonl",
+      "sha256": "a4d6e8d79d063f123fd14ff38a69418f7ad1b88fbea2326cf45da5b0cfb410a2"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/public_health_pressure/decision_sealed.txt",
+      "sha256": "cb83fa3c0b996b491ea214cca9f6ef67844305be35e66905e1a327d262cd799d"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/public_health_pressure/event.jsonl",
+      "sha256": "4f70d5c82ad7fd8f17d03411d67dd73540698f18ce8567e701a93aea4f6969d8"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/rpki_route_validation/decision_sealed.txt",
+      "sha256": "eb020a45f0831ae45ee66b7d7abc1dc57009b9226b2224c81c50b3c14d40a592"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/rpki_route_validation/event.jsonl",
+      "sha256": "3f7448164dfedb5df257f8ddc2b5ee94af64a413d9f574ba08ea66e385143df2"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/seismic/decision_sealed.txt",
+      "sha256": "eefacd51896ea999f6ce80399972dc14bf446b8add73906f7c677b3d4b0e2178"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/seismic/event.jsonl",
+      "sha256": "60ea068041e89a80b355c9aa8626033d1ab9ec89bd702f3a33830e9353c44cee"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/software_supply_chain/decision_sealed.txt",
+      "sha256": "30de3ac7437a48fc48442e514d764dddcfae6ac7ce78d02b84a99cc42e08fff0"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/software_supply_chain/event.jsonl",
+      "sha256": "6b86fb87efb72c4ed27e56702fd0f4261484e216d0f9433eb3948b0be05bcdd5"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/space_weather/decision_sealed.txt",
+      "sha256": "090074a795f043c5e3a1fc65fb5d3ec155040953c8be02692dc386c1e34e6cb7"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/space_weather/event.jsonl",
+      "sha256": "02951e87f644880648a1f4733f316f1772788b5be9e05d3b1642e4624cdf1e7b"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/urlhaus_threat/decision_sealed.txt",
+      "sha256": "813b127a1ab6f0315bd323dcefcf231443ce950c23c93bf759ef0eb361aab1d7"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/domains/urlhaus_threat/event.jsonl",
+      "sha256": "cd4ba01e19b7a5b636f10b00193d2b5f6c28ed583d65429613bdca7756f5d2b5"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/metrics.json",
+      "sha256": "82792240cd4c3f97aee67d4be3bdb26496e97c945bff2da4668e47a9c336c32e"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/public_files_sha256.csv",
+      "sha256": "8e9704d8b59c62dec17deaacd6aa47304cf6e204c9326b2085f84ddabcc25187"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/public_merkle_root.txt",
+      "sha256": "ba932947c3f22a4acf135455a0d4c09ca7a9c6e2315994579e43f66429b9b2bd"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/run.json",
+      "sha256": "ce89b1c6e2660ef9685c266d168444af5a19ad07baca1994077580231f939379"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/run_files_sha256.csv",
+      "sha256": "4a70a9e1c834fdbaa3b96a17f40c9056432f1a9a3c035af726c96605eeddcf61"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/run_full_report.txt",
+      "sha256": "372e1b256e8807f69f04a3b38f20319386391a236c57cf0ac19b4d7af305012c"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/run_header.txt",
+      "sha256": "1495fa0c632cee3943f1e01e9dc22cb0fce32e9d8f2b91e771b297e105a7e980"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/run_merkle_root.txt",
+      "sha256": "32813fc85945b5c63e6643ea1c4dbebaa7b3e827e9d6b443d91ac07b744e3620"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/summary.txt",
+      "sha256": "03d26d5c562f7657cf16b171caa5284eeb3798cef4e687f0c1e2370067146baf"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/external_audit_public/validate_external_package.py",
+      "sha256": "312a0b3149a7da022b3a5082f6fb6366ba6d0cf35d438fb874a5cb3b8463a37c"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/TELEMETRY_INDEX.md",
+      "sha256": "c724a8c85487a4978a8e335e78e1587c4c0aa79d18a2d149f3129711a2931408"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/aerospace/TELEMETRY.md",
+      "sha256": "77866df189f44f2516016cbdd00c44046d9eebc8816a7ecdc7eb12a060ab1ca7"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/aerospace/event.jsonl",
+      "sha256": "7f3de9716c5b60dd300829e0011506d328349cc46a9b490a1a1545b9ecd779a7"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/aerospace/signals.json",
+      "sha256": "6e616efd7ee8c64473c6abad89f36a70704c2624a0c7d44e8ed6ca66a15337a5"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/air_traffic_adsb/TELEMETRY.md",
+      "sha256": "94c95ff2fada3e44b049281aef9c7741f86857f1f01df9a2fc88f34b10f0c2c1"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/air_traffic_adsb/event.jsonl",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/air_traffic_adsb/signals.json",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/bgp_route_integrity/TELEMETRY.md",
+      "sha256": "d066b876b849b2779290be9d32cd7285b74e060e421dce31708ccdaed513be36"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/bgp_route_integrity/event.jsonl",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/bgp_route_integrity/signals.json",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/botnet_c2_ip/TELEMETRY.md",
+      "sha256": "4530a08b0e1b555eb9d5a932db9b4ca69470fb4aa929c8b5e2654e75389c080f"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/botnet_c2_ip/event.jsonl",
+      "sha256": "009e641ca81df6d45733a215c3fb6f07fb6fade75a724808562bb355c611049a"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/botnet_c2_ip/signals.json",
+      "sha256": "4ecb90ca3bf28c678951c2c66aecc8b27b8ebda541378b45a8cd050903eaac79"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/cyber_exploited_vuln/TELEMETRY.md",
+      "sha256": "a29260267121327779c1f02887c02459f566ae166332ba4ff6e0fbc4eb2f8589"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/cyber_exploited_vuln/event.jsonl",
+      "sha256": "a6eefbb2a2078e3265798e0bdeb45e72f3cea255ff2b2b0e12276b92ff7d3b08"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/cyber_exploited_vuln/signals.json",
+      "sha256": "2b92c1e1396126b942473bb9d4a132116ffdbb9a0e3455e15d3a6c3afbfbb9e1"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/energy_grid_stress/TELEMETRY.md",
+      "sha256": "f85423f5e81e6efeb0f50de76f452f6cfc2539e2d026f149591664099340da4d"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/energy_grid_stress/event.jsonl",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/energy_grid_stress/signals.json",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/eonet_environmental/TELEMETRY.md",
+      "sha256": "2b6c39484bcfccfd522d8b36ffa79e75bfb250670abebd460c4060992b5aab9e"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/eonet_environmental/event.jsonl",
+      "sha256": "8f4ac2a16ffe97870a7077f4c88b43e2e125bf480e9fd21063a3397faf9849e2"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/eonet_environmental/signals.json",
+      "sha256": "b9b485dda8a8f60c368877cdb1bc148cbffbb975b77d4eb39eacf94be8c059e9"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/epss_exploit_probability/TELEMETRY.md",
+      "sha256": "57d8605f844fbf36af093fa04129f76dadda504e85de600074fb7de733d55a04"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/epss_exploit_probability/event.jsonl",
+      "sha256": "cb868e45d0ae0bf9914c64494fe3b5cfb8969302fe95119ce14b95e6b89b8068"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/epss_exploit_probability/signals.json",
+      "sha256": "9ce9c53194abcc1a1b97c170bb3ef2d186ed2b9fa9154ae7701c52893c0a1847"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/gdacs_disaster/TELEMETRY.md",
+      "sha256": "a9a55692b32711d7cdb987d710223408325b0c7ab203a3d370cb6821ea38df29"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/gdacs_disaster/event.jsonl",
+      "sha256": "377add7b8e303c16681dbdd0a5dcbd667a37a308c5a765eff8efd7df3f8a1053"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/gdacs_disaster/signals.json",
+      "sha256": "c664984a642e5758bc69aec463e6fdbf891efcac8a60345bc9f5bc63c22779a4"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/malicious_domain_osint/TELEMETRY.md",
+      "sha256": "3504ff34210e40521b6ec8469d5349c5d6ab1f76ca08168ae233d178b9f3d2b9"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/malicious_domain_osint/event.jsonl",
+      "sha256": "6c891940819ec08b70af873da81c917761f8cd57a2abbdefa72d99ff2a697505"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/malicious_domain_osint/signals.json",
+      "sha256": "f5e14368a092eadce07eef66de604c2dcbf955bd2d46d3930e4764835eb6db32"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/nhc_hurricane/TELEMETRY.md",
+      "sha256": "a9acf6bb09eabe9d79df1f9ad007fe0cac26afd41586f11c8606ffa58bb7e515"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/nhc_hurricane/event.jsonl",
+      "sha256": "e28139a6e8d3e406ce6123dc937b567d845bbb30fed887caadc77d39f9ab1069"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/nhc_hurricane/signals.json",
+      "sha256": "cb4fdef6bd0b130ecc371ed66ae4e59a3a6de9584091c09056d8d6911f4e9086"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/nws_alerts/TELEMETRY.md",
+      "sha256": "e20d429da2f57588f1ce8b5d355a75b06be15ad0f2830d52a97eae16bf124807"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/nws_alerts/event.jsonl",
+      "sha256": "9d87a7a0309f3fc9a789a4e60c154bc2c7ef4aef862cccad6ab3134bbfef36d4"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/nws_alerts/signals.json",
+      "sha256": "4f0e05fa5bc6b95cb9ca70392e0a7165ebb47aa884edae01036d93d1ed2e04db"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/ocean_coastal/TELEMETRY.md",
+      "sha256": "e934e60c1d1789af5cdb5ad32b0d6784cbf95ed3acb180cc239a1999f344a5db"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/ocean_coastal/event.jsonl",
+      "sha256": "a4d6e8d79d063f123fd14ff38a69418f7ad1b88fbea2326cf45da5b0cfb410a2"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/ocean_coastal/signals.json",
+      "sha256": "e941168df45c9ab7d09d8f4ce8bcb0d7c0c945675857ee1bca2e1371ea54b057"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/public_health_pressure/TELEMETRY.md",
+      "sha256": "ad69a150198af70965bdf5ed5ffd589e44640679c5f8f107201ab0cee33d6cef"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/public_health_pressure/event.jsonl",
+      "sha256": "4f70d5c82ad7fd8f17d03411d67dd73540698f18ce8567e701a93aea4f6969d8"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/public_health_pressure/signals.json",
+      "sha256": "62e55457167981239b88f81a9e672ddb43a3763dd379d7c3e3a72766688f4ee2"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/rpki_route_validation/TELEMETRY.md",
+      "sha256": "04e854e524f03070649534131c5d3ea99953967712b94c1200f6953081ade922"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/rpki_route_validation/event.jsonl",
+      "sha256": "3f7448164dfedb5df257f8ddc2b5ee94af64a413d9f574ba08ea66e385143df2"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/rpki_route_validation/signals.json",
+      "sha256": "2bcd923e19cc19f11beff33b38bf83c6998908f53755140dba2bdaee7ef71c3a"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/seismic/TELEMETRY.md",
+      "sha256": "0eff5f65b37758b7add5706d401deec0fc726e9c5fba4ca26a77d5d47d72dbcd"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/seismic/event.jsonl",
+      "sha256": "60ea068041e89a80b355c9aa8626033d1ab9ec89bd702f3a33830e9353c44cee"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/seismic/signals.json",
+      "sha256": "b196bff8a5a0336abbcc919b26fcc6a957ee8bc131213b106225df25353600e3"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/software_supply_chain/TELEMETRY.md",
+      "sha256": "3555fe6cfad2f0013f9e80e0edc803a3579f60eead4b9d66b3c525d1365d2a92"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/software_supply_chain/event.jsonl",
+      "sha256": "6b86fb87efb72c4ed27e56702fd0f4261484e216d0f9433eb3948b0be05bcdd5"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/software_supply_chain/signals.json",
+      "sha256": "a98f6591a9b94c6f6f98e273101ff826ae8f783a4b4a0f0f4af067a41ee6746c"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/space_weather/TELEMETRY.md",
+      "sha256": "de16c31c4d58289d7e4574758fea84a3190ced2b4eb519724c1794b54f58c356"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/space_weather/event.jsonl",
+      "sha256": "02951e87f644880648a1f4733f316f1772788b5be9e05d3b1642e4624cdf1e7b"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/space_weather/signals.json",
+      "sha256": "0b57074b2a97cb4ed678b27576e734acefe7facaef16d95fc3f477fa6dc6cffe"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/urlhaus_threat/TELEMETRY.md",
+      "sha256": "8357c62745ea95d20845aca8802fa93f0a55da56bed5baa108c60464f68c8784"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/urlhaus_threat/event.jsonl",
+      "sha256": "cd4ba01e19b7a5b636f10b00193d2b5f6c28ed583d65429613bdca7756f5d2b5"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/telemetry/urlhaus_threat/signals.json",
+      "sha256": "0d8d9e71458ca7ffe38e5a8a791e63068bc65dee25825aba3e9b9ee8c0fed34f"
+    },
+    {
+      "file": "phase4/tampered_copy/AUDIT_PUBLICO_PoC/verify_poc.sh",
+      "sha256": "913353307393f7858eedd7a03886523bb4e52662c396fbc1ab28769cc38457ab"
+    },
+    {
+      "file": "phase4/tampered_copy/data/audit.json",
+      "sha256": "d31c370f9600db352cdd151cafde761bba0a4c8495e16dbf7b88bb0153e33549"
+    },
+    {
+      "file": "phase4/tampered_copy/data/decisions.txt",
+      "sha256": "faca1aca7a6e0673cf840fe6158d5f30b9dcbe8f4585075ac066774e8c03b8bf"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/aerospace/adapter_signals.json",
+      "sha256": "6e616efd7ee8c64473c6abad89f36a70704c2624a0c7d44e8ed6ca66a15337a5"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/aerospace/decision.txt",
+      "sha256": "d8ac1280bcf3064d0865dd58ab6825914c1c01c5e30119600bcb14200aa09c74"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/aerospace/event.jsonl",
+      "sha256": "7f3de9716c5b60dd300829e0011506d328349cc46a9b490a1a1545b9ecd779a7"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/aerospace/volume.jsonl",
+      "sha256": "7f3de9716c5b60dd300829e0011506d328349cc46a9b490a1a1545b9ecd779a7"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/air_traffic_adsb/adapter_signals.json",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/air_traffic_adsb/decision.txt",
+      "sha256": "5813f9e8bb77219c19f8eed67035462e25b54149662edc600b6a841d6ee9f58b"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/air_traffic_adsb/event.jsonl",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/air_traffic_adsb/volume.jsonl",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/bgp_route_integrity/adapter_signals.json",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/bgp_route_integrity/decision.txt",
+      "sha256": "42c423c5582ce4b660f6bc393593bbd6a7d8df737527aa9b2d3982cb7e98aeed"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/bgp_route_integrity/event.jsonl",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/bgp_route_integrity/volume.jsonl",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/botnet_c2_ip/adapter_signals.json",
+      "sha256": "4ecb90ca3bf28c678951c2c66aecc8b27b8ebda541378b45a8cd050903eaac79"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/botnet_c2_ip/decision.txt",
+      "sha256": "749fae4c3323b899902e92a96839ed20f477f7de2fbca52aa18c8d15ee624a47"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/botnet_c2_ip/event.jsonl",
+      "sha256": "009e641ca81df6d45733a215c3fb6f07fb6fade75a724808562bb355c611049a"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/botnet_c2_ip/volume.jsonl",
+      "sha256": "009e641ca81df6d45733a215c3fb6f07fb6fade75a724808562bb355c611049a"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/cyber_exploited_vuln/adapter_signals.json",
+      "sha256": "2b92c1e1396126b942473bb9d4a132116ffdbb9a0e3455e15d3a6c3afbfbb9e1"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/cyber_exploited_vuln/decision.txt",
+      "sha256": "584b3dc81f10ed77c8215794fe16b15709ab55beb8aded5deb3220ff7c0702a0"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/cyber_exploited_vuln/event.jsonl",
+      "sha256": "a6eefbb2a2078e3265798e0bdeb45e72f3cea255ff2b2b0e12276b92ff7d3b08"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/cyber_exploited_vuln/volume.jsonl",
+      "sha256": "a6eefbb2a2078e3265798e0bdeb45e72f3cea255ff2b2b0e12276b92ff7d3b08"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/energy_grid_stress/adapter_signals.json",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/energy_grid_stress/decision.txt",
+      "sha256": "c0d006321a971dff7c24975a63933fe1ef46d8492378af40a670387e6144bc10"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/energy_grid_stress/event.jsonl",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/energy_grid_stress/volume.jsonl",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/eonet_environmental/adapter_signals.json",
+      "sha256": "b9b485dda8a8f60c368877cdb1bc148cbffbb975b77d4eb39eacf94be8c059e9"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/eonet_environmental/decision.txt",
+      "sha256": "26fd9833b2e5cd79898d61e8fb76f55de8dfba84ed53074551103b6064d5baa1"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/eonet_environmental/event.jsonl",
+      "sha256": "8f4ac2a16ffe97870a7077f4c88b43e2e125bf480e9fd21063a3397faf9849e2"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/eonet_environmental/volume.jsonl",
+      "sha256": "8f4ac2a16ffe97870a7077f4c88b43e2e125bf480e9fd21063a3397faf9849e2"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/epss_exploit_probability/adapter_signals.json",
+      "sha256": "9ce9c53194abcc1a1b97c170bb3ef2d186ed2b9fa9154ae7701c52893c0a1847"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/epss_exploit_probability/decision.txt",
+      "sha256": "29271f0dab4613cefe3aef3aeca1d5d72e8f7ed44cb7d6f033822818bd921289"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/epss_exploit_probability/event.jsonl",
+      "sha256": "cb868e45d0ae0bf9914c64494fe3b5cfb8969302fe95119ce14b95e6b89b8068"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/epss_exploit_probability/volume.jsonl",
+      "sha256": "cb868e45d0ae0bf9914c64494fe3b5cfb8969302fe95119ce14b95e6b89b8068"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/gdacs_disaster/adapter_signals.json",
+      "sha256": "c664984a642e5758bc69aec463e6fdbf891efcac8a60345bc9f5bc63c22779a4"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/gdacs_disaster/decision.txt",
+      "sha256": "3604ecda6c0691fd4603600534a1f456fd73964c3043afd3b61b74d543a0b5d1"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/gdacs_disaster/event.jsonl",
+      "sha256": "377add7b8e303c16681dbdd0a5dcbd667a37a308c5a765eff8efd7df3f8a1053"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/gdacs_disaster/volume.jsonl",
+      "sha256": "377add7b8e303c16681dbdd0a5dcbd667a37a308c5a765eff8efd7df3f8a1053"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/malicious_domain_osint/adapter_signals.json",
+      "sha256": "f5e14368a092eadce07eef66de604c2dcbf955bd2d46d3930e4764835eb6db32"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/malicious_domain_osint/decision.txt",
+      "sha256": "da2ce067b2a867239f1816dedd0044cc9ef8993182d91db54c6ea70d59a26a88"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/malicious_domain_osint/event.jsonl",
+      "sha256": "6c891940819ec08b70af873da81c917761f8cd57a2abbdefa72d99ff2a697505"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/malicious_domain_osint/volume.jsonl",
+      "sha256": "6c891940819ec08b70af873da81c917761f8cd57a2abbdefa72d99ff2a697505"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/nhc_hurricane/adapter_signals.json",
+      "sha256": "cb4fdef6bd0b130ecc371ed66ae4e59a3a6de9584091c09056d8d6911f4e9086"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/nhc_hurricane/decision.txt",
+      "sha256": "ec34cfc14cdecd01151591b75a1e9f7763ff6d58a80b229ade6aa683162cfe52"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/nhc_hurricane/event.jsonl",
+      "sha256": "e28139a6e8d3e406ce6123dc937b567d845bbb30fed887caadc77d39f9ab1069"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/nhc_hurricane/volume.jsonl",
+      "sha256": "e28139a6e8d3e406ce6123dc937b567d845bbb30fed887caadc77d39f9ab1069"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/nws_alerts/adapter_signals.json",
+      "sha256": "4f0e05fa5bc6b95cb9ca70392e0a7165ebb47aa884edae01036d93d1ed2e04db"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/nws_alerts/decision.txt",
+      "sha256": "9d0cfb0eaec4525f4143de550a1d151fc19285ed33a2e3f2ee74f826953b8816"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/nws_alerts/event.jsonl",
+      "sha256": "9d87a7a0309f3fc9a789a4e60c154bc2c7ef4aef862cccad6ab3134bbfef36d4"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/nws_alerts/volume.jsonl",
+      "sha256": "9d87a7a0309f3fc9a789a4e60c154bc2c7ef4aef862cccad6ab3134bbfef36d4"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/ocean_coastal/adapter_signals.json",
+      "sha256": "e941168df45c9ab7d09d8f4ce8bcb0d7c0c945675857ee1bca2e1371ea54b057"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/ocean_coastal/decision.txt",
+      "sha256": "cd095c9165a9d98f548e39a8f739553b0b1d57bf44d5c5b2bec22dc907e370e7"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/ocean_coastal/event.jsonl",
+      "sha256": "a4d6e8d79d063f123fd14ff38a69418f7ad1b88fbea2326cf45da5b0cfb410a2"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/ocean_coastal/volume.jsonl",
+      "sha256": "a4d6e8d79d063f123fd14ff38a69418f7ad1b88fbea2326cf45da5b0cfb410a2"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/public_health_pressure/adapter_signals.json",
+      "sha256": "62e55457167981239b88f81a9e672ddb43a3763dd379d7c3e3a72766688f4ee2"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/public_health_pressure/decision.txt",
+      "sha256": "cb83fa3c0b996b491ea214cca9f6ef67844305be35e66905e1a327d262cd799d"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/public_health_pressure/event.jsonl",
+      "sha256": "4f70d5c82ad7fd8f17d03411d67dd73540698f18ce8567e701a93aea4f6969d8"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/public_health_pressure/volume.jsonl",
+      "sha256": "4f70d5c82ad7fd8f17d03411d67dd73540698f18ce8567e701a93aea4f6969d8"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/rpki_route_validation/adapter_signals.json",
+      "sha256": "2bcd923e19cc19f11beff33b38bf83c6998908f53755140dba2bdaee7ef71c3a"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/rpki_route_validation/decision.txt",
+      "sha256": "eb020a45f0831ae45ee66b7d7abc1dc57009b9226b2224c81c50b3c14d40a592"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/rpki_route_validation/event.jsonl",
+      "sha256": "3f7448164dfedb5df257f8ddc2b5ee94af64a413d9f574ba08ea66e385143df2"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/rpki_route_validation/volume.jsonl",
+      "sha256": "3f7448164dfedb5df257f8ddc2b5ee94af64a413d9f574ba08ea66e385143df2"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/seismic/adapter_signals.json",
+      "sha256": "b196bff8a5a0336abbcc919b26fcc6a957ee8bc131213b106225df25353600e3"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/seismic/decision.txt",
+      "sha256": "eefacd51896ea999f6ce80399972dc14bf446b8add73906f7c677b3d4b0e2178"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/seismic/event.jsonl",
+      "sha256": "60ea068041e89a80b355c9aa8626033d1ab9ec89bd702f3a33830e9353c44cee"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/seismic/volume.jsonl",
+      "sha256": "60ea068041e89a80b355c9aa8626033d1ab9ec89bd702f3a33830e9353c44cee"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/software_supply_chain/adapter_signals.json",
+      "sha256": "a98f6591a9b94c6f6f98e273101ff826ae8f783a4b4a0f0f4af067a41ee6746c"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/software_supply_chain/decision.txt",
+      "sha256": "30de3ac7437a48fc48442e514d764dddcfae6ac7ce78d02b84a99cc42e08fff0"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/software_supply_chain/event.jsonl",
+      "sha256": "6b86fb87efb72c4ed27e56702fd0f4261484e216d0f9433eb3948b0be05bcdd5"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/software_supply_chain/volume.jsonl",
+      "sha256": "6b86fb87efb72c4ed27e56702fd0f4261484e216d0f9433eb3948b0be05bcdd5"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/space_weather/adapter_signals.json",
+      "sha256": "0b57074b2a97cb4ed678b27576e734acefe7facaef16d95fc3f477fa6dc6cffe"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/space_weather/decision.txt",
+      "sha256": "090074a795f043c5e3a1fc65fb5d3ec155040953c8be02692dc386c1e34e6cb7"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/space_weather/event.jsonl",
+      "sha256": "02951e87f644880648a1f4733f316f1772788b5be9e05d3b1642e4624cdf1e7b"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/space_weather/volume.jsonl",
+      "sha256": "02951e87f644880648a1f4733f316f1772788b5be9e05d3b1642e4624cdf1e7b"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/urlhaus_threat/adapter_signals.json",
+      "sha256": "0d8d9e71458ca7ffe38e5a8a791e63068bc65dee25825aba3e9b9ee8c0fed34f"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/urlhaus_threat/decision.txt",
+      "sha256": "813b127a1ab6f0315bd323dcefcf231443ce950c23c93bf759ef0eb361aab1d7"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/urlhaus_threat/event.jsonl",
+      "sha256": "cd4ba01e19b7a5b636f10b00193d2b5f6c28ed583d65429613bdca7756f5d2b5"
+    },
+    {
+      "file": "phase4/tampered_copy/data/domains/urlhaus_threat/volume.jsonl",
+      "sha256": "cd4ba01e19b7a5b636f10b00193d2b5f6c28ed583d65429613bdca7756f5d2b5"
+    },
+    {
+      "file": "phase4/tampered_copy/data/exercise_descriptor.json",
+      "sha256": "2fff36c070e8ca257c83dfde8a661f2961b2d7ac632c700030dfe1afdbc6c7e7"
+    },
+    {
+      "file": "phase4/tampered_copy/data/metrics.json",
+      "sha256": "82792240cd4c3f97aee67d4be3bdb26496e97c945bff2da4668e47a9c336c32e"
+    },
+    {
+      "file": "phase4/tampered_copy/external_audit_public/metrics.json",
+      "sha256": "82792240cd4c3f97aee67d4be3bdb26496e97c945bff2da4668e47a9c336c32e"
+    },
+    {
+      "file": "phase4/tampered_copy/external_audit_public/public_files_sha256.csv",
+      "sha256": "8e9704d8b59c62dec17deaacd6aa47304cf6e204c9326b2085f84ddabcc25187"
+    },
+    {
+      "file": "phase4/tampered_copy/external_audit_public/public_merkle_root.txt",
+      "sha256": "ba932947c3f22a4acf135455a0d4c09ca7a9c6e2315994579e43f66429b9b2bd"
+    },
+    {
+      "file": "phase4/tampered_copy/external_audit_public/run.json",
+      "sha256": "ce89b1c6e2660ef9685c266d168444af5a19ad07baca1994077580231f939379"
+    },
+    {
+      "file": "phase4/tampered_copy/external_audit_public/run_files_sha256.csv",
+      "sha256": "4a70a9e1c834fdbaa3b96a17f40c9056432f1a9a3c035af726c96605eeddcf61"
+    },
+    {
+      "file": "phase4/tampered_copy/external_audit_public/run_full_report.txt",
+      "sha256": "372e1b256e8807f69f04a3b38f20319386391a236c57cf0ac19b4d7af305012c"
+    },
+    {
+      "file": "phase4/tampered_copy/external_audit_public/run_header.txt",
+      "sha256": "1495fa0c632cee3943f1e01e9dc22cb0fce32e9d8f2b91e771b297e105a7e980"
+    },
+    {
+      "file": "phase4/tampered_copy/external_audit_public/run_merkle_root.txt",
+      "sha256": "32813fc85945b5c63e6643ea1c4dbebaa7b3e827e9d6b443d91ac07b744e3620"
+    },
+    {
+      "file": "phase4/tampered_copy/external_audit_public/summary.txt",
+      "sha256": "03d26d5c562f7657cf16b171caa5284eeb3798cef4e687f0c1e2370067146baf"
+    },
+    {
+      "file": "phase4/tampered_copy/external_audit_public/validate_external_package.py",
+      "sha256": "312a0b3149a7da022b3a5082f6fb6366ba6d0cf35d438fb874a5cb3b8463a37c"
+    },
+    {
+      "file": "phase4/tampered_copy/report/DECISION_DISTRIBUTION.json",
+      "sha256": "41071fb79c9aa9554bcbf0b0b8bd8bff332b736fa13838b6c18c3abadd40a1f6"
+    },
+    {
+      "file": "phase4/tampered_copy/report/INTERPRETIVE_REPORT.md",
+      "sha256": "16ad12ba1fe53f4918f1bcfd7f0f58958b390d4ae41bdebd6cf89ff11e988bdc"
+    },
+    {
+      "file": "phase4/tampered_copy/report/run.json",
+      "sha256": "ce89b1c6e2660ef9685c266d168444af5a19ad07baca1994077580231f939379"
+    },
+    {
+      "file": "phase4/tampered_copy/report/run_full_report.txt",
+      "sha256": "372e1b256e8807f69f04a3b38f20319386391a236c57cf0ac19b4d7af305012c"
+    },
+    {
+      "file": "phase4/tampered_copy/report/run_header.txt",
+      "sha256": "1495fa0c632cee3943f1e01e9dc22cb0fce32e9d8f2b91e771b297e105a7e980"
+    },
+    {
+      "file": "phase4/tampered_copy/report/summary.txt",
+      "sha256": "03d26d5c562f7657cf16b171caa5284eeb3798cef4e687f0c1e2370067146baf"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/TELEMETRY_INDEX.md",
+      "sha256": "c724a8c85487a4978a8e335e78e1587c4c0aa79d18a2d149f3129711a2931408"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/aerospace/TELEMETRY.md",
+      "sha256": "77866df189f44f2516016cbdd00c44046d9eebc8816a7ecdc7eb12a060ab1ca7"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/aerospace/event.jsonl",
+      "sha256": "7f3de9716c5b60dd300829e0011506d328349cc46a9b490a1a1545b9ecd779a7"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/aerospace/signals.json",
+      "sha256": "6e616efd7ee8c64473c6abad89f36a70704c2624a0c7d44e8ed6ca66a15337a5"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/air_traffic_adsb/TELEMETRY.md",
+      "sha256": "94c95ff2fada3e44b049281aef9c7741f86857f1f01df9a2fc88f34b10f0c2c1"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/air_traffic_adsb/event.jsonl",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/air_traffic_adsb/signals.json",
+      "sha256": "75dd28b3c204db1ecdabf1da38447eae5cac26a073fa6861cbf90850e4e445c1"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/bgp_route_integrity/TELEMETRY.md",
+      "sha256": "d066b876b849b2779290be9d32cd7285b74e060e421dce31708ccdaed513be36"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/bgp_route_integrity/event.jsonl",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/bgp_route_integrity/signals.json",
+      "sha256": "0452cb2a264557d8e46db0977d3cecae9202f5fcc5ba970db8c31b486a4062f4"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/botnet_c2_ip/TELEMETRY.md",
+      "sha256": "4530a08b0e1b555eb9d5a932db9b4ca69470fb4aa929c8b5e2654e75389c080f"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/botnet_c2_ip/event.jsonl",
+      "sha256": "009e641ca81df6d45733a215c3fb6f07fb6fade75a724808562bb355c611049a"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/botnet_c2_ip/signals.json",
+      "sha256": "4ecb90ca3bf28c678951c2c66aecc8b27b8ebda541378b45a8cd050903eaac79"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/cyber_exploited_vuln/TELEMETRY.md",
+      "sha256": "a29260267121327779c1f02887c02459f566ae166332ba4ff6e0fbc4eb2f8589"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/cyber_exploited_vuln/event.jsonl",
+      "sha256": "a6eefbb2a2078e3265798e0bdeb45e72f3cea255ff2b2b0e12276b92ff7d3b08"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/cyber_exploited_vuln/signals.json",
+      "sha256": "2b92c1e1396126b942473bb9d4a132116ffdbb9a0e3455e15d3a6c3afbfbb9e1"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/energy_grid_stress/TELEMETRY.md",
+      "sha256": "f85423f5e81e6efeb0f50de76f452f6cfc2539e2d026f149591664099340da4d"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/energy_grid_stress/event.jsonl",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/energy_grid_stress/signals.json",
+      "sha256": "fa631307bae310352d070a0fc57826146aff67001abee1365f0f67461ed0b75d"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/eonet_environmental/TELEMETRY.md",
+      "sha256": "2b6c39484bcfccfd522d8b36ffa79e75bfb250670abebd460c4060992b5aab9e"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/eonet_environmental/event.jsonl",
+      "sha256": "8f4ac2a16ffe97870a7077f4c88b43e2e125bf480e9fd21063a3397faf9849e2"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/eonet_environmental/signals.json",
+      "sha256": "b9b485dda8a8f60c368877cdb1bc148cbffbb975b77d4eb39eacf94be8c059e9"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/epss_exploit_probability/TELEMETRY.md",
+      "sha256": "57d8605f844fbf36af093fa04129f76dadda504e85de600074fb7de733d55a04"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/epss_exploit_probability/event.jsonl",
+      "sha256": "cb868e45d0ae0bf9914c64494fe3b5cfb8969302fe95119ce14b95e6b89b8068"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/epss_exploit_probability/signals.json",
+      "sha256": "9ce9c53194abcc1a1b97c170bb3ef2d186ed2b9fa9154ae7701c52893c0a1847"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/gdacs_disaster/TELEMETRY.md",
+      "sha256": "a9a55692b32711d7cdb987d710223408325b0c7ab203a3d370cb6821ea38df29"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/gdacs_disaster/event.jsonl",
+      "sha256": "377add7b8e303c16681dbdd0a5dcbd667a37a308c5a765eff8efd7df3f8a1053"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/gdacs_disaster/signals.json",
+      "sha256": "c664984a642e5758bc69aec463e6fdbf891efcac8a60345bc9f5bc63c22779a4"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/malicious_domain_osint/TELEMETRY.md",
+      "sha256": "3504ff34210e40521b6ec8469d5349c5d6ab1f76ca08168ae233d178b9f3d2b9"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/malicious_domain_osint/event.jsonl",
+      "sha256": "6c891940819ec08b70af873da81c917761f8cd57a2abbdefa72d99ff2a697505"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/malicious_domain_osint/signals.json",
+      "sha256": "f5e14368a092eadce07eef66de604c2dcbf955bd2d46d3930e4764835eb6db32"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/nhc_hurricane/TELEMETRY.md",
+      "sha256": "a9acf6bb09eabe9d79df1f9ad007fe0cac26afd41586f11c8606ffa58bb7e515"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/nhc_hurricane/event.jsonl",
+      "sha256": "e28139a6e8d3e406ce6123dc937b567d845bbb30fed887caadc77d39f9ab1069"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/nhc_hurricane/signals.json",
+      "sha256": "cb4fdef6bd0b130ecc371ed66ae4e59a3a6de9584091c09056d8d6911f4e9086"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/nws_alerts/TELEMETRY.md",
+      "sha256": "e20d429da2f57588f1ce8b5d355a75b06be15ad0f2830d52a97eae16bf124807"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/nws_alerts/event.jsonl",
+      "sha256": "9d87a7a0309f3fc9a789a4e60c154bc2c7ef4aef862cccad6ab3134bbfef36d4"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/nws_alerts/signals.json",
+      "sha256": "4f0e05fa5bc6b95cb9ca70392e0a7165ebb47aa884edae01036d93d1ed2e04db"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/ocean_coastal/TELEMETRY.md",
+      "sha256": "e934e60c1d1789af5cdb5ad32b0d6784cbf95ed3acb180cc239a1999f344a5db"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/ocean_coastal/event.jsonl",
+      "sha256": "a4d6e8d79d063f123fd14ff38a69418f7ad1b88fbea2326cf45da5b0cfb410a2"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/ocean_coastal/signals.json",
+      "sha256": "e941168df45c9ab7d09d8f4ce8bcb0d7c0c945675857ee1bca2e1371ea54b057"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/public_health_pressure/TELEMETRY.md",
+      "sha256": "ad69a150198af70965bdf5ed5ffd589e44640679c5f8f107201ab0cee33d6cef"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/public_health_pressure/event.jsonl",
+      "sha256": "4f70d5c82ad7fd8f17d03411d67dd73540698f18ce8567e701a93aea4f6969d8"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/public_health_pressure/signals.json",
+      "sha256": "62e55457167981239b88f81a9e672ddb43a3763dd379d7c3e3a72766688f4ee2"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/rpki_route_validation/TELEMETRY.md",
+      "sha256": "04e854e524f03070649534131c5d3ea99953967712b94c1200f6953081ade922"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/rpki_route_validation/event.jsonl",
+      "sha256": "3f7448164dfedb5df257f8ddc2b5ee94af64a413d9f574ba08ea66e385143df2"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/rpki_route_validation/signals.json",
+      "sha256": "2bcd923e19cc19f11beff33b38bf83c6998908f53755140dba2bdaee7ef71c3a"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/seismic/TELEMETRY.md",
+      "sha256": "0eff5f65b37758b7add5706d401deec0fc726e9c5fba4ca26a77d5d47d72dbcd"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/seismic/event.jsonl",
+      "sha256": "60ea068041e89a80b355c9aa8626033d1ab9ec89bd702f3a33830e9353c44cee"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/seismic/signals.json",
+      "sha256": "b196bff8a5a0336abbcc919b26fcc6a957ee8bc131213b106225df25353600e3"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/software_supply_chain/TELEMETRY.md",
+      "sha256": "3555fe6cfad2f0013f9e80e0edc803a3579f60eead4b9d66b3c525d1365d2a92"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/software_supply_chain/event.jsonl",
+      "sha256": "6b86fb87efb72c4ed27e56702fd0f4261484e216d0f9433eb3948b0be05bcdd5"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/software_supply_chain/signals.json",
+      "sha256": "a98f6591a9b94c6f6f98e273101ff826ae8f783a4b4a0f0f4af067a41ee6746c"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/space_weather/TELEMETRY.md",
+      "sha256": "de16c31c4d58289d7e4574758fea84a3190ced2b4eb519724c1794b54f58c356"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/space_weather/event.jsonl",
+      "sha256": "02951e87f644880648a1f4733f316f1772788b5be9e05d3b1642e4624cdf1e7b"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/space_weather/signals.json",
+      "sha256": "0b57074b2a97cb4ed678b27576e734acefe7facaef16d95fc3f477fa6dc6cffe"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/urlhaus_threat/TELEMETRY.md",
+      "sha256": "8357c62745ea95d20845aca8802fa93f0a55da56bed5baa108c60464f68c8784"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/urlhaus_threat/event.jsonl",
+      "sha256": "cd4ba01e19b7a5b636f10b00193d2b5f6c28ed583d65429613bdca7756f5d2b5"
+    },
+    {
+      "file": "phase4/tampered_copy/telemetry/urlhaus_threat/signals.json",
+      "sha256": "0d8d9e71458ca7ffe38e5a8a791e63068bc65dee25825aba3e9b9ee8c0fed34f"
+    },
+    {
+      "file": "phase5/PHASE5_REPORT.txt",
+      "sha256": "d04beca7792be23c718ad0f96f01decad293e7c0724e1771c1bac20b95d247bc"
+    },
+    {
+      "file": "phase5/bribed_out.txt",
+      "sha256": "40471b1fc27d5af508f26f32d0b4611120b7eeb8d76a1004e7c9f47052392c47"
+    },
+    {
+      "file": "phase5/legit_out.txt",
+      "sha256": "40471b1fc27d5af508f26f32d0b4611120b7eeb8d76a1004e7c9f47052392c47"
+    },
+    {
+      "file": "phase5/phase5.log",
+      "sha256": "90bc454e3bdfc4094fa5b88ed55f93638b7e64a0879e818d10c5a82c5eb73706"
+    },
+    {
+      "file": "phase5/phase5.verdict.json",
+      "sha256": "624d0e38a9adc6bc5c930b55f7bbe22968cce39a99f19dbf0420517a302e896d"
+    },
+    {
+      "file": "phase5/probe.json",
+      "sha256": "454a85180bcb138530abe13b5f58a61355bca774bd2c1151abf3e6a67a774b8c"
+    },
+    {
+      "file": "phase5/triada_demo_BRIBED",
+      "sha256": "1dc5a62419da0b7f0f5e843bfc14fbc95f03f6449401c941b3db740b69185c9b"
+    },
+    {
+      "file": "phase6/PHASE6_REPORT.txt",
+      "sha256": "e95137ab1c52eca8483fcfd0ac671dbab68e9cbdb0f79a0622a59076207f3481"
+    },
+    {
+      "file": "phase6/out_contradiction.txt",
+      "sha256": "27f803343f42fa7910061471bdf474734d049651932ddeeb44cf1d26945c8509"
+    },
+    {
+      "file": "phase6/out_determinism_a.txt",
+      "sha256": "2a99f49e46800011fc3f2863e393b7aab406f27f730ebc456540424707ff39fd"
+    },
+    {
+      "file": "phase6/out_determinism_b.txt",
+      "sha256": "2a99f49e46800011fc3f2863e393b7aab406f27f730ebc456540424707ff39fd"
+    },
+    {
+      "file": "phase6/out_false_calm.txt",
+      "sha256": "82a6cee278385d92f6d8493636565bb65fe99d7e8df3efa5cdfb1d7d2dd75787"
+    },
+    {
+      "file": "phase6/out_split.txt",
+      "sha256": "bf96a05bba7014f19f3bb523c7cd4259911a6102f2b65e07316888b920eaeee1"
+    },
+    {
+      "file": "phase6/phase6.log",
+      "sha256": "579ffd9eb1ca7216576d77755aefb20f1dd9c4150db7192ae5f65b8cbac80b5d"
+    },
+    {
+      "file": "phase6/phase6.verdict.json",
+      "sha256": "a4717de317460d12cbe94acdb14d4adb3e8edeeb6de2718ba4594b8925bab853"
+    },
+    {
+      "file": "phase6/probe_contradiction.json",
+      "sha256": "8308b13928840f06013cdff509d7b6fd4cd06f2fe5e29898e13092d5f88192ed"
+    },
+    {
+      "file": "phase6/probe_determinism_a.json",
+      "sha256": "3d5dd1056445b4aa2ff256e65f504003ddb2151cf2883d44f02e5e278db68907"
+    },
+    {
+      "file": "phase6/probe_determinism_b.json",
+      "sha256": "3d5dd1056445b4aa2ff256e65f504003ddb2151cf2883d44f02e5e278db68907"
+    },
+    {
+      "file": "phase6/probe_false_calm.json",
+      "sha256": "ac5fa5a8c433d809fb8a7ce146055e29fd1fb56e9f4165d13a8d02f3f70abc5a"
+    },
+    {
+      "file": "phase6/probe_split.json",
+      "sha256": "bb8642c41b32bae988c32a4ad666bca43590b44bdd7591e4d39bea1d10d421a9"
+    },
+    {
+      "file": "phase6b/PHASE6B_REPORT.txt",
+      "sha256": "1e865ff1753df7b71d84a91f264714c3b03a6bd8984be19ed7fe5ac6c756e494"
+    },
+    {
+      "file": "phase6b/phase6b.log",
+      "sha256": "a46d0b6c55161d6e933274ae2f5bff48deddcc1e557f8cd96e0f8809f8ae58fb"
+    },
+    {
+      "file": "phase6b/phase6b.verdict.json",
+      "sha256": "acb92e06d5dc5133381c52730482e4730627aa7b22d9c7c3479b83b77218b6c2"
+    },
+    {
+      "file": "phase6b/probe_danger.json",
+      "sha256": "10b8ac51de62e0a95d602e85216042ba68e68231b2e79362a1f5adfc65bae4e3"
+    },
+    {
+      "file": "phase7/PHASE7_REPORT.txt",
+      "sha256": "446a80ae5939187cb4c6416f74850da5d46db9bb2f84e71616d0e2856333f851"
+    },
+    {
+      "file": "phase7/combined/_tmp.json",
+      "sha256": "363f9298dfbf96d5aef1f30f8f690fab4706f8deb2acae212b25190bb29760bc"
+    },
+    {
+      "file": "phase7/combined/combined.verdict.json",
+      "sha256": "8ddd67ced1f55014955b01ee3fb76dd529ef6e06b10710744cb32a7557129881"
+    },
+    {
+      "file": "phase7/false_calm/_tmp.json",
+      "sha256": "28f912d09cccd391a53fece34d76e0933ef39567730c57667f946544c699b43f"
+    },
+    {
+      "file": "phase7/false_calm/false_calm.verdict.json",
+      "sha256": "c8ab38b3635927e6b70302734c1491c670c17ff0e007906225dad23c6aca485e"
+    },
+    {
+      "file": "phase7/persuasion/persuasion.verdict.json",
+      "sha256": "d0ed8918578ecd80f2edfd31d961baaddb684fd1c74872ed392266bc411d8fc6"
+    },
+    {
+      "file": "phase7/phase7.verdict.json",
+      "sha256": "4a778d5ad9501da25f3ec561ae19c952fb35c33cfa32df04466428fdd4a1a3df"
+    },
+    {
+      "file": "phase7/replay/_tmp.json",
+      "sha256": "89789ee09affa264d256d3cafc4c2dcb850ec742ff87e42ff12b63bfdbc1f28b"
+    },
+    {
+      "file": "phase7/replay/replay.verdict.json",
+      "sha256": "2c01845bfca040e33d442066d44fbc774e233076fd90f41cd61b5fd52bdcbf9d"
+    },
+    {
+      "file": "phase7/tamper/pkg/data/OMEGA_REPORT.md",
+      "sha256": "c0915d4642eb43e976732852b1329eadaabb3f93e8bfedeeb10731a9899541c7"
+    },
+    {
+      "file": "phase7/tamper/pkg/data/TELEMETRY_REPORT.txt",
+      "sha256": "6e73463cfe946b2db11d33c73b596ec0aea0b3bd80316552fdbb78e2ebd3c3c0"
+    },
+    {
+      "file": "phase7/tamper/pkg/data/decision.json",
+      "sha256": "c3a3fccafbec320974931465cc54464184abaa35268cb7aa93309f25b26649f2"
+    },
+    {
+      "file": "phase7/tamper/pkg/data/metrics.json",
+      "sha256": "f8e9d376333f2ea863248345a370fc7c1ec00a902261bf11c7b77b14caf3a123"
+    },
+    {
+      "file": "phase7/tamper/pkg/run_files_sha256.csv",
+      "sha256": "79627d448472198b48ead011cde025e9e52b2d40216b0d49cc81fc44bf510ec4"
+    },
+    {
+      "file": "phase7/tamper/pkg/run_merkle_root.txt",
+      "sha256": "223263fbe53df7f7cc9d88954bb4262f9a2dabae73bcaa599065474944b22f09"
+    },
+    {
+      "file": "phase7/tamper/t_alter_hash_in_csv/data/OMEGA_REPORT.md",
+      "sha256": "c0915d4642eb43e976732852b1329eadaabb3f93e8bfedeeb10731a9899541c7"
+    },
+    {
+      "file": "phase7/tamper/t_alter_hash_in_csv/data/TELEMETRY_REPORT.txt",
+      "sha256": "6e73463cfe946b2db11d33c73b596ec0aea0b3bd80316552fdbb78e2ebd3c3c0"
+    },
+    {
+      "file": "phase7/tamper/t_alter_hash_in_csv/data/decision.json",
+      "sha256": "c3a3fccafbec320974931465cc54464184abaa35268cb7aa93309f25b26649f2"
+    },
+    {
+      "file": "phase7/tamper/t_alter_hash_in_csv/data/metrics.json",
+      "sha256": "f8e9d376333f2ea863248345a370fc7c1ec00a902261bf11c7b77b14caf3a123"
+    },
+    {
+      "file": "phase7/tamper/t_alter_hash_in_csv/run_files_sha256.csv",
+      "sha256": "f4b3c86ffc12592476b5c260223a01b13530057c0c3869e6c477514b26e8e7f0"
+    },
+    {
+      "file": "phase7/tamper/t_alter_hash_in_csv/run_merkle_root.txt",
+      "sha256": "223263fbe53df7f7cc9d88954bb4262f9a2dabae73bcaa599065474944b22f09"
+    },
+    {
+      "file": "phase7/tamper/t_byte_flip_evidence/data/OMEGA_REPORT.md",
+      "sha256": "c0915d4642eb43e976732852b1329eadaabb3f93e8bfedeeb10731a9899541c7"
+    },
+    {
+      "file": "phase7/tamper/t_byte_flip_evidence/data/TELEMETRY_REPORT.txt",
+      "sha256": "6e73463cfe946b2db11d33c73b596ec0aea0b3bd80316552fdbb78e2ebd3c3c0"
+    },
+    {
+      "file": "phase7/tamper/t_byte_flip_evidence/data/decision.json",
+      "sha256": "8ee3d9f9783de1c2e0c62127ea082c89452a4b8c4bfb10e8abaf3a447a352a17"
+    },
+    {
+      "file": "phase7/tamper/t_byte_flip_evidence/data/metrics.json",
+      "sha256": "f8e9d376333f2ea863248345a370fc7c1ec00a902261bf11c7b77b14caf3a123"
+    },
+    {
+      "file": "phase7/tamper/t_byte_flip_evidence/run_files_sha256.csv",
+      "sha256": "79627d448472198b48ead011cde025e9e52b2d40216b0d49cc81fc44bf510ec4"
+    },
+    {
+      "file": "phase7/tamper/t_byte_flip_evidence/run_merkle_root.txt",
+      "sha256": "223263fbe53df7f7cc9d88954bb4262f9a2dabae73bcaa599065474944b22f09"
+    },
+    {
+      "file": "phase7/tamper/t_delete_evidence_file/data/OMEGA_REPORT.md",
+      "sha256": "c0915d4642eb43e976732852b1329eadaabb3f93e8bfedeeb10731a9899541c7"
+    },
+    {
+      "file": "phase7/tamper/t_delete_evidence_file/data/TELEMETRY_REPORT.txt",
+      "sha256": "6e73463cfe946b2db11d33c73b596ec0aea0b3bd80316552fdbb78e2ebd3c3c0"
+    },
+    {
+      "file": "phase7/tamper/t_delete_evidence_file/data/decision.json",
+      "sha256": "c3a3fccafbec320974931465cc54464184abaa35268cb7aa93309f25b26649f2"
+    },
+    {
+      "file": "phase7/tamper/t_delete_evidence_file/run_files_sha256.csv",
+      "sha256": "79627d448472198b48ead011cde025e9e52b2d40216b0d49cc81fc44bf510ec4"
+    },
+    {
+      "file": "phase7/tamper/t_delete_evidence_file/run_merkle_root.txt",
+      "sha256": "223263fbe53df7f7cc9d88954bb4262f9a2dabae73bcaa599065474944b22f09"
+    },
+    {
+      "file": "phase7/tamper/t_inject_false_evidence/data/OMEGA_REPORT.md",
+      "sha256": "c0915d4642eb43e976732852b1329eadaabb3f93e8bfedeeb10731a9899541c7"
+    },
+    {
+      "file": "phase7/tamper/t_inject_false_evidence/data/TELEMETRY_REPORT.txt",
+      "sha256": "6e73463cfe946b2db11d33c73b596ec0aea0b3bd80316552fdbb78e2ebd3c3c0"
+    },
+    {
+      "file": "phase7/tamper/t_inject_false_evidence/data/decision.json",
+      "sha256": "c3a3fccafbec320974931465cc54464184abaa35268cb7aa93309f25b26649f2"
+    },
+    {
+      "file": "phase7/tamper/t_inject_false_evidence/data/fake_clean_report.json",
+      "sha256": "f63d5d090bbc6c98ee37c9e7a0a0c154672b739647d1690efac3750a155858b1"
+    },
+    {
+      "file": "phase7/tamper/t_inject_false_evidence/data/metrics.json",
+      "sha256": "f8e9d376333f2ea863248345a370fc7c1ec00a902261bf11c7b77b14caf3a123"
+    },
+    {
+      "file": "phase7/tamper/t_inject_false_evidence/run_files_sha256.csv",
+      "sha256": "79627d448472198b48ead011cde025e9e52b2d40216b0d49cc81fc44bf510ec4"
+    },
+    {
+      "file": "phase7/tamper/t_inject_false_evidence/run_merkle_root.txt",
+      "sha256": "223263fbe53df7f7cc9d88954bb4262f9a2dabae73bcaa599065474944b22f09"
+    },
+    {
+      "file": "phase7/tamper/t_replace_merkle_root/data/OMEGA_REPORT.md",
+      "sha256": "c0915d4642eb43e976732852b1329eadaabb3f93e8bfedeeb10731a9899541c7"
+    },
+    {
+      "file": "phase7/tamper/t_replace_merkle_root/data/TELEMETRY_REPORT.txt",
+      "sha256": "6e73463cfe946b2db11d33c73b596ec0aea0b3bd80316552fdbb78e2ebd3c3c0"
+    },
+    {
+      "file": "phase7/tamper/t_replace_merkle_root/data/decision.json",
+      "sha256": "c3a3fccafbec320974931465cc54464184abaa35268cb7aa93309f25b26649f2"
+    },
+    {
+      "file": "phase7/tamper/t_replace_merkle_root/data/metrics.json",
+      "sha256": "f8e9d376333f2ea863248345a370fc7c1ec00a902261bf11c7b77b14caf3a123"
+    },
+    {
+      "file": "phase7/tamper/t_replace_merkle_root/run_files_sha256.csv",
+      "sha256": "79627d448472198b48ead011cde025e9e52b2d40216b0d49cc81fc44bf510ec4"
+    },
+    {
+      "file": "phase7/tamper/t_replace_merkle_root/run_merkle_root.txt",
+      "sha256": "f2363c9e122462f7ce9aabb44384f945eb39e65b8f0be40c754e85336dee359e"
+    },
+    {
+      "file": "phase7/tamper/tamper.verdict.json",
+      "sha256": "ee72578e85ae5f3c17a29804851ceca436aa66ea83bef37a0ffbc8e031f92780"
+    },
+    {
+      "file": "phase8/PHASE8_REPORT.txt",
+      "sha256": "e097425b019506fd75733926017ee63510701192fe62fb13e9b2568cbb84a0e7"
+    },
+    {
+      "file": "phase8/determinism.verdict.json",
+      "sha256": "b9bdea76900bf13279493ec60323a8eb5e100b7b11cd3c601dee2db7292c9434"
+    },
+    {
+      "file": "phase8/offline.json",
+      "sha256": "7743570ca529f3da2e4e19f4bdcc8e431b138657fc67e1b8bf50faec90c601f5"
+    },
+    {
+      "file": "report/run_full_report.txt",
+      "sha256": "b3bf49e2175b63612f14017c6131e54d47b6fa43fdaa2a9e8944d42d94a42457"
+    },
+    {
+      "file": "report/run_header.txt",
+      "sha256": "e3908d46d63aafb4ff8290ff81223dae97bc8a7446569fa5a07c5a6a64a0b0af"
+    },
+    {
+      "file": "report/summary.txt",
+      "sha256": "cfd02ba75eebdf0efad650010f50a4a719cd9d761c910d2e8ab66be880763613"
+    }
+  ],
+  "claim_boundary": {
+    "public_source_only": true,
+    "live_telemetry_claimed": false,
+    "classified_telemetry_claimed": false,
+    "outcome_forcing": false,
+    "json_result_manipulation": false
+  },
+  "evaluator_explanation": {
+    "what_this_run_is": "A sovereign-kernel triad run. K24.1 issues a deterministic causal decision over normalized domain telemetry; Iron Guardian V3 enforces protection proportional to that decision; SQS/DEEL seals the evidence with SHA-256 and a Merkle root.",
+    "decision_scale": "K24.1: 0=Green, 1=Observe, 2=Review, 3=SafeState. Iron Guardian V3: 0=ALLOW, 1=MONITOR, 2=HARDEN/REVIEW, 3=QUARANTINE, 4=SafeState.",
+    "how_to_read": "decision_readout shows the actual chain decision for this run's input.",
+    "how_to_verify": "1) Recompute SHA-256 of each file in artifacts (also in seal/run_files_sha256.csv). 2) Recompute the Merkle root and compare with seal/run_merkle_root.txt / merkle_root here. 3) Run external_audit_public/validate_external_package.py. Valid only if PASS.",
+    "determinism": "no_std deterministic kernel: identical input yields identical seal on any compliant environment (verified cross-machine).",
+    "claim_boundary": "Public-source telemetry only. No live/classified/missile telemetry claimed. No outcome forcing. No JSON result manipulation.",
+    "confidentiality": "This package proves WHAT was decided and that it is sealed and reproducible, WITHOUT revealing the internal mechanisms by which CNS produces the result (proprietary). Public proof and private evidence are separated."
+  }
+}
