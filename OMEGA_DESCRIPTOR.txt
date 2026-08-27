@@ -23,7 +23,7 @@
                         thresholds, formulas, and implementation details are
                         deliberately omitted and are available only under NDA.
 
-  WHAT'S NEW IN 3.0   : (a) Phase 6b added: Deep Per-Node Corruption
+  WHAT'S NEW IN 3.1   : (a) Phase 6b added: Deep Per-Node Corruption
                         (defense-in-depth). Multiple independent integrity checks;
                         any single check on any single redundant unit forces a safe
                         state. Coherent corruption tolerated up to 50% of redundant
@@ -42,11 +42,21 @@
                         earlier iteration has been CLOSED in this version (an
                         additive, fail-closed cross-channel integrity check).
 
-  PHASES (8 TOTAL)    : 1 Environment Hostility · 2 Causal Contradiction &
+  PHASES (14 TOTAL)   : 1 Environment Hostility · 2 Causal Contradiction &
                         Byzantine Deception · 3 Execution Rupture · 4 Integrity
                         Assault & Offline Verification · 5 Supply-Chain /
                         Bribed Engineer · 6 Distributed Byzantine Resistance ·
-                        6b Deep Per-Node Corruption · 7 Hostile Autonomous Agent
+                        6b Deep Per-Node Corruption · 7 Hostile Autonomous Agent ·
+                        7b Agent Persuasion · 7c Evidence Chain Tamper ·
+                        7d False Calm · 7e Replay Divergence ·
+                        7f Combined Attack · 8 Determinism / Network Independence
+
+  ADDED IN 3.1        : Phases 7b-7f (six agent-attack vectors total) and Phase 8
+                        (determinism / network independence, auto-consolidated
+                        across a network-up and a network-down run). 7d False Calm
+                        closed a measured detection gap at the kernel level, then
+                        re-verified against all 19 real domains with zero false
+                        positives, documented transparently as an improvement.
 
 ───────────────────────────────────────────────────────────────────────────────
   PURPOSE
@@ -82,7 +92,7 @@
 
   3. Synthetic adversarial data is quarantined. Injections are generated
      deterministically and stored under adversarial/, tagged synthetic=true,
-     NEVER mixed with the real 13-domain telemetry. The claim boundary (real
+     NEVER mixed with the real 19-domain telemetry (30 public feeds mapped into 19 OMEGA causal domains). The claim boundary (real
      public telemetry) remains intact.
 
   4. Reproducibility is the proof. A third party, with only the public telemetry

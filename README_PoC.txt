@@ -37,7 +37,7 @@ HOW TO VERIFY (public)
 
 WHAT THE 9 PHASES DEMONSTRATE (summary; incl. 6b + agent-attack extensions + determinism)
   1  Environment hostility (air-gap, clock chaos, resource starvation)
-  2  Causal contradiction & byzantine deception (13 domains vetoed & sealed)
+  2  Causal contradiction & byzantine deception (19 domains vetoed & sealed)
   3  Execution rupture (fail-closed on sudden death, prior evidence intact)
   4  Integrity assault (single-bit tamper detected via Merkle discrepancy)
   5  Supply-chain / bribed engineer (tampered binary cryptographically detectable)

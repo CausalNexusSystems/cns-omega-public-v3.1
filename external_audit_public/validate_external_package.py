@@ -39,3 +39,6 @@ def main():
         sys.exit(1)
     print("VALIDATION_STATUS: PASS")
     print("Paquete publico integro: SHA-256 y Merkle verificados de forma aislada.")
+
+if __name__ == "__main__":
+    main()
